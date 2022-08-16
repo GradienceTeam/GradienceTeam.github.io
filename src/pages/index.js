@@ -38,7 +38,7 @@ export default function Home() {
         <div className={styles.heroInner}>
           <h1 className={styles.heroProjectTagline}>
             <img
-              alt={translate({ id: "logo", message: "Gradience logo" })}
+              alt="Gradience Logo"
               className={styles.heroLogo}
               src="/img/logo.png"
               height="200"
@@ -48,13 +48,13 @@ export default function Home() {
               className={styles.heroTitleTextHtml}
               // eslint-disable-next-line react/no-danger
               dangerouslySetInnerHTML={{
-                __html: translate({
+                __html: {
                   id: "homepage.hero.title",
                   message:
                     "<b>Customize</b> Adwaita with <b>ease</b>.",
                   description:
                     "Home page hero title, can contain simple html tags",
-                }),
+                },
               }}
             />
           </h1>
@@ -63,20 +63,11 @@ export default function Home() {
               className={clsx("button button--primary")}
               to="/docs/intro"
             >
-              <Translate
-                id="homepage.banner.button.1"
-                description="The homepage get started button"
-              >
                 Get Started
-              </Translate>
             </Link>
             <Link className={clsx("button button--secondary")} to="/plugins">
-              <Translate
-                id="homepage.banner.button.2"
-                description="The homepage explore plugins button"
-              >
                 Explore plugins
-              </Translate>
+           
             </Link>
             <span className={styles.indexCtasGitHubButtonWrapper}>
               <iframe
