@@ -39,6 +39,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/AdwCustomizerTeam/AdwCustomizerTeam.github.io/tree/main/docs',
+        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
