@@ -7,12 +7,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Gradience',
-  tagline: 'Customize Adwaita with ease',
+  tagline: 'Change the look of Adwaita, with ease',
   url: 'https://AdwCustomizerTeam.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_light.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
