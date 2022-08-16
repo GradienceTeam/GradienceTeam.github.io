@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Gradience',
   tagline: 'Change the look of Adwaita, with ease',
-  url: 'https://AdwCustomizerTeam.github.io',
+  url: 'https://GradienceTeam.github.io',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'AdwCustomizerTeam', // Usually your GitHub org/user name.
-  projectName: 'AdwCustomizerTeam.github.io', // Usually your repo name.
+  organizationName: 'GradienceTeam', // Usually your GitHub org/user name.
+  projectName: 'GradienceTeam.github.io', // Usually your repo name.
   trailingSlash: false,
 
   // Even if you don't use internalization, you can use this field to set useful
@@ -39,7 +39,6 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/AdwCustomizerTeam/AdwCustomizerTeam.github.io/tree/main/docs',
-        },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
