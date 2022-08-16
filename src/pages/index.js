@@ -40,7 +40,7 @@ export default function Home() {
             <img
               alt="Gradience Logo"
               className={styles.heroLogo}
-              src="/img/logo.png"
+              src="/img/logo.svg"
               height="200"
               width="200"
             />
