@@ -1,24 +1,25 @@
-import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import React from "react";
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
 
-import styles from './index.module.css';
+import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            to="/docs/intro"
+          >
+            Get started
           </Link>
         </div>
       </div>
@@ -27,12 +28,68 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
+      title={`${siteConfig.title}`}
+      description="Customize Adwaita with ease"
+    >
+      <div className={styles.hero} data-theme="dark">
+        <div className={styles.heroInner}>
+          <h1 className={styles.heroProjectTagline}>
+            <img
+              alt={translate({ id: "logo", message: "Gradience logo" })}
+              className={styles.heroLogo}
+              src="/img/logo.png"
+              height="200"
+              width="200"
+            />
+            <span
+              className={styles.heroTitleTextHtml}
+              // eslint-disable-next-line react/no-danger
+              dangerouslySetInnerHTML={{
+                __html: translate({
+                  id: "homepage.hero.title",
+                  message:
+                    "<b>Customize</b> Adwaita with <b>ease</b>.",
+                  description:
+                    "Home page hero title, can contain simple html tags",
+                }),
+              }}
+            />
+          </h1>
+          <div className={styles.indexCtas}>
+            <Link
+              className={clsx("button button--primary")}
+              to="/docs/intro"
+            >
+              <Translate
+                id="homepage.banner.button.1"
+                description="The homepage get started button"
+              >
+                Get Started
+              </Translate>
+            </Link>
+            <Link className={clsx("button button--secondary")} to="/plugins">
+              <Translate
+                id="homepage.banner.button.2"
+                description="The homepage explore plugins button"
+              >
+                Explore plugins
+              </Translate>
+            </Link>
+            <span className={styles.indexCtasGitHubButtonWrapper}>
+              <iframe
+                className={styles.indexCtasGitHubButton}
+                src="https://ghbtns.com/github-btn.html?user=AdwCustomizerTeam&amp;repo=AdwCustomizer&amp;type=star&amp;count=true&amp;size=large"
+                width="230"
+                height="30"
+                title="GitHub Stars"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
       <main>
         <HomepageFeatures />
       </main>
