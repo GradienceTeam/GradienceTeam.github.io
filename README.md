@@ -24,5 +24,19 @@ Gradience, originally Adwaita Manager (AdwCustomizer) is a tool for customizing 
   </a>
 </details>
 
-
-
+<script src="https://giscus.app/client.js"
+        data-repo="AdwCustomizerTeam/AdwCustomizer"
+        data-repo-id="R_kgDOHrUNCg"
+        data-category="General"
+        data-category-id="DIC_kwDOHrUNCs4CQbPh"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="1"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
