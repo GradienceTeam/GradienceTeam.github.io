@@ -61,7 +61,7 @@ const config = {
         title: 'Gradience',
         logo: {
           alt: 'Gradience logo',
-          src: 'img/logo.png',
+          src: 'img/logo.svg',
         },
         items: [
           {
