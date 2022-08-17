@@ -46,7 +46,6 @@ export default function Home() {
             />
             <span
               className={styles.heroTitleTextHtml}>
-              // eslint-disable-next-line react/no-danger
               <b>Customize</b> Adwaita with <b>ease</b>.
             </span>
           </h1>
