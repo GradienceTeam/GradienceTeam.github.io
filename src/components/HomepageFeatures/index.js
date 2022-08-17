@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('https://github.com/GradienceTeam/Design/raw/main/Screenshots/colors.png').default,
     description: (
       <>
         Gradience offer a simple way to customize
