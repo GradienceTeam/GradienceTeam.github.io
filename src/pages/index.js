@@ -45,18 +45,10 @@ export default function Home() {
               width="200"
             />
             <span
-              className={styles.heroTitleTextHtml}
+              className={styles.heroTitleTextHtml}>
               // eslint-disable-next-line react/no-danger
-              dangerouslySetInnerHTML={{
-                __html: {
-                  id: "homepage.hero.title",
-                  message:
-                    "<b>Customize</b> Adwaita with <b>ease</b>.",
-                  description:
-                    "Home page hero title, can contain simple html tags",
-                },
-              }}
-            />
+              <b>Customize</b> Adwaita with <b>ease</b>.
+            </span>
           </h1>
           <div className={styles.indexCtas}>
             <Link
