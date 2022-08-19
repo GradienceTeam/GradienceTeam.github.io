@@ -5,7 +5,8 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    isSvg: true,
+    image: require('@site/static/img/welcome.svg').default,
     description: (
       <>
         Gradience offer a simple way to customize
@@ -15,7 +16,8 @@ const FeatureList = [
   },
   {
     title: 'Material Color',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    isSvg: false,
+    Image: require('@site/static/img/monet.png').default,
     description: (
       <>
         With Gradience, you can generate your own preset from your background using Google Material Color 3.
@@ -24,7 +26,8 @@ const FeatureList = [
   },
   {
     title: 'More than Adwaita',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    isSvg: false,
+    Image: require('@site/static/img/advanced.png').default,
     description: (
       <>
         Extend Gradience with plugins and customize GDM, Firefox Gnome, GNOME Shell...
@@ -34,11 +37,12 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({isSvg, Image, title, description}) {
+  if (isSvg) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <Image className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -46,6 +50,19 @@ function Feature({Svg, title, description}) {
       </div>
     </div>
   );
+  } else {
+    return (
+      <div className={clsx('col col--4')}>
+        <div className="text--center">
+          <img src="{Image}" className={styles.featureSvg} />
+        </div>
+        <div className="text--center padding-horiz--md">
+          <h3>{title}</h3>
+          <p>{description}</p>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default function HomepageFeatures() {
