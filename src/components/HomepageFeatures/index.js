@@ -5,8 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    isSvg: true,
-    image: require('@site/static/img/welcome.svg').default,
+    Svg: require('@site/static/img/welcome.svg').default,
     description: (
       <>
         Gradience offer a simple way to customize
@@ -16,8 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Material Color',
-    isSvg: false,
-    Image: require('@site/static/img/monet.png').default,
+    Svg: require('@site/static/img/welcome.svg').default,
     description: (
       <>
         With Gradience, you can generate your own preset from your background using Google Material Color 3.
@@ -26,8 +24,7 @@ const FeatureList = [
   },
   {
     title: 'More than Adwaita',
-    isSvg: false,
-    Image: require('@site/static/img/advanced.png').default,
+    Svg: require('@site/static/img/welcome.svg').default,
     description: (
       <>
         Extend Gradience with plugins and customize GDM, Firefox Gnome, GNOME Shell...
@@ -37,12 +34,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({isSvg, Image, title, description}) {
-  if (isSvg) {
+function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Image className={styles.featureSvg} role="img" />
+        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
@@ -50,19 +46,6 @@ function Feature({isSvg, Image, title, description}) {
       </div>
     </div>
   );
-  } else {
-    return (
-      <div className={clsx('col col--4')}>
-        <div className="text--center">
-          <img src="{Image}" className={styles.featureSvg} />
-        </div>
-        <div className="text--center padding-horiz--md">
-          <h3>{title}</h3>
-          <p>{description}</p>
-        </div>
-      </div>
-    );
-  }
 }
 
 export default function HomepageFeatures() {
