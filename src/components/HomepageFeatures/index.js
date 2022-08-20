@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Material Color',
-    Svg: require('@site/static/img/welcome.svg').default,
+    Svg: require('@site/static/img/welcome-monet.svg').default,
     description: (
       <>
         With Gradience, you can generate your own preset from your background using Google Material Color 3.
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'More than Adwaita',
-    Svg: require('@site/static/img/welcome.svg').default,
+    Svg: require('@site/static/img/welcome-plugins.svg').default,
     description: (
       <>
         Extend Gradience with plugins and customize GDM, Firefox Gnome, GNOME Shell...
