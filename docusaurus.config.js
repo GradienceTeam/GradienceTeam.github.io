@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/AdwCustomizerTeam/AdwCustomizerTeam.github.io/tree/main/docs',
+            'https://github.com/GradienceTeam/GradienceTeam.github.io/tree/main/docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/AdwCustomizerTeam/AdwCustomizerTeam.github.io/tree/main/blog',
+            'https://github.com/GradienceTeam/GradienceTeam.github.io/tree/main/blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -73,7 +73,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/AdwCustomizerTeam/AdwCustomizer',
+            href: 'https://github.com/GradienceTeam/Gradience',
             label: 'GitHub',
             position: 'right',
           },
@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Matrix',
-                href: 'https://matrix.to/#/#AdwCustomizer:matrix.org',
+                href: 'https://matrix.to/#/#Gradience:matrix.org',
               },
             ],
           },
@@ -113,7 +113,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/AdwCustomizerTeam/AdwCustomizer',
+                href: 'https://github.com/GradienceTeam/Gradience',
               },
             ],
           },
