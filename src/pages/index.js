@@ -52,7 +52,7 @@ export default function Home() {
           <div className={styles.indexCtas}>
             <Link
               className={clsx("button button--primary")}
-              to="/docs/intro"
+              to="/docs/install"
             >
                 Get Started
             </Link>
