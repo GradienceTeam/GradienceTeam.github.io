@@ -36,5 +36,5 @@ jobs:
           # https://github.com/actions/checkout/issues/13#issuecomment-724415212
           # The GH actions bot is used by default if you didn't specify the two fields.
           # You can swap them out with your own user credentials.
-          user_name: AdwCustomizer
-          user_email: AdwCustomizerTeam@proton.me
+          user_name: Gradience
+          user_email: GradienceTeam@proton.me
