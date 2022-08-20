@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ### Flathub
 
-:::warn
+:::caution
 
 Not available yet
 
