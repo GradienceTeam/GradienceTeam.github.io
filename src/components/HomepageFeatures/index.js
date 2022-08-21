@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/welcome.svg').default,
+    <img src="/img/welcome.svg"/>
     description: (
       <>
         Gradience offer a simple way to customize
@@ -15,7 +15,7 @@ const FeatureList = [
   },
   {
     title: 'Material Color',
-    Svg: require('@site/static/img/monet.svg').default,
+    <img src="/img/monet.svg"/>
     description: (
       <>
         With Gradience, you can generate your own preset from your background using Google Material Color 3.
@@ -24,7 +24,7 @@ const FeatureList = [
   },
   {
     title: 'More than Adwaita',
-    Svg: require('@site/static/img/plugins.svg').default,
+    <img src="/img/plugins.svg"/>
     description: (
       <>
         Extend Gradience with plugins and customize GDM, Firefox Gnome, GNOME Shell...
