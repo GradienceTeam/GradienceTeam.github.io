@@ -102,6 +102,10 @@ const config = {
                 label: 'Matrix',
                 href: 'https://matrix.to/#/#Gradience:matrix.org',
               },
+              {
+                label: 'Discord',
+                href: 'https://discord.com/invite/rwNDGPJf',
+              }
             ],
           },
           {
