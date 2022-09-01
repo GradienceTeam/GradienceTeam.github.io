@@ -1,4 +1,4 @@
-# Website
+# Website [![Crowdin](https://badges.crowdin.net/gradience/localized.svg)](https://crowdin.com/project/gradience)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
