@@ -1,21 +1,21 @@
-# Nastavení
+# Setup
 
-## Aplikace Libadwaita
+## Libadwaita applications
 
-Pro nativní aplikace Libadwaita není vyžadováno žádné další nastavení.
+No additional setup is required for native Libadwaita applications.
 
-Pro aplikace Flatpak Libadwaita musíte přepsat jejich oprávnění:
+For Flatpak Libadwaita applications, you need to override their permissions:
 
-- Spustit `sudo flatpak override --filesystem=xdg-config/gtk-4.0` nebo
-- Použijte [Flatseal](https://github.com/tchx84/Flatseal) a přidejte `xdg-config/gtk-4.0` do **ostatních souborů** v sekci **Souborový systém** z **Všechny aplikace**
+- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
+- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
 
-## Vanilla GTK 4 aplikace
+## Vanilla GTK 4 applications
 
-Použijte [tento průvodce](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) pro vzhled standardních GTK 4 aplikací.
+Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
 
-## GTK 3 aplikace
+## GTK 3 applications
 
-- Nainstalujte a aplikujte [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) šablonu (nezapomeňte nainstalovat Flatpak balíček!)
-- Pro Flatpak aplikace musíte přepsat jejich oprávnění:
-  - Spustit `sudo flatpak override --filesystem=xdg-config/gtk-3.0` nebo
-  - Použijte [Flatseal](https://github.com/tchx84/Flatseal) a přidejte `xdg-config/gtk-3.0` do **ostatních souborů** v sekci **Souborový systém** z **Všechny aplikace**
+- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
+- For Flatpak applications, you need to override their permissions:
+  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
+  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
