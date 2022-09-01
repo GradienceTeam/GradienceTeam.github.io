@@ -25,7 +25,7 @@ Gehen Sie auf die [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/act
 ### Verwende `flatpak-builder`
 
 1. Terminal öffnen
-2. `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience ausfhren`
+2. git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience ausfhren
 3. Füge `gnome-nightly` Flatpak Repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo` hinzu
 4. Installieren Sie die `Master` Version des GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
 5. `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json` ausführen
@@ -46,12 +46,7 @@ sudo ninja -C builddir install
 ### Lokale Installation (für Testzwecke und Entwicklung)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.
-cd Gradience
-meson builddir
-meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
-ninja -C builddir install
-ninja -C builddir run
+git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience ausfhren
 ```
 
 :::note
