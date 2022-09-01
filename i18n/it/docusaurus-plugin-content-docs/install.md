@@ -60,6 +60,6 @@ Durante il test e lo sviluppo, come convenienza, è possibile utilizzare lo scri
 
 :::
 
-## Successivo
+## Next
 
 Ora puoi [configurare](/docs/setup) il tuo sistema e dopo, puoi eseguire Gradience.
