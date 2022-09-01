@@ -2,6 +2,8 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+import Translate, {translate} from '@docusaurus/Translate';
+
 const FeatureList = [
   {
     title: 'Easy to Use',
