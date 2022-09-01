@@ -2,39 +2,39 @@
 sidebar_position: 1
 ---
 
-# Інсталяція
+# Installation
 
-## Флатпак
+## Flatpak
 
-### Метхуб
+### Flathub
 
-:::обережність
+:::caution
 
-Ще не доступний
+Not available yet
 
 :::
 
 ```shell
-установка flatpak com.github.GradienceTeam.Gradience
+flatpak install com.github.GradienceTeam.Gradience
 ```
 
-### Дії на Github
+### From Github Actions
 
-Перейдіть на [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) сторінку робочого процесу і натисніть останню збірку. Прокрутіть до розділу Артефакти, завантажити та встановити.
+Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow page, and click on the latest build. Scroll to the Artifacts section, download and install.
 
-### Використання `flatpak-builder`
+### Using `flatpak-builder`
 
-1. Відкрити термінал
-2. Запустіть `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
+1. Open Terminal
+2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
 3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
 4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
-5. Запустити `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
+5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
-Крім того, відкрийте проект з конструктором GNOME і створіть його.
+Alternatively, open the project with GNOME Builder, then build and run it.
 
-## З джерела
+## From source
 
-### Глобальна установка
+### Global installation
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience.git
@@ -43,23 +43,23 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Місцеве встановлення (для тестування та розробників)
+### Local installation (for testing and development purposes)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience. він
+git clone https://github.com/GradienceTeam/Gradience.git
 cd Gradience
 meson builddir
-meson налаштувати builddir -Dprefix="$(pwd)/builddir/testdir/testdir"
-ninja -C builddir встановить
-ninja -C builddir
+meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
+ninja -C builddir install
+ninja -C builddir run
 ```
 
-::note
+:::note
 
-Під час тестування та розробки ви можете використати скрипт `local.sh` для швидкого відновлення локальних будівель.
+During testing and developement, as a convenience, you can use the `local.sh` script to quickly rebuild local builds.
 
 :::
 
-## Уперед
+## Next
 
-Тепер ви можете [налаштувати](/docs/setup) вашу систему і після неї, можете запустити градієнт.
+Now, you can [setup](/docs/setup) your system and after, you can run Gradience.
