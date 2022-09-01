@@ -1,21 +1,21 @@
-# Установка
+# Setup
 
-## Програми Libadwaita
+## Libadwaita applications
 
-Не потрібно додаткового налаштування для місцевих програм Libadwaita
+No additional setup is required for native Libadwaita applications.
 
-Для додатків Flatpak Libadwaita вам необхідно перевизначити їх дозволи:
+For Flatpak Libadwaita applications, you need to override their permissions:
 
-- Запустити `sudo flatpak override --filesystem=xdg-config/gtk-4.0` або
-- Використовуйте [Flatseal](https://github.com/tchx84/Flatseal) і додайте `xdg-config/gtk-4.0` до **інших файлів** у розділі **Файловій системі** від **Всі додатки**
+- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
+- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
 
-## Ванільний додаток GTK 4
+## Vanilla GTK 4 applications
 
-Використовуйте [цей посібник](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) до теми Vanilla GTK 4 додатків.
+Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
 
-## GTK 3 додатки
+## GTK 3 applications
 
-- Встановити та застосувати [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) тему (не забудьте встановити пакет Flatpak!)
-- Для додатків Флатпак вам необхідно замінити їхні дозволи:
-  - Запустити `sudo flatpak override --filesystem=xdg-config/gtk-3.0` або
-  - Використовуйте [Flatseal](https://github.com/tchx84/Flatseal) і додайте `xdg-config/gtk-3.0` до **інших файлів** у розділі **Файлова** **Всі додатки**
+- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
+- For Flatpak applications, you need to override their permissions:
+  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
+  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
