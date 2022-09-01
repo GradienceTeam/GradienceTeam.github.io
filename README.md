@@ -1,10 +1,10 @@
-# Website [![Crowdin](https://badges.crowdin.net/gradience/localized.svg)](https://crowdin.com/project/gradience)
+# Website [![Crowdin](https://badges.crowdin.net/e/dc4050b7c8eb0245af602d2902fef593/localized.svg)](https://atrophaneura.crowdin.com/gradience)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Translate 
 
-https://crwd.in/gradience
+https://atrophaneura.crowdin.com/gradience
 
 ### Installation
 
