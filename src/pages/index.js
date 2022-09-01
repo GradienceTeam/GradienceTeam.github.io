@@ -4,28 +4,9 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import Translate, {translate} from '@docusaurus/Translate';
 
 import styles from "./index.module.css";
-
-function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
-  return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/install"
-          >
-            Get started
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -45,19 +26,28 @@ export default function Home() {
               width="200"
             />
             <span
-              className={styles.heroTitleTextHtml}>
-              <b>Customize</b> Adwaita with <b>ease</b>.
-            </span>
+            className={styles.heroTitleTextHtml}
+            // eslint-disable-next-line react/no-danger
+            dangerouslySetInnerHTML={{
+              __html: translate({
+                id: 'homepage.hero.title',
+                message:
+                  'Customize <b>GNOME</b> ecosystem and <b>LibAdwaita</b> with <b>ease</b>',
+                description:
+                  'Home page hero title, can contain simple html tags',
+              }),
+            }}
+          />
           </h1>
           <div className={styles.indexCtas}>
             <Link
               className={clsx("button button--primary")}
               to="/docs/install"
             >
-                Get Started
+                  <Translate>Get Started</Translate>
             </Link>
             <Link className={clsx("button button--secondary")} to="/plugins">
-                Explore plugins
+                   <Translate>Explore plugins</Translate>
            
             </Link>
             <span className={styles.indexCtasGitHubButtonWrapper}>
