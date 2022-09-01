@@ -4,7 +4,7 @@
     "description": "The title in the navbar"
   },
   "item.label.Install": {
-    "message": "Instalovat",
+    "message": "Install",
     "description": "Navbar item with label Install"
   },
   "item.label.Blog": {
