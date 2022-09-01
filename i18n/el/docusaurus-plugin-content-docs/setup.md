@@ -1,21 +1,21 @@
-# Ρύθμιση
+# Setup
 
-## Εφαρμογές Libadwaita
+## Libadwaita applications
 
-Καμία πρόσθετη ρύθμιση δεν απαιτείται για εγγενείς εφαρμογές Libadwaita.
+No additional setup is required for native Libadwaita applications.
 
-Για τις εφαρμογές Flatpak Libadwaita, πρέπει να παρακάμψετε τα δικαιώματά τους:
+For Flatpak Libadwaita applications, you need to override their permissions:
 
-- Εκτέλεση `sudo flatpak παράκαμψη --filesystem=xdg-config/gtk-4.0` ή
-- Χρησιμοποιήστε [Flatseal](https://github.com/tchx84/Flatseal) και προσθέτοντας `xdg-config/gtk-4.0` σε **Άλλα αρχεία** στο **σύστημα αρχείων** τμήμα **Όλες οι εφαρμογές**
+- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
+- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
 
-## Vanilla GTK 4 εφαρμογές
+## Vanilla GTK 4 applications
 
-Χρησιμοποιήστε [αυτόν τον οδηγό](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) για να θέσετε εφαρμογές βανίλιας GTK 4.
+Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
 
-## GTK 3 εφαρμογές
+## GTK 3 applications
 
-- Εγκαταστήστε και εφαρμόστε το θέμα [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (μην ξεχάσετε να εγκαταστήσετε το πακέτο Flatpak!)
-- Για εφαρμογές Flatpak, πρέπει να παρακάμψετε τα δικαιώματά τους:
-  - Εκτέλεση `sudo flatpak παράκαμψη --filesystem=xdg-config/gtk-3.0` ή
-  - Χρησιμοποιήστε [Flatseal](https://github.com/tchx84/Flatseal) και προσθέτοντας `xdg-config/gtk-3.0` σε **Άλλα αρχεία** στο **σύστημα αρχείων** τμήμα **Όλες οι εφαρμογές**
+- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
+- For Flatpak applications, you need to override their permissions:
+  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
+  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
