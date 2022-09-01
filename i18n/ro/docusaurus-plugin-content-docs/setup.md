@@ -1,21 +1,21 @@
-# Configurare
+# Setup
 
-## Aplicații Libadwaita
+## Libadwaita applications
 
-Nu este necesară o configurare suplimentară pentru aplicațiile native Libadwaita.
+No additional setup is required for native Libadwaita applications.
 
-Pentru aplicațiile Flatpak Libadwaita, trebuie să le suprascrieți permisiunile:
+For Flatpak Libadwaita applications, you need to override their permissions:
 
-- Executați `sudo flatpak override --filesystem=xdg-config/gtk-4.0` sau
-- Utilizaţi [Flatseal](https://github.com/tchx84/Flatseal) şi adăugaţi `xdg-config/gtk-4.0` la **Alte fişiere** în secţiunea **Filesystem** **Toate Aplicaţiile**
+- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
+- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
 
-## Aplicații Vanilla GTK 4
+## Vanilla GTK 4 applications
 
-Folosește [acest ghid](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) pentru tema cu vanilie a aplicațiilor GTK 4.
+Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
 
-## Aplicații GTK 3
+## GTK 3 applications
 
-- Instalează și aplică tema [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (nu uita să instalezi pachetul Flatpak!)
-- Pentru cererile Flatpak, trebuie să înlocuiți permisiunile acestora:
-  - Executați `sudo flatpak override --filesystem=xdg-config/gtk-3.0` sau
-  - Folosește [Flatseal](https://github.com/tchx84/Flatseal) și adaugă `xdg-config/gtk-3.0` la **Alte fișiere** în secțiunea **Fișiere** **Toate Aplicațiile**
+- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
+- For Flatpak applications, you need to override their permissions:
+  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
+  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
