@@ -1,5 +1,5 @@
-project_id_env: CROWDIN_PROJECT
-api_token_env: CROWDIN_ACCESS_TOKEN
+project_id_env: CROWDIN_PROJECT_ID
+api_token_env:  CROWDIN_ACCESS_TOKEN 
 preserve_hierarchy: true
 commit_message: "Translation"
 files:
@@ -10,5 +10,5 @@ files:
   - source: /docs/**/*
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-docs/**/%original_file_name%
   ## Blog Markdown files
-  - source: /blog/**/*
-    translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/current/**/%original_file_name%
+  #- source: /blog/**/*
+  #  translation: /i18n/%two_letters_code%/docusaurus-plugin-content-blog/current/**/%original_file_name%
