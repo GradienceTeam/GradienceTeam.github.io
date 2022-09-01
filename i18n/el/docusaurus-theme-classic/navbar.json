@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Διαβάθμιση",
+    "message": "Gradience",
     "description": "The title in the navbar"
   },
   "item.label.Install": {
-    "message": "Εγκατάσταση",
+    "message": "Install",
     "description": "Navbar item with label Install"
   },
   "item.label.Blog": {
-    "message": "Ιστολόγιο",
+    "message": "Blog",
     "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
