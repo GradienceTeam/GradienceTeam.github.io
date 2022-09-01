@@ -1,22 +1,22 @@
 {
   "link.title.Docs": {
-    "message": "Dokument",
+    "message": "Docs",
     "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
-    "message": "Gemenskap",
+    "message": "Community",
     "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
-    "message": "Mer",
+    "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
   "link.item.label.Install": {
-    "message": "Installera",
+    "message": "Install",
     "description": "The label of footer link with label=Install linking to /docs/install"
   },
   "link.item.label.Matrix": {
-    "message": "Matris",
+    "message": "Matrix",
     "description": "The label of footer link with label=Matrix linking to https://matrix.to/#/#Gradience:matrix.org"
   },
   "link.item.label.Discord": {
@@ -24,7 +24,7 @@
     "description": "The label of footer link with label=Discord linking to https://discord.com/invite/rwNDGPJf"
   },
   "link.item.label.Blog": {
-    "message": "Blogg",
+    "message": "Blog",
     "description": "The label of footer link with label=Blog linking to /blog"
   },
   "link.item.label.GitHub": {
@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=GitHub linking to https://github.com/GradienceTeam/Gradience"
   },
   "copyright": {
-    "message": "Upphovsrätt © 2022 Gradience Team",
+    "message": "Copyright © 2022 Gradience Team",
     "description": "The footer copyright"
   }
 }
