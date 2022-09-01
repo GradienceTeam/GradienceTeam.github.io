@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Blogue",
+    "message": "Blogg",
     "description": "The title for the blog used in SEO"
   },
   "description": {
-    "message": "Blogue",
+    "message": "Blogg",
     "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
-    "message": "Publications récentes",
+    "message": "Siste innlegg",
     "description": "The label for the left sidebar"
   }
 }
