@@ -11,4 +11,3 @@ files:
   - source: /src/pages/**/*
     translation: /i18n/%two_letters_code%/docusaurus-plugin-content-pages/**/%original_file_name%
     ignore: [/**/*.js, /**/*.jsx, /**/*.ts, /**/*.tsx, /**/*.css]
-    languages_mapping: *languages_mapping
