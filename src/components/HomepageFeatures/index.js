@@ -7,29 +7,29 @@ const FeatureList = [
     title: 'Easy to Use',
     Svg: require('@site/static/img/welcome.svg').default,
     description: (
-      <>
+      <Translate id="features.1">
         Gradience offer a simple way to customize
         any colours of Adwaita.
-      </>
+      </Translate>
     ),
   },
   {
     title: 'Material Color',
     Svg: require('@site/static/img/monet.svg').default,
     description: (
-      <>
+      <Translate id="features.2">
         With Gradience, you can generate your own preset from your background using Google Material Color 3.
-      </>
+      </Translate>
     ),
   },
   {
     title: 'More than Adwaita',
     Svg: require('@site/static/img/plugins.svg').default,
     description: (
-      <>
+      <Translate id="features.2">
         Extend Gradience with plugins and customize GDM, Firefox Gnome, GNOME Shell...
         You can also create your own plugin for customizing everything you want.
-      </>
+      </Translate>
     ),
   },
 ];
