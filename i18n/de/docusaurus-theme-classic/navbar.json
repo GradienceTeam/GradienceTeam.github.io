@@ -1,10 +1,10 @@
 {
   "title": {
-    "message": "Gradience",
+    "message": "Gradienz",
     "description": "The title in the navbar"
   },
   "item.label.Install": {
-    "message": "Install",
+    "message": "Installieren",
     "description": "Navbar item with label Install"
   },
   "item.label.Blog": {
