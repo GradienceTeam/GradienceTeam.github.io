@@ -2,64 +2,64 @@
 sidebar_position: 1
 ---
 
-# 安装
+# Installation
 
-## 平面板
+## Flatpak
 
-### 拉休布文
+### Flathub
 
-:::注意事项
+:::caution
 
-尚不可用
+Not available yet
 
 :::
 
 ```shell
-flatpak 安装 com.github.GradienceTeam.Gradience
+flatpak install com.github.GradienceTeam.Gradience
 ```
 
-### 从 Github 操作
+### From Github Actions
 
-转到 [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow 页面，然后点击最新的构建。 滚动到艺术品部分，下载并安装。
+Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow page, and click on the latest build. Scroll to the Artifacts section, download and install.
 
-### 使用 `平面板生成器`
+### Using `flatpak-builder`
 
-1. 打开终端
-2. 运行 `git clone https://github.com/GrinenceTeam /Gradience.git && cd 渐变`
-3. 添加 `忽略夜间` Fltpak 存储库 `flatpak 远程添加 --if-not-exists gnome-dirly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. 安装 `主版本` GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
-5. 运行 `flatpak-builder --install --user --force-clean repo/com.github.GrinenceTeam.Gradience.json`
+1. Open Terminal
+2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
+3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
+4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
-或者，使用 GNOME Builder 打开项目，然后构建并运行它。
+Alternatively, open the project with GNOME Builder, then build and run it.
 
-## 从来源
+## From source
 
-### 全局安装
+### Global installation
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience.git
-cd 渐变
-meson builddir --prefix=/usr/loc
-sudo ninja -C builddir instalment
+cd Gradience
+meson builddir --prefix=/usr/local
+sudo ninja -C builddir install
 ```
 
-### 本地安装（用于测试和开发目的）
+### Local installation (for testing and development purposes)
 
 ```sh
-git clone https://github.com/GrinenceTeam/Gradience. 它
-cd 渐变
+git clone https://github.com/GradienceTeam/Gradience.git
+cd Gradience
 meson builddir
-meson configure builddir -Dprefix="$(pwd)/builddir/testdir
+meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
 ninja -C builddir install
-ninja -C builddir 运行
+ninja -C builddir run
 ```
 
 :::note
 
-在测试和开发期间，作为一种方便，您可以使用 `local.sh` 脚本快速重建本地建筑。
+During testing and developement, as a convenience, you can use the `local.sh` script to quickly rebuild local builds.
 
 :::
 
-## 下一个
+## Next
 
 Now, you can [setup](/docs/setup) your system and after, you can run Gradience.
