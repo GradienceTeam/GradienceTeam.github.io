@@ -1,21 +1,21 @@
-# セットアップ
+# Setup
 
-## Libadwaitaアプリケーション
+## Libadwaita applications
 
-ネイティブLibadwaitaアプリケーションに追加の設定は必要ありません。
+No additional setup is required for native Libadwaita applications.
 
-Flatpak Libadwaitaアプリケーションの場合、権限を上書きする必要があります。
+For Flatpak Libadwaita applications, you need to override their permissions:
 
-- `sudo flatpak オーバーライド--filesystem=xdg-config/gtk-4.0` または
-- [Flatshell](https://github.com/tchx84/Flatseal) を使用し、 `xdg-config/gtk-4.0` を **その他のファイル** に **全アプリケーション** セクションの **に追加します**
+- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
+- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
 
-## Vanilla GTK 4アプリケーション
+## Vanilla GTK 4 applications
 
-[このガイド](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) を使用して、vanilla GTK 4アプリケーションをテーマにします。
+Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
 
-## GTK 3 アプリケーション
+## GTK 3 applications
 
-- [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) テーマをインストールして適用します (Flatpak パッケージをインストールすることを忘れないでください!)
-- Flatpakアプリケーションの権限を上書きする必要があります。
-  - sudo flatpak オーバーライド `--filesystem=xdg-config/gtk-3.0` または
-  - [Flatshell](https://github.com/tchx84/Flatseal) を使用し、 `xdg-config/gtk-3.0` を **その他のファイル** に **ファイルシステム** セクション **すべてのアプリケーション** に追加します。
+- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
+- For Flatpak applications, you need to override their permissions:
+  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
+  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
