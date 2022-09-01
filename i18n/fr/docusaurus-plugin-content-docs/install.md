@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Installation
 
-## format@@0 Flatpak
+## Flatpak
 
 ### Flathub
 

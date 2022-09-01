@@ -1,18 +1,18 @@
 {
   "title": {
-    "message": "Gradience",
+    "message": "crwdns775:0crwdne775:0",
     "description": "The title in the navbar"
   },
   "item.label.Install": {
-    "message": "Install",
+    "message": "crwdns777:0crwdne777:0",
     "description": "Navbar item with label Install"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "crwdns779:0crwdne779:0",
     "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {
-    "message": "GitHub",
+    "message": "crwdns781:0crwdne781:0",
     "description": "Navbar item with label GitHub"
   }
 }
