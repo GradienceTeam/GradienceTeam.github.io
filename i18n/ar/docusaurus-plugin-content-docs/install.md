@@ -2,64 +2,64 @@
 sidebar_position: 1
 ---
 
-# تثبيت
+# Installation
 
-## فلاتباك
+## Flatpak
 
-### اللهب
+### Flathub
 
 :::caution
 
-غير متوفر بعد
+Not available yet
 
 :::
 
 ```shell
-تثبيت flatpak com.github.GradienceTeam.Gradience
+flatpak install com.github.GradienceTeam.Gradience
 ```
 
-### من إجراءات Github
+### From Github Actions
 
-اذهب إلى صفحة [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) سير العمل، وانقر على أحدث إصدار. مرر إلى قسم حقائق الفن، قم بتنزيل وتثبيت.
+Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow page, and click on the latest build. Scroll to the Artifacts section, download and install.
 
-### باستخدام `flatpak-buildder`
+### Using `flatpak-builder`
 
-1. فتح محطة طرفية
-2. تشغيل `git نسخة https://github.com/GradienceTeam/Gradience.git && cd Gradience`
-3. أضف `gnome-nightly` مستودع Flatpak `flatpak Remote-add --if-not-existing gnome-nighly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. تثبيت نسخة `الرئيسية` من GNOME SDK: `تثبيت flatpak org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
-5. تشغيل `flatpak-buildder --install --user --force-Clerepo/com.github.GradienceTeam.Gradience.json`
+1. Open Terminal
+2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
+3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
+4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
-بدلاً من ذلك، افتح المشروع مع GNOME Builder، ثم قم ببناءه وتشغيله.
+Alternatively, open the project with GNOME Builder, then build and run it.
 
-## من المصدر
+## From source
 
-### التثبيت العالمي
+### Global installation
 
 ```sh
-git نسخة https://github.com/GradienceTeam/Gradience.git
+git clone https://github.com/GradienceTeam/Gradience.git
 cd Gradience
-meson builddir --prefix=/usr/Local
-sudo ninja -C builddir
+meson builddir --prefix=/usr/local
+sudo ninja -C builddir install
 ```
 
-### التركيب المحلي (لأغراض الاختبار والتطوير)
+### Local installation (for testing and development purposes)
 
 ```sh
-استنساخ git https://github.com/GradienceTeam/Gradience. إنه
+git clone https://github.com/GradienceTeam/Gradience.git
 cd Gradience
-بنائًا لشبكة
-تكوين بناء ميكر-Dprefix="$(pwd)/builddir/testdir"
-تثبيت مبني نينجا - سي
-تشغيل مبني نينجا - سي
+meson builddir
+meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
+ninja -C builddir install
+ninja -C builddir run
 ```
 
-::note
+:::note
 
-أثناء الاختبار والتطوير، كملاءمة، يمكنك استخدام البرنامج النصي `local.sh` لإعادة بناء المباني المحلية بسرعة.
+During testing and developement, as a convenience, you can use the `local.sh` script to quickly rebuild local builds.
 
 :::
 
-## التالي
+## Next
 
-الآن، يمكنك [إعداد](/docs/setup) النظام الخاص بك وبعد ذلك، يمكنك تشغيل Gradiy.
+Now, you can [setup](/docs/setup) your system and after, you can run Gradience.
