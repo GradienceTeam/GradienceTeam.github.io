@@ -1,14 +1,14 @@
 {
   "title": {
-    "message": "Gradience",
+    "message": "渐变",
     "description": "The title in the navbar"
   },
   "item.label.Install": {
-    "message": "Install",
+    "message": "安装",
     "description": "Navbar item with label Install"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label Blog"
   },
   "item.label.GitHub": {

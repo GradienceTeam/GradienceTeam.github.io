@@ -1,21 +1,21 @@
-# Setup
+# Configurar
 
-## Libadwaita applications
+## Aplicaciones de Libadwaita
 
-No additional setup is required for native Libadwaita applications.
+No se requiere ninguna configuración adicional para aplicaciones nativas de Libadwaita.
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+Para aplicaciones de Flatpak Libadwaita, es necesario anular sus permisos:
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Ejecute `sudo flatpak override --filesystem=xdg-config/gtk-4.0` o
+- Utilice [Flatseal](https://github.com/tchx84/Flatseal) y añadir `xdg-config/gtk-4.0` a **Otros archivos** en la sección **Filesystem** de **Todas las aplicaciones**
 
-## Vanilla GTK 4 applications
+## Aplicaciones Vanilla GTK 4
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Usa [esta guía](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) para tematizar aplicaciones GTK 4 de vanilla temática.
 
-## GTK 3 applications
+## Aplicaciones GTK 3
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Instala y aplica el tema [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (no olvides instalar el paquete Flatpak!)
+- Para aplicaciones de Flatpak, necesita anular sus permisos:
+  - Ejecute `sudo flatpak override --filesystem=xdg-config/gtk-3.0` o
+  - Utilice [Flatseal](https://github.com/tchx84/Flatseal) y añadir `xdg-config/gtk-3.0` a **Otros archivos** en la sección **Filesystem** de **Todas las aplicaciones**

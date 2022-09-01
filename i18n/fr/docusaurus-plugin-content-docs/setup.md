@@ -1,21 +1,21 @@
-# Setup
+# Configuration
 
-## Libadwaita applications
+## Applications Libadwaita
 
-No additional setup is required for native Libadwaita applications.
+Aucune installation supplémentaire n'est nécessaire pour les applications natives Libadwaita.
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+Pour les applications Flatpak Libadwaita, vous devez remplacer leurs permissions :
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Exécutez `sudo flatpak override --filesystem=xdg-config/gtk-4.0` ou
+- Utilisez [Flatseal](https://github.com/tchx84/Flatseal) et ajoutez `xdg-config/gtk-4.0` à **Autres fichiers** dans la section **Système de fichiers** de **Toutes les applications**
 
-## Vanilla GTK 4 applications
+## Applications Vanilla GTK 4
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Utilisez [ce guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) pour thème les applications GTK 4 vanilla.
 
-## GTK 3 applications
+## Applications GTK 3
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Installez et appliquez le thème [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (n'oubliez pas d'installer le paquet Flatpak !)
+- Pour les applications Flatpak, vous devez remplacer leurs permissions :
+  - Exécutez `sudo flatpak override --filesystem=xdg-config/gtk-3.0` ou
+  - Utilisez [Flatseal](https://github.com/tchx84/Flatseal) et ajoutez `xdg-config/gtk-3.0` à **Autres fichiers** dans la section **Système de fichiers** de **Toutes les applications**
