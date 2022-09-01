@@ -1,21 +1,21 @@
-# Setup
+# Instellen
 
-## Libadwaita applications
+## Libadwaita applicaties
 
-No additional setup is required for native Libadwaita applications.
+Voor native Libadwaita applicaties is geen extra installatie nodig.
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+Voor Flatpak Libadwaita applicaties moet je hun machtigingen overschrijven:
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Voer `sudo flatpak override --filesystem=xdg-config/gtk-4.0` uit of
+- Gebruik [Flatseal](https://github.com/tchx84/Flatseal) en voeg `xdg-config/gtk-4.0` toe aan **Andere bestanden** in de **Filesystem** sectie van **Alle applicaties**
 
-## Vanilla GTK 4 applications
+## Vanilla GTK 4 toepassingen
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Gebruik [deze handleiding](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) voor het thema vanilla GTK 4 applicaties.
 
-## GTK 3 applications
+## GTK 3 toepassingen
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Installeer en pas het [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) thema toe (vergeet niet het Flatpak pakket te installeren!)
+- Voor Flatpak applicaties moet je hun rechten overschrijven:
+  - Voer `sudo flatpak override --filesystem=xdg-config/gtk-3.0` uit of
+  - Gebruik [Flatseal](https://github.com/tchx84/Flatseal) en voeg `xdg-config/gtk-3.0` toe aan **Andere bestanden** in de **Filesystem** sectie van **Alle applicaties**
