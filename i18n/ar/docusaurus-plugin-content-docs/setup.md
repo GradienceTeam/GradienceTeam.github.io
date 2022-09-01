@@ -1,21 +1,21 @@
-# الإعداد
+# Setup
 
-## تطبيقات ليبادوايتا
+## Libadwaita applications
 
-لا يتطلب الأمر إعداد إضافي لتطبيقات Libadwaita الأصلية.
+No additional setup is required for native Libadwaita applications.
 
-بالنسبة لتطبيقات Flatpak Libadwaita، تحتاج إلى تجاوز الأذونات:
+For Flatpak Libadwaita applications, you need to override their permissions:
 
-- تشغيل `sudo flatpak تجاوز --filesystem=xdg-config/gtk-4.0` أو
-- استخدام [Flatseal](https://github.com/tchx84/Flatseal) وإضافة `xdg-config/gtk-4.0` إلى **ملفات أخرى** في **نظام الملفات** قسم **جميع التطبيقات**
+- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
+- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
 
-## تطبيقات GTK 4 Vanilla
+## Vanilla GTK 4 applications
 
-استخدم [هذا الدليل](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) لتطبيقات الفانيلا GTK 4.
+Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
 
-## تطبيقات GTK 3
+## GTK 3 applications
 
-- تثبيت وتطبيق موضوع [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (لا تنسى تثبيت حزمة Flatpak!)
-- بالنسبة لتطبيقات Flatpak ، تحتاج إلى تجاوز الأذونات الخاصة بها:
-  - تشغيل `sudo flatpak تجاوز --filesystem=xdg-config/gtk-3.0` أو
-  - استخدام [Flatseal](https://github.com/tchx84/Flatseal) وإضافة `xdg-config/gtk-3.0` إلى **الملفات الأخرى** في **نظام الملفات** قسم **جميع التطبيقات**
+- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
+- For Flatpak applications, you need to override their permissions:
+  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
+  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
