@@ -7,7 +7,7 @@
 Для приложений Flatpak Libadwaita необходимо переопределить их разрешения:
 
 - Запустите `sudo flatpak переопределить --filesystem=xdg-config/gtk-4.0` или
-- Используйте [Flatseal](https://github.com/tchx84/Flatseal) и добавьте `xdg-config/gtk-4.0` в **Другие файлы** в **Файловая система** раздел **Все приложения**
+- Используйте [Flatseal](https://github.com/tchx84/Flatseal) и добавьте `xdg-config/gtk-4.0` в **Другие файлы** в **Файловая система** в разделе **Все приложения**
 
 ## Ванильные приложения GTK 4
 
