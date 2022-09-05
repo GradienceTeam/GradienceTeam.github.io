@@ -51,6 +51,7 @@ const config = {
             }
             return `https://github.com/GradienceTeam/GradienceTeam.github.io/tree/main/${versionDocsDirPath}/${docPath}`;
           },
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
