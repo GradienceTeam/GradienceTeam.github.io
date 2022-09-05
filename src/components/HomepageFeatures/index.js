@@ -20,7 +20,7 @@ const FeatureList = [
     Svg: require('@site/static/img/monet.svg').default,
     description: (
       <Translate id="homepage.features.2">
-        With Gradience, you can generate your own preset from your background using Google Material Color 3.
+        With Gradience, you can generate your own preset from your background using Material You.
       </Translate>
     ),
   },
