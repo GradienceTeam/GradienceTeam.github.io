@@ -1,8 +1,8 @@
-# Release process
+# Процесс выпуска
 
-## Before a release
+## Перед выпуском
 
 
 
-## After the release
+## После выпуска
 
