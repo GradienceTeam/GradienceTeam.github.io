@@ -1,1 +1,1 @@
-# Setup a development environment
+# Настройка среды разработки
