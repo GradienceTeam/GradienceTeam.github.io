@@ -41,7 +41,7 @@ const Users: User[] = [
     {
         title: 'Rosé Pine',
         description: '',
-        preview: require('./rosé-pine.png'),
+        preview: require('./rose-pine.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine.json',
         tags: [],
@@ -49,7 +49,7 @@ const Users: User[] = [
     {
         title: 'Rosé Pine Moon',
         description: '',
-        preview: require('./previews/rosé-pine-moon.png'),
+        preview: require('./previews/rose-pine-moon.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine-moon.json',
         tags: [],
@@ -57,7 +57,7 @@ const Users: User[] = [
     {
         title: 'Rosé Piné Dawn',
         description: '',
-        preview: require('./previews/rosé-pine-dawn.png'),
+        preview: require('./previews/rose-pine-dawn.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine-dawn.json',
         tags: [],
