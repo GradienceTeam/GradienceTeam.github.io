@@ -18,6 +18,7 @@
   "dependencies": {
     "@crowdin/cli": "^3.7.10",
     "@docusaurus/core": "^2.1.0",
+    "@docusaurus/plugin-client-redirects": "^2.1.0",
     "@docusaurus/plugin-debug": "^2.1.0",
     "@docusaurus/plugin-ideal-image": "^2.1.0",
     "@docusaurus/preset-classic": "^2.1.0",

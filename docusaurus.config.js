@@ -1,41 +1,41 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Gradience',
-  tagline: 'Change the look of Adwaita, with ease',
-  url: 'https://GradienceTeam.github.io',
-  baseUrl: '/',
-  onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon_light.svg',
+  title: "Gradience",
+  tagline: "Change the look of Adwaita, with ease",
+  url: "https://GradienceTeam.github.io",
+  baseUrl: "/",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon_light.svg",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'GradienceTeam', // Usually your GitHub org/user name.
-  projectName: 'GradienceTeam.github.io', // Usually your repo name.
+  organizationName: "GradienceTeam", // Usually your GitHub org/user name.
+  projectName: "GradienceTeam.github.io", // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'gh-pages',
+  deploymentBranch: "gh-pages",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'fr', 'ru', 'de', 'zh', 'nl', 'it', 'es' ],
+    defaultLocale: "en",
+    locales: ["en", "fr", "ru", "de", "zh", "nl", "it", "es"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ locale, versionDocsDirPath, docPath }) => {
             if (locale !== "en") {
               return `https://atrophaneura.crowdin.com/gradience/${locale}`;
@@ -53,80 +53,108 @@ const config = {
           },
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       }),
     ],
   ],
 
   plugins: [
-    process.env.NODE_ENV === 'production' && '@docusaurus/plugin-debug',
-  ].filter(Boolean),
+    [
+      "ideal-image",
+      /** @type {import('@docusaurus/plugin-ideal-image').PluginOptions} */
+      ({
+        quality: 70,
+        max: 1030,
+        min: 640,
+        steps: 2,
+        // Use false to debug, but it incurs huge perf costs
+        disableInDev: true,
+      }),
+    ],
+    [
+      'client-redirects',
+      /** @type {import('@docusaurus/plugin-client-redirects').Options} */
+      ({
+        fromExtensions: ['html'],
+        redirects: [
+          {
+            from: ['/matrix', '/docs/matrix', '/support', '/docs/support', '/help', '/support/matrix', '/help/matrix', '/docs/support/matrix'],
+            to: 'https://matrix.to/#/#Gradience:matrix.org',
+          },
+          {
+            from: ['/discord', '/docs/discord', '/support/discord', '/help/discord', '/docs/support/discord'],
+            to: 'https://discord.com/invite/rwNDGPJf',
+          },
+        ],
+      }),
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Gradience',
+        title: "Gradience",
         logo: {
-          alt: 'Gradience logo',
-          src: 'img/logo.svg',
+          alt: "Gradience logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'doc',
-            docId: 'install',
-            position: 'left',
-            label: 'Install',
+            type: "doc",
+            docId: "install",
+            position: "left",
+            label: "Install",
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {to: '/presets', label: 'Presets', position: 'left'},
+          { to: "/blog", label: "Blog", position: "left" },
+          { to: "/presets", label: "Presets", position: "left" },
           {
-            href: 'https://github.com/GradienceTeam/Gradience',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/GradienceTeam/Gradience",
+            label: "GitHub",
+            position: "right",
           },
           {
-            type: 'localeDropdown',
-            position: 'left',
+            type: "localeDropdown",
+            position: "left",
           },
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Docs',
+            title: "Docs",
             items: [
               {
-                label: 'Install',
-                to: '/docs/install',
+                label: "Install",
+                to: "/docs/install",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "Community",
             items: [
               {
-                label: 'Matrix',
-                href: 'https://matrix.to/#/#Gradience:matrix.org',
+                label: "Matrix",
+                href: "https://matrix.to/#/#Gradience:matrix.org",
               },
               {
-                label: 'Discord',
-                href: 'https://discord.com/invite/rwNDGPJf',
-              }
+                label: "Discord",
+                href: "https://discord.com/invite/rwNDGPJf",
+              },
             ],
           },
           {
-            title: 'More',
+            title: "More",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/GradienceTeam/Gradience',
+                label: "GitHub",
+                href: "https://github.com/GradienceTeam/Gradience",
               },
             ],
           },
@@ -138,11 +166,11 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       docs: {
-      sidebar: {
-        hideable: false,
-        autoCollapseCategories: false,
+        sidebar: {
+          hideable: false,
+          autoCollapseCategories: false,
+        },
       },
-    },
     }),
 };
 
