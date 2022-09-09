@@ -41,7 +41,7 @@ const Users: User[] = [
     {
         title: 'Rosé Pine',
         description: '',
-        preview: require('./rose-pine.png'),
+        preview: require('./previews/rose-pine.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine.json',
         tags: [],
