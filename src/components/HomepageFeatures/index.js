@@ -7,7 +7,7 @@ import Translate, {translate} from '@docusaurus/Translate';
 const FeatureList = [
   {
     title: 'Easy to Use',
-    Svg: require('@site/static/img/welcome.png').default,
+    image: require('@site/static/img/welcome.png').default,
     description: (
       <Translate id="homepage.features.1">
         Gradience offer a simple way to customize
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'Material Color',
-    Svg: require('@site/static/img/monet_app.png').default,
+    image: require('@site/static/img/monet.png').default,
     description: (
       <Translate id="homepage.features.2">
         With Gradience, you can generate your own preset from your background using Material You.
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'More than Adwaita',
-    Svg: require('@site/static/img/plugins.png').default,
+    image: require('@site/static/img/plugins.png').default,
     description: (
       <Translate id="homepage.features.3">
         Extend Gradience with plugins and customize GDM, Firefox Gnome, GNOME Shell...
@@ -36,11 +36,11 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, image, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureSvg} src={image} />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
