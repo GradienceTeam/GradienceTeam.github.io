@@ -80,6 +80,7 @@ const config = {
             label: 'Install',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/presets', label: 'Presets', position: 'left'},
           {
             href: 'https://github.com/GradienceTeam/Gradience',
             label: 'GitHub',
