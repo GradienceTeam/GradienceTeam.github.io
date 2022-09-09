@@ -25,7 +25,7 @@ const Users: User[] = [
     {
         title: 'Synthwave',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/synthwave.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/synthwave.json',
         tags: [],
@@ -33,7 +33,7 @@ const Users: User[] = [
     {
         title: 'Gruvbox',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/gruvbox.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/gruvbox.json',
         tags: [],
@@ -41,7 +41,7 @@ const Users: User[] = [
     {
         title: 'Rosé Pine',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./rosé-pine.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine.json',
         tags: [],
@@ -49,7 +49,7 @@ const Users: User[] = [
     {
         title: 'Rosé Pine Moon',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/rosé-pine-moon.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine-moon.json',
         tags: [],
@@ -57,7 +57,7 @@ const Users: User[] = [
     {
         title: 'Rosé Piné Dawn',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/rosé-pine-dawn.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/rose-pine-dawn.json',
         tags: [],
@@ -65,7 +65,7 @@ const Users: User[] = [
     {
         title: 'Dracula',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/dracula.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/dracula.json',
         tags: [],
@@ -73,7 +73,7 @@ const Users: User[] = [
     {
         title: 'Layan Dark',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/layan-dark.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/layan-dark.json',
         tags: [],
@@ -81,7 +81,7 @@ const Users: User[] = [
     {
         title: 'Layan Light',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/layan-light.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/layan-light.json',
         tags: [],
@@ -89,7 +89,7 @@ const Users: User[] = [
     {
         title: 'Yaru',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/yaru.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/yaru.json',
         tags: [],
@@ -97,7 +97,7 @@ const Users: User[] = [
     {
         title: 'Yaru Dark',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/yaru-dark.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/yaru-dark.json',
         tags: [],
@@ -105,7 +105,7 @@ const Users: User[] = [
     {
         title: 'Nord',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/nord.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/nord.json',
         tags: [],
@@ -113,7 +113,7 @@ const Users: User[] = [
     {
         title: 'Catppuccin Frappe',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/catppuccin-frappe.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/catppuccin-frappe.json',
         tags: [],
@@ -121,7 +121,7 @@ const Users: User[] = [
     {
         title: 'Catppuccin Latte',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/catppuccin-latte.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/catppuccin-latte.json',
         tags: [],
@@ -129,7 +129,7 @@ const Users: User[] = [
     {
         title: 'SurGubbe',
         description: '',
-        preview: require('./previews/empty.png'),
+        preview: require('./previews/surgubbe.png'),
         website: 'https://github.com/',
         source: 'https://github.com/GradienceTeam/Community/raw/main/curated/surgubbe.json',
         tags: [],
