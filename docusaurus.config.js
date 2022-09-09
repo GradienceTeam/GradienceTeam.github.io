@@ -72,23 +72,6 @@ const config = {
         disableInDev: true,
       }),
     ],
-    [
-      'client-redirects',
-      /** @type {import('@docusaurus/plugin-client-redirects').Options} */
-      ({
-        fromExtensions: ['html'],
-        redirects: [
-          {
-            from: ['/matrix', '/docs/matrix', '/support', '/docs/support', '/help', '/support/matrix', '/help/matrix', '/docs/support/matrix'],
-            to: 'https://matrix.to/#/#Gradience:matrix.org',
-          },
-          {
-            from: ['/discord', '/docs/discord', '/support/discord', '/help/discord', '/docs/support/discord'],
-            to: 'https://discord.com/invite/rwNDGPJf',
-          },
-        ],
-      }),
-    ],
   ],
 
   themeConfig:

@@ -17,6 +17,7 @@ import {
   type User,
   type Tag,
 } from '@site/src/data/users';
+import IdealImage from '@theme/IdealImage';
 import {sortBy} from '@site/src/utils/jsUtils';
 import Tooltip from '../ShowcaseTooltip';
 import styles from './styles.module.css';
@@ -71,7 +72,7 @@ function ShowcaseCard({user}: {user: User}) {
   return (
     <li key={user.title} className="card shadow--md">
       <div className={clsx('card__image', styles.showcaseCardImage)}>
-        <img src={image} alt={user.title} />
+        <IdealImage img={image} alt={user.title} />
       </div>
       <div className="card__body">
         <div className={clsx(styles.showcaseCardHeader)}>
