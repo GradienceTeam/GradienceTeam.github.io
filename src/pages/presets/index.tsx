@@ -139,7 +139,7 @@ function ShowcaseHeader() {
 function Bottom() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <h1><Translate>Acknelowment</Translate></h1>
+      <h1><Translate>Acknowledgement</Translate></h1>
       <p><Translate>Thanks to all the contributors who have added their presets to the list!
         Thanks to Docusaurus.io for the showcase</Translate>
       </p>
