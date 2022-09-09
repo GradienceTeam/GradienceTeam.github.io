@@ -158,7 +158,7 @@ export const Tags: {[type in TagType]: Tag} = {
     label: translate({message: 'Favorite'}),
     description: translate({
       message:
-        'Our favorite Docusaurus sites that you must absolutely check out!',
+        'Our favorite presets that you must absolutely check out!',
       id: 'showcase.tag.favorite.description',
     }),
     color: '#e9669e',
