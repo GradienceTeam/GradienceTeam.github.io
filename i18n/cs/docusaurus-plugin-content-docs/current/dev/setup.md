@@ -1,1 +1,1 @@
-# Setup a development environment
+# Nastavení vývojového prostředí
