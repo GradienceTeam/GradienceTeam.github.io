@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Installation
+# Instalare
 
 ## Flatpak
 
 ### Flathub
 
-:::caution
+:::prudență
 
-Not available yet
+Nu este încă disponibil
 
 :::
 
@@ -18,23 +18,23 @@ Not available yet
 flatpak install com.github.GradienceTeam.Gradience
 ```
 
-### From Github Actions
+### Din acțiuni Github
 
-Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow page, and click on the latest build. Scroll to the Artifacts section, download and install.
+Mergeți pe pagina de flux de lucru [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) și faceți clic pe ultima construcție. Derulează la secțiunea Artefact și instalează.
 
-### Using `flatpak-builder`
+### Folosind `flatpak-builder`
 
-1. Open Terminal
-2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
-3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
-5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
+1. Deschide Terminalul
+2. Rulează `clona git https://github.com/GradienceTeam/Gradience.git && cd Gradience`
+3. Adaugă `gnome-nightly` Repo-ul Flatpak `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
+4. Instalați versiunea `master` a GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Executați `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
-Alternatively, open the project with GNOME Builder, then build and run it.
+Alternativ, deschideți proiectul cu GNOME Builder, apoi construiți-l și executați-l.
 
-## From source
+## De la sursă
 
-### Global installation
+### Instalare globală
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience.git
@@ -43,10 +43,10 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Local installation (for testing and development purposes)
+### Instalare locală (în scopuri de testare și dezvoltare)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
+git clone https://github.com/GradienceTeam/Gradience.
 cd Gradience
 meson builddir
 meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
@@ -56,10 +56,10 @@ ninja -C builddir run
 
 :::note
 
-During testing and developement, as a convenience, you can use the `local.sh` script to quickly rebuild local builds.
+În timpul testării și dezvoltării, ca o conveniență, puteți utiliza script-ul `local.sh` pentru a reconstrui rapid construcții locale.
 
 :::
 
-## Next
+## Următoarea
 
-Now, you can [setup](/docs/setup) your system and after, you can run Gradience.
+Acum, poți [configura](/docs/setup) sistemul tău și după, poți rula Gradience.
