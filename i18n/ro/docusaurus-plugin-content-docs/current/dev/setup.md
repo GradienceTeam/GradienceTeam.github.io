@@ -1,1 +1,1 @@
-# Setup a development environment
+# Crearea unui mediu de dezvoltare
