@@ -1,11 +1,11 @@
-# Presets
+# Esiasetukset
 
-## Publish
+## Julkaise
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Jos haluat, voit lisätä esiasetuksesi yhteisön repoon. Tekemällä tämän, käyttäjät voivat ladata esiasetukset käyttämällä esiasetusta.
 
 1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+2. Lisää esiasetus kuratoituun kansioon
+3. Lisää rivi `curated.json` linkillä raaka esiasetus
+4. Luo pull-pyyntö `v2` -haaraa vastaan ja varmista, että täytät kaikki vaatimukset.
+5. Arvostamme PR:si ja yhdistämme sen mahdollisimman nopeasti 
