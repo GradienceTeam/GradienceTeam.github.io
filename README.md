@@ -1,10 +1,10 @@
-# Website [![Crowdin](https://badges.crowdin.net/e/dc4050b7c8eb0245af602d2902fef593/localized.svg)](https://atrophaneura.crowdin.com/gradience)
+# Website [![Crowdin](https://badges.crowdin.net/e/080ae39bc5b01406757bdfb898ec5f39/localized.svg)](https://atrophaneura.crowdin.com/gradience)
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
 ## Translate 
 
-https://atrophaneura.crowdin.com/gradience
+[![Crowdin](https://badges.crowdin.net/e/080ae39bc5b01406757bdfb898ec5f39/localized.svg)](https://atrophaneura.crowdin.com/gradience)
 
 ### Installation
 
