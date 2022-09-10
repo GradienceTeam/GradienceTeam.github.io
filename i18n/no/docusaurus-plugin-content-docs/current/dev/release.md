@@ -1,8 +1,8 @@
-# Release process
+# Utgivelsesprosess
 
-## Before a release
+## Før utgivelse
 
 
 
-## After the release
+## Etter utgivelsen
 
