@@ -1,21 +1,21 @@
-# Setup
+# Opsætning
 
-## Libadwaita applications
+## Libadwaita ansøgninger
 
-No additional setup is required for native Libadwaita applications.
+Ingen yderligere opsætning er nødvendig for indfødte Libadwaita applikationer.
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+For Flatpak Libadwaita applikationer, skal du tilsidesætte deres tilladelser:
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Kør `sudo flatpak tilsidesætte --filesystem=xdg-config/gtk-4.0` eller
+- Brug [Flatseal](https://github.com/tchx84/Flatseal) og tilføj `xdg-config/gtk-4.0` til **Andre filer** i **Filsystem** sektionen af **Alle Programmer**
 
-## Vanilla GTK 4 applications
+## Vanilla GTK 4 applikationer
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Brug [denne guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) til at tema vanilla GTK 4 applikationer.
 
-## GTK 3 applications
+## GTK 3 programmer
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Installer og anvend temaet [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (glem ikke at installere Flatpak pakken!)
+- For Flatpak applikationer, skal du tilsidesætte deres tilladelser:
+  - Kør `sudo flatpak tilsidesætte --filesystem=xdg-config/gtk-3.0` eller
+  - Brug [Flatseal](https://github.com/tchx84/Flatseal) og tilføj `xdg-config/gtk-3.0` til **Andre filer** i **Filsystem** sektionen af **Alle Programmer**
