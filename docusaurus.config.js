@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+import {translate} from '@docusaurus/Translate';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -100,6 +101,16 @@ const config = {
           {
             type: "localeDropdown",
             position: "left",
+            dropdownItemsAfter: [
+              {
+                label: translate({
+                  id: 'dropdown.translate',
+                  message: "Help us translate",
+                  description: 'The message show at the end of the localize dropdown'
+                }),
+                href: "https://atrophaneura.crowdin.com/gradience",
+              },
+            ],
           },
         ],
       },
