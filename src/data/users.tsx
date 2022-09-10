@@ -175,11 +175,11 @@ const Users: User[] = [
         tags: [],
     },
     {
-        title: 'Cobalt Light',
+        title: 'Cobalt Dark',
         description: '',
         preview: require('./previews/empty.png'),
         website: '',
-        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/cobalt-light.json',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/cobalt-dark.json',
         tags: [],
     },
     {
