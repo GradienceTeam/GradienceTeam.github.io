@@ -1,1 +1,1 @@
-# Setup a development environment
+# Imposta un ambiente di sviluppo
