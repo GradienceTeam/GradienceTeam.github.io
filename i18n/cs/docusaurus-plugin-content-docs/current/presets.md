@@ -1,11 +1,11 @@
-# Presets
+# Předvolby
 
-## Publish
+## Publikovat
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Pokud chcete, můžete přidat svou předvolbu do repozitáře komunity. Tím si uživatelé mohou stáhnout svou předvolbu pomocí přednastaveného manažera.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Rozštěpit úložiště komunity na GitHubu
+2. Přidejte svou předvolbu do řízené složky
+3. Přidejte řádek v `curated.json` s odkazem na vaši syrovou předvolbu
+4. Vytvořte požadavek na natažení proti větvi `v2` a ujistěte se, že splňujete všechny požadavky.
+5. Přezkoumáme Váš PR a co nejrychleji jej sloučíme 
