@@ -1,11 +1,11 @@
-# Presets
+# Пресеты
 
-## Publish
+## Опубликовать
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Если хотите, вы можете добавить пресет в репозиторий сообщества. При этом пользователи могут загрузить ваш пресет с помощью предустановочного менеджера.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Форкнуть репозиторий сообщества на GitHub
+2. Добавьте пресет в папку с курированием
+3. Добавить строку в `curated.json` со ссылкой на ваш пресет сырой
+4. Создайте запрос на слияние в `версии 2` ветке и убедитесь, что вы соответствуете всем требованиям.
+5. Мы рассматриваем ваш PR и объединим его как можно быстрее 
