@@ -1,11 +1,11 @@
-# Presets
+# Preajustes
 
-## Publish
+## Publicar
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Si lo desea, puede añadir su ajuste predefinido al repositorio de la comunidad. Al hacer esto, los usuarios pueden descargar su preset usando el gestor de presets.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Fork el repositorio de la comunidad en GitHub
+2. Agregue su preset en la carpeta supervisada
+3. Agregue una línea en `curated.json` con un enlace a su preset crudo
+4. Crea un pull request contra la rama `v2` y asegúrate de que cumples todos los requisitos.
+5. Revisamos sus relaciones públicas y las fusionamos lo antes posible 
