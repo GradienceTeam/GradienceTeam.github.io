@@ -46,8 +46,8 @@ export default function Home() {
             >
                   <Translate>Get Started</Translate>
             </Link>
-            <Link className={clsx("button button--secondary")} to="/plugins">
-                   <Translate>Explore plugins</Translate>
+            <Link className={clsx("button button--secondary")} to="/presets">
+                   <Translate>Explore presets</Translate>
            
             </Link>
             <span className={styles.indexCtasGitHubButtonWrapper}>
