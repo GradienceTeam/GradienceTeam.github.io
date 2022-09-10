@@ -126,7 +126,7 @@ const config = {
             items: [
               {
                 label: "Matrix",
-                href: "https://matrix.to/#/#Gradience:matrix.org",
+                href: "https://matrix.to/#/#gradience-space:envs.net",
               },
               {
                 label: "Discord",
