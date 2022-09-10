@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Suivant",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.dev": {
+    "message": "Développer",
+    "description": "The label for category dev in sidebar tutorialSidebar"
+  }
+}

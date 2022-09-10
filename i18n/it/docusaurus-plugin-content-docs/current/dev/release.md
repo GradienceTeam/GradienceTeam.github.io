@@ -1,8 +1,8 @@
-# Release process
+# Processo di rilascio
 
-## Before a release
+## Prima di un rilascio
 
 
 
-## After the release
+## Dopo il rilascio
 

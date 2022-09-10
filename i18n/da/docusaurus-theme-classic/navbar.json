@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Gradiens",
+    "description": "The title in the navbar"
+  },
+  "item.label.Install": {
+    "message": "Installér",
+    "description": "Navbar item with label Install"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Presets": {
+    "message": "Forudindstillinger",
+    "description": "Navbar item with label Presets"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

@@ -1,11 +1,11 @@
-# Presets
+# Förval
 
-## Publish
+## Publicera
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Om du vill kan du lägga till din förinställning till communityrapo. Genom att göra det, användare kan ladda ner din förinställning med hjälp av förinställd chef.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Forka Community repository på GitHub
+2. Lägg till din förinställning i den kurerade mappen
+3. Lägg till en rad i `curated.json` med en länk till din raw förinställning
+4. Skapa en pull-förfrågan mot `v2` -filial och var säker på att du uppfyller alla krav.
+5. Vi granskar din PR och sammanfogar den så snabbt som möjligt 

@@ -1,8 +1,8 @@
-# Release process
+# Vapautus prosessi
 
-## Before a release
+## Ennen vapauttamista
 
 
 
-## After the release
+## Vapauttamisen jälkeen
 

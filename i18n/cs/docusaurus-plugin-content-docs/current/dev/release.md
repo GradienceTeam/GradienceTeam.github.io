@@ -1,8 +1,8 @@
-# Release process
+# Proces vydání
 
-## Before a release
+## Před vydáním
 
 
 
-## After the release
+## Po vydání
 

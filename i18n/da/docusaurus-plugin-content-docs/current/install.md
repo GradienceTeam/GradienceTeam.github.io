@@ -10,7 +10,7 @@ sidebar_position: 1
 
 :::caution
 
-Not available yet
+Ikke tilgængelig endnu
 
 :::
 
@@ -18,35 +18,35 @@ Not available yet
 flatpak install com.github.GradienceTeam.Gradience
 ```
 
-### From Github Actions
+### Fra Github Handlinger
 
-Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow page, and click on the latest build. Scroll to the Artifacts section, download and install.
+Gå på arbejdsprocessiden [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) , og klik på den seneste bygning. Rul til afsnittet Artefakter, download og installer.
 
-### Using `flatpak-builder`
+### Bruger `flatpak-builder`
 
-1. Open Terminal
-2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
-3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
-5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
+1. Åben Terminal
+2. Kør `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
+3. Tilføj `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nighly.flatpakrepo`
+4. Installer `master` versionen af GNOME SDK: `flatpak installer org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Kør `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
-Alternatively, open the project with GNOME Builder, then build and run it.
+Alternativt kan du åbne projektet med GNOME Builder, bygge og køre det.
 
-## From source
+## Fra kilde
 
 ### Global installation
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
+git klone https://github.com/GradienceTeam/Gradience.git
 cd Gradience
 meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Local installation (for testing and development purposes)
+### Lokalt anlæg (til test- og udviklingsformål)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
+git klon https://github.com/GradienceTeam/Gradience. it
 cd Gradience
 meson builddir
 meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
@@ -54,12 +54,12 @@ ninja -C builddir install
 ninja -C builddir run
 ```
 
-:::note
+::note
 
-During testing and developement, as a convenience, you can use the `local.sh` script to quickly rebuild local builds.
+Under test og udvikling, som en bekvemmelighed, kan du bruge `local.sh` scriptet til hurtigt at genopbygge lokale bygninger.
 
 :::
 
-## Next
+## Næste
 
-Now, you can [setup](/docs/setup) your system and after, you can run Gradience.
+Nu kan du [opsætte](/docs/setup) dit system og efter, du kan køre Gradience.

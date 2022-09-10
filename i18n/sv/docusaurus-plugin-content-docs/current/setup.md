@@ -1,21 +1,21 @@
-# Setup
+# Konfiguration
 
-## Libadwaita applications
+## Libadwaita applikationer
 
-No additional setup is required for native Libadwaita applications.
+Ingen ytterligare installation krävs för inhemska Libadwaita applikationer.
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+För Flatpak Libadwaita program måste du åsidosätta deras behörigheter:
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Kör `sudo flatpak åsidosätta --filesystem=xdg-config/gtk-4.0` eller
+- Använd [Flatseal](https://github.com/tchx84/Flatseal) och lägg till `xdg-config/gtk-4.0` till **Andra filer** i **-filsystemet** -sektionen i **Alla program**
 
-## Vanilla GTK 4 applications
+## Vanilla GTK 4 applikationer
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Använd [den här guiden](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) för att tema vanilj GTK 4 program.
 
-## GTK 3 applications
+## GTK 3 applikationer
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Installera och tillämpa temat [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) (glöm inte att installera Flatpak paketet!)
+- För Flatpak program måste du åsidosätta deras behörigheter:
+  - Kör `sudo flatpak åsidosätta --filesystem=xdg-config/gtk-3.0` eller
+  - Använd [Flatseal](https://github.com/tchx84/Flatseal) och lägg till `xdg-config/gtk-3.0` till **Andra filer** i **-filsystemet** -sektionen i **Alla program**

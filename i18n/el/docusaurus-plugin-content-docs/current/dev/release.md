@@ -1,8 +1,8 @@
-# Release process
+# Διαδικασία έκδοσης
 
-## Before a release
+## Πριν από την κυκλοφορία
 
 
 
-## After the release
+## Μετά την κυκλοφορία
 

@@ -1,11 +1,11 @@
-# Presets
+# Шаблони
 
-## Publish
+## Опублікувати
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Якщо хочете, ви можете додати шаблон до репозиторію спільноти. Роблячи це, користувачі можуть завантажити пресет, використовуючи менеджер пресетів.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Розгалуження репозиторію спільноти на GitHub
+2. Додайте ваш пресет у куратор теку
+3. Додайте рядок в `curated.json` з посиланням на ваш сирий пресет
+4. Створити запит на злиття `v2` на гілку і бути впевненим, що ви відповідаєте усім вимогам.
+5. Ми розглядаємо ваш PR та об'єднаємо його якомога швидше 

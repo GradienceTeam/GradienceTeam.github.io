@@ -1,8 +1,8 @@
-# Release process
+# Proces vrijgeven
 
-## Before a release
+## Voor een release
 
 
 
-## After the release
+## Na de release
 

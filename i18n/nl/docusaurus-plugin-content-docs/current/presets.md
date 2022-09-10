@@ -1,11 +1,11 @@
-# Presets
+# Voorkeursinstellingen
 
-## Publish
+## Publiceren
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Als je wilt, kun je je voorkeursinstelling toevoegen aan de community repo. Hiermee kunnen gebruikers uw voorinstelling downloaden met behulp van de vooraf ingestelde manager.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Fork de community repository op GitHub
+2. Voeg je preset toe aan de gecureerde map
+3. Voeg een regel toe in `curated.json` met een link naar je rauwe preset
+4. Maak een pull-aanvraag tegen `v2` branch en zorg ervoor dat je aan alle eisen voldoet.
+5. We beoordelen je PR en voegen deze zo snel mogelijk samen 

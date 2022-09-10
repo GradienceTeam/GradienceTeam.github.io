@@ -1,11 +1,11 @@
-# Presets
+# Presetări
 
-## Publish
+## Publică
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Dacă doriți, puteți adăuga presetarea la repo-ul comunității. Făcând asta, utilizatorii pot descărca presetarea folosind managerul presetat.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Fă repertoriul comunității pe GitHub
+2. Adăugați presetarea în dosarul curat
+3. Adaugă o linie în `curated.json` cu un link către presetarea ta brută
+4. Creați o cerere de tragere împotriva ramurii `v2` și asigurați-vă că îndepliniți toate cerințele.
+5. Îți revizuim PR și îl îmbinăm cât mai repede posibil 

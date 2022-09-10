@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Paco
 
-### Flathub
+### Almacén
 
 :::precaución
 

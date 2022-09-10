@@ -1,21 +1,21 @@
-# Setup
+# Asetukset
 
-## Libadwaita applications
+## Libadwaita sovellukset
 
-No additional setup is required for native Libadwaita applications.
+Libadwaita -sovelluksiin ei tarvita lisäasetuksia.
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+Flatpak Libadwaita sovelluksia varten sinun täytyy ohittaa niiden käyttöoikeudet:
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Suorita `sudo flatpak ohitus --filesystem=xdg-config/gtk-4.0` tai
+- Käytä [Flatseal](https://github.com/tchx84/Flatseal) ja lisää `xdg-config/gtk-4.0` **Muut tiedostot** **Tiedostojärjestelmä** osa **Kaikki sovellukset**
 
-## Vanilla GTK 4 applications
+## Vanilla GTK 4 sovellukset
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Käytä [tätä opasta](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) teema vanilja GTK 4 sovelluksiin.
 
-## GTK 3 applications
+## GTK 3 sovellukset
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Asenna ja käytä [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) teemaa (älä unohda asentaa Flatpak-pakettia!)
+- Flatpak-sovelluksia varten sinun täytyy ohittaa niiden käyttöoikeudet:
+  - Suorita `sudo flatpak ohitus --filesystem=xdg-config/gtk-3.0` tai
+  - Käytä [Flatseal](https://github.com/tchx84/Flatseal) ja lisää `xdg-config/gtk-3.0` **Muut tiedostot** **Tiedostojärjestelmän** osa **Kaikki sovellukset**

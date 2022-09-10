@@ -1,0 +1,351 @@
+{
+  "Favorite": {
+    "message": "Favoritt"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Våre favoritt forhåndsinnstillinger du må sjekke ut!"
+  },
+  "GNOME": {
+    "message": "GNOME"
+  },
+  "showcase.tag.gnome.description": {
+    "message": "GNOME er et stasjonært miljø for Unix-lignende operativsystemer."
+  },
+  "KDE": {
+    "message": "KDE"
+  },
+  "showcase.tag.kde.description": {
+    "message": "KDE er et stasjonært miljø for Unix-lignende operativsystemer."
+  },
+  "homepage.hero.title": {
+    "message": "Tilpass <b>GNOME</b> økosystem og <b>LibAdwaita</b> med <b>enkel</b>",
+    "description": "Home page hero title, can contain simple html tags"
+  },
+  "Get Started": {
+    "message": "Kom i gang"
+  },
+  "Explore presets": {
+    "message": "Utforsk forhåndsinnstillinger"
+  },
+  "homepage.features.1": {
+    "message": "Gradience tilbyr en enkel måte å tilpasse alle farger for Adwaita."
+  },
+  "homepage.features.2": {
+    "message": "Med gyldighet, kan du generere din egen forhåndsinnstilling fra bakgrunnen ved å bruke et materiale Du."
+  },
+  "homepage.features.3": {
+    "message": "Utvid gradiens med plugins og tilpass GDM, Firefox Gnome, GNOME Shell... Du kan også lage din egen plugin for å tilpasse alt du vil."
+  },
+  "Presets made for Gradience": {
+    "message": "Forhåndsvalg laget for bestråling"
+  },
+  "List of presets made for Gradience by the Community": {
+    "message": "Liste over forhåndsinnstillinger laget for bekostning av fellesskapet"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Legg til forhåndsinnstillingen"
+  },
+  "Acknowledgement": {
+    "message": "Godkjennelse"
+  },
+  "Thanks to all the contributors who have added their presets to the list! Thanks to Docusaurus.io for the showcase": {
+    "message": "Takk til alle bidragsytere som har lagt til deres forhåndsinnstilte på listen! Takk til Docusaurus.io for utsendelsen"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 preset|{sitesCount} presets",
+    "description": "Pluralized label for the number of presets found on the list. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.filters.title": {
+    "message": "Filtre"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Søk etter forhåndsinnstillingsnavn..."
+  },
+  "showcase.usersList.noResult": {
+    "message": "Ingen resultat"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Våre favoritter"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Alle forhåndsinnstillinger"
+  },
+  "showcase.card.sourceLink": {
+    "message": "kilde"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Denne siden krasjet.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Prøv igjen",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Side ikke funnet",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Vi fant ikke det du lette etter.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Vennligst kontakt eieren av nettstedet som er koblet deg til den opprinnelige URL-en, og la dem få vite at lenken deres er ødelagt.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "merknad",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "fare",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "informasjon",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "forsiktighet",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arkiv",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arkiv",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Rull tilbake til toppen",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blogg Liste Sidenavigering",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Nyere innganger",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Eldre innlegg",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blogg Sidenavigering",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Nyere innlegg",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Eldre innlegg",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "En postby{count} innlegg",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagget med \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Vis alle tagger",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Veksle mellom mørk og lys modus (for tiden {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "mørk modus",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "lett modus",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Hjemme Side",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Brødsmuler",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} objekter",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs side navigasjon",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Forrige",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Neste",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "En doc tagged◊{count} docs tagged",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} med \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Versjon: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Dette er uutgitt dokumentasjon for {siteTitle} {versionLabel} -versjon.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Dette er dokumentasjonen for {siteTitle} {versionLabel}som ikke lenger vedlikeholdes aktivt.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For oppdatert dokumentasjon, se {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "siste versjon",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Rediger denne siden",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direkte lenke til overskrift",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " på {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " av {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Sist oppdatert{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Versjoner",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Gå til hovedinnhold",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Stikkord:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Lukk",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blogg nylige innlegg navigasjon",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Kopiert",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Kopier koden til utklippstavlen",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Kopier",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Veksle tekstbryting",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Slå av/på den sammenleggbare sidestolpe kategorien '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Språk",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "På denne siden",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Les mer",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Les mer om {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Et minutt lest lest{readingTime} min",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Skjul sidepanelet",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Skjul sidepanelet",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "AP tilbake til hovedmenyen",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Laster...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Klikk for å laste inn{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Nettleseren din er frakoblet. Bildet er ikke lastet",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Bilde ikke funnet",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Feil. Klikk for å laste inn på nytt",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tagger",
+    "description": "The title of the tag list page"
+  }
+}

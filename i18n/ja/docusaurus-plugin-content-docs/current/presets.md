@@ -1,11 +1,11 @@
-# Presets
+# プリセット
 
-## Publish
+## 公開
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+必要に応じて、コミュニティリポジトリにプリセットを追加できます。 これにより、ユーザーはプリセットマネージャを使用してプリセットをダウンロードできます。
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. GitHubでコミュニティリポジトリをフォーク
+2. キュレートされたフォルダーにプリセットを追加
+3. rawプリセットへのリンクを含む、 `curated.json` の行を追加します
+4. `v2` ブランチに対してプルリクエストを作成し、すべての要件を満たしていることを確認してください。
+5. 私たちはあなたのPRを確認し、できるだけ早くマージします 

@@ -1,21 +1,21 @@
-# Setup
+# Установка
 
-## Libadwaita applications
+## Програми Libadwaita
 
-No additional setup is required for native Libadwaita applications.
+Не потрібно додаткового налаштування для місцевих програм Libadwaita
 
-For Flatpak Libadwaita applications, you need to override their permissions:
+Для додатків Flatpak Libadwaita вам необхідно перевизначити їх дозволи:
 
-- Run `sudo flatpak override --filesystem=xdg-config/gtk-4.0` or
-- Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-4.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Запустити `sudo flatpak override --filesystem=xdg-config/gtk-4.0` або
+- Використовуйте [Flatseal](https://github.com/tchx84/Flatseal) і додайте `xdg-config/gtk-4.0` до **інших файлів** у розділі **Файловій системі** від **Всі додатки**
 
-## Vanilla GTK 4 applications
+## Ванільний додаток GTK 4
 
-Use [this guide](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) to theme vanilla GTK 4 applications.
+Використовуйте [цей посібник](https://github.com/lassekongo83/adw-gtk3/blob/main/gtk4.md) до теми Vanilla GTK 4 додатків.
 
-## GTK 3 applications
+## GTK 3 додатки
 
-- Install and apply the [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) theme (don't forget to install the Flatpak package!)
-- For Flatpak applications, you need to override their permissions:
-  - Run `sudo flatpak override --filesystem=xdg-config/gtk-3.0` or
-  - Use [Flatseal](https://github.com/tchx84/Flatseal) and adding `xdg-config/gtk-3.0` to **Other files** in the **Filesystem** section of **All Applications**
+- Встановити та застосувати [adw-gtk3](https://github.com/lassekongo83/adw-gtk3#readme) тему (не забудьте встановити пакет Flatpak!)
+- Для додатків Флатпак вам необхідно замінити їхні дозволи:
+  - Запустити `sudo flatpak override --filesystem=xdg-config/gtk-3.0` або
+  - Використовуйте [Flatseal](https://github.com/tchx84/Flatseal) і додайте `xdg-config/gtk-3.0` до **інших файлів** у розділі **Файлова** **Всі додатки**

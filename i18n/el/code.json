@@ -1,0 +1,351 @@
+{
+  "Favorite": {
+    "message": "Αγαπημένο"
+  },
+  "showcase.tag.favorite.description": {
+    "message": "Οι αγαπημένες μας προεπιλογές που πρέπει οπωσδήποτε να ελέγξετε!"
+  },
+  "GNOME": {
+    "message": "GNOME"
+  },
+  "showcase.tag.gnome.description": {
+    "message": "Το GNOME είναι ένα περιβάλλον επιφάνειας εργασίας για Unix λειτουργικά συστήματα."
+  },
+  "KDE": {
+    "message": "KDE"
+  },
+  "showcase.tag.kde.description": {
+    "message": "Το KDE είναι ένα περιβάλλον επιφάνειας εργασίας για λειτουργικά συστήματα τύπου Unix."
+  },
+  "homepage.hero.title": {
+    "message": "Προσαρμόστε το <b>GNOME</b> οικοσύστημα και <b>LibAdwaita</b> με ευκολία <b></b>",
+    "description": "Home page hero title, can contain simple html tags"
+  },
+  "Get Started": {
+    "message": "Ας Αρχίσουμε"
+  },
+  "Explore presets": {
+    "message": "Εξερεύνηση προεπιλογών"
+  },
+  "homepage.features.1": {
+    "message": "Η διαβάθμιση προσφέρει έναν απλό τρόπο για να προσαρμόσετε οποιαδήποτε χρώματα του Adwaita."
+  },
+  "homepage.features.2": {
+    "message": "Με τη διαβάθμιση, μπορείτε να δημιουργήσετε τη δική σας προεπιλογή από το υπόβαθρό σας χρησιμοποιώντας Υλικό You."
+  },
+  "homepage.features.3": {
+    "message": "Επεκτείνετε τη διαβάθμιση με πρόσθετα και προσαρμόστε το GDM, το Firefox Gnome, το Κέλυφος του GNOME... Μπορείτε επίσης να δημιουργήσετε το δικό σας plugin για να προσαρμόσετε όλα όσα θέλετε."
+  },
+  "Presets made for Gradience": {
+    "message": "Οι προεπιλογές έγιναν για τη διαβάθμιση"
+  },
+  "List of presets made for Gradience by the Community": {
+    "message": "Κατάλογος προεπιλογών που κατασκευάζονται για την κλίση από την Κοινότητα"
+  },
+  "showcase.header.button": {
+    "message": "🙏 Παρακαλώ προσθέστε την προεπιλογή σας"
+  },
+  "Acknowledgement": {
+    "message": "Αναγνώριση"
+  },
+  "Thanks to all the contributors who have added their presets to the list! Thanks to Docusaurus.io for the showcase": {
+    "message": "Ευχαριστούμε όλους τους συνεισφέροντες που έχουν προσθέσει τις προεπιλογές τους στη λίστα!"
+  },
+  "showcase.filters.resultCount": {
+    "message": "1 preset|{sitesCount} presets",
+    "description": "Pluralized label for the number of presets found on the list. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "showcase.filters.title": {
+    "message": "Φίλτρα"
+  },
+  "showcase.searchBar.placeholder": {
+    "message": "Αναζήτηση για προκαθορισμένο όνομα..."
+  },
+  "showcase.usersList.noResult": {
+    "message": "Κανένα αποτέλεσμα"
+  },
+  "showcase.favoritesList.title": {
+    "message": "Τα αγαπημένα μας"
+  },
+  "showcase.usersList.allUsers": {
+    "message": "Όλες οι προεπιλογές"
+  },
+  "showcase.card.sourceLink": {
+    "message": "πηγή"
+  },
+  "theme.ErrorPageContent.title": {
+    "message": "Αυτή η σελίδα κατέρρευσε.",
+    "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.ErrorPageContent.tryAgain": {
+    "message": "Προσπαθήστε ξανά",
+    "description": "The label of the button to try again when the page crashed"
+  },
+  "theme.NotFound.title": {
+    "message": "Η Σελίδα Δεν Βρέθηκε",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "Δεν μπορούσαμε να βρούμε αυτό που ψάχνετε.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Παρακαλούμε επικοινωνήστε με τον ιδιοκτήτη της ιστοσελίδας που σας συνέδεσε με την αρχική διεύθυνση URL και ενημερώστε τους ότι ο σύνδεσμος τους είναι σπασμένος.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.admonition.note": {
+    "message": "σημείωση",
+    "description": "The default label used for the Note admonition (:::note)"
+  },
+  "theme.admonition.tip": {
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
+  },
+  "theme.admonition.danger": {
+    "message": "κίνδυνος",
+    "description": "The default label used for the Danger admonition (:::danger)"
+  },
+  "theme.admonition.info": {
+    "message": "πληροφορίες",
+    "description": "The default label used for the Info admonition (:::info)"
+  },
+  "theme.admonition.caution": {
+    "message": "προσοχή",
+    "description": "The default label used for the Caution admonition (:::caution)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Αρχειοθέτηση",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Αρχειοθέτηση",
+    "description": "The page & hero description of the blog archive page"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Κύλιση πίσω στην κορυφή",
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Πλοήγηση σελίδας λίστας ιστολογίου",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Νεότερες Εγγραφές",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Παλαιότερες Καταχωρήσεις",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Πλοήγηση σελίδας ιστολογίου",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Νεότερη Δημοσίευση",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Παλαιότερη Δημοσίευση",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.blog.post.plurals": {
+    "message": "Μια ανάρτηση{count} δημοσιεύσεις",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} με ετικέτα \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "Προβολή Όλων Των Ετικετών",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.colorToggle.ariaLabel": {
+    "message": "Εναλλαγή μεταξύ σκοτεινής και φωτεινής λειτουργίας (προς το παρόν {mode})",
+    "description": "The ARIA label for the navbar color mode toggle"
+  },
+  "theme.colorToggle.ariaLabel.mode.dark": {
+    "message": "σκοτεινή λειτουργία",
+    "description": "The name for the dark color mode"
+  },
+  "theme.colorToggle.ariaLabel.mode.light": {
+    "message": "λειτουργία φωτός",
+    "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.home": {
+    "message": "Αρχική σελίδα",
+    "description": "The ARIA label for the home page in the breadcrumbs"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Ψίχουλα",
+    "description": "The ARIA label for the breadcrumbs"
+  },
+  "theme.docs.DocCard.categoryDescription": {
+    "message": "{count} αντικείμενα",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Πλοήγηση σελίδων εγγράφων",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Προηγούμενο",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Επόμενο",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.tagDocListPageTitle.nDocsTagged": {
+    "message": "Μια ετικέτα doc,{count} docs με ετικέτα",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.tagDocListPageTitle": {
+    "message": "{nDocsTagged} με \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
+  },
+  "theme.docs.versionBadge.label": {
+    "message": "Έκδοση: {versionLabel}"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "Αυτή η τεκμηρίωση δεν είναι διαθέσιμη για την έκδοση {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "Αυτή είναι η τεκμηρίωση για {siteTitle} {versionLabel}, η οποία δεν διατηρείται πλέον ενεργά.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "Για ενημερωμένη τεκμηρίωση, ανατρέξτε στο {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "τελευταία έκδοση",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Επεξεργαστείτε αυτή τη σελίδα",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Άμεση σύνδεση με την επικεφαλίδα",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " στις {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " από {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Τελευταία ενημέρωση{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.navbar.mobileVersionsDropdown.label": {
+    "message": "Εκδόσεις",
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Μετάβαση στο κύριο περιεχόμενο",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Ετικέτες:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Κλείσιμο",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog πρόσφατη πλοήγηση δημοσιεύσεων",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Αντιγράφηκε",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Αντιγραφή κώδικα στο πρόχειρο",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Αντιγραφή",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.CodeBlock.wordWrapToggle": {
+    "message": "Εναλλαγή αναδίπλωσης λέξεων",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
+  },
+  "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
+    "message": "Εναλλαγή της πτυσσόμενης πλαϊνής μπάρας κατηγορίας '{label}'",
+    "description": "The ARIA label to toggle the collapsible sidebar category"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Γλώσσες",
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.TOCCollapsible.toggleButtonLabel": {
+    "message": "Σε αυτή τη σελίδα",
+    "description": "The label used by the button on the collapsible TOC component"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Διαβάστε Περισσότερα",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Διαβάστε περισσότερα για {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "Ένα λεπτό διαβάστηκε{readingTime} λεπτά",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Σύμπτυξη πλαϊνής μπάρας",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Σύμπτυξη πλαϊνής μπάρας",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Πίσω στο κύριο μενού",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.IdealImageMessage.loading": {
+    "message": "Φόρτωση...",
+    "description": "When the full-scale image is loading"
+  },
+  "theme.IdealImageMessage.load": {
+    "message": "Κάντε κλικ για να φορτώσετε{sizeMessage}",
+    "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
+  },
+  "theme.IdealImageMessage.offline": {
+    "message": "Το πρόγραμμα περιήγησής σας είναι εκτός σύνδεσης. Η εικόνα δεν φορτώθηκε",
+    "description": "When the user is viewing an offline document"
+  },
+  "theme.IdealImageMessage.404error": {
+    "message": "404. Η εικόνα δεν βρέθηκε",
+    "description": "When the image is not found"
+  },
+  "theme.IdealImageMessage.error": {
+    "message": "Σφάλμα. Κάντε κλικ για επαναφόρτωση",
+    "description": "When the image fails to load for unknown error"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Ετικέτες",
+    "description": "The title of the tag list page"
+  }
+}

@@ -1,8 +1,8 @@
-# Release process
+# Släpp processen
 
-## Before a release
+## Före en utgåva
 
 
 
-## After the release
+## Efter releasen
 

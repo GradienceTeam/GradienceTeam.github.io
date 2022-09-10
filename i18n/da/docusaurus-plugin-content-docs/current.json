@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Næste",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.dev": {
+    "message": "dev",
+    "description": "The label for category dev in sidebar tutorialSidebar"
+  }
+}

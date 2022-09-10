@@ -1,8 +1,8 @@
-# Release process
+# Procesul de lansare
 
-## Before a release
+## Înainte de o versiune
 
 
 
-## After the release
+## După lansare
 
