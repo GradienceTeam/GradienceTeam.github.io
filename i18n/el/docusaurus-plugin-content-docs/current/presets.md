@@ -1,11 +1,11 @@
-# Presets
+# Προεπιλογές
 
-## Publish
+## Δημοσίευση
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Αν θέλετε, μπορείτε να προσθέσετε την προεπιλογή σας στο χώρο αποθήκευσης της κοινότητας. Κάνοντας αυτό, οι χρήστες μπορούν να κατεβάσουν τις προεπιλογές σας χρησιμοποιώντας το διαχειριστή προεπιλογής.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Πιρούνι το αποθετήριο της Κοινότητας στο GitHub
+2. Προσθέστε την προεπιλογή σας στον επιμελημένο φάκελο
+3. Προσθέστε μια γραμμή στο `curated.json` με ένα σύνδεσμο για την ακατέργαστη προεπιλογή σας
+4. Δημιουργήστε ένα αίτημα έλξης στον κλάδο `v2` και βεβαιωθείτε ότι πληροίτε όλες τις απαιτήσεις.
+5. Εξετάζουμε το PR σας και το συγχωνεύουμε όσο το δυνατόν γρηγορότερα 
