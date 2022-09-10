@@ -15,7 +15,7 @@ Not available yet
 :::
 
 ```shell
-flatpak install com.github. GradienceTeam.
+flatpak install com.github.GradienceTeam.Gradience
 ```
 
 ### From Github Actions
@@ -27,8 +27,8 @@ Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/wor
 1. Open Terminal
 2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
 3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. Install the `master` version of GNOME SDK: `flatpak install org.gnome. Sdk/x86_64/master org.gnome. Platform/x86_64/master`
-5. Run `flatpak-builder --install --user --force-clean repo/ com.github. GradienceTeam. Gradience.json`
+4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
 Alternatively, open the project with GNOME Builder, then build and run it.
 
