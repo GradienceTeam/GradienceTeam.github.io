@@ -1,1 +1,1 @@
-# Setup a development environment
+# Oppsett av et utviklingsmiljø
