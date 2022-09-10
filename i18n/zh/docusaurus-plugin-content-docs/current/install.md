@@ -6,11 +6,11 @@ sidebar_position: 1
 
 ## 平面板
 
-### 拉休布文
+### Flathub
 
 :::注意事项
 
-尚不可用
+Not available yet
 
 :::
 
