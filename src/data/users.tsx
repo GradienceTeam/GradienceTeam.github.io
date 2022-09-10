@@ -206,6 +206,63 @@ const Users: User[] = [
         source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/oblivion.json',
         tags: [],
     },
+   {
+        title: 'Peninsula Light',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/peninsula-light.json',
+        tags: [],
+    },
+    {
+        title: 'Peninsula Dark',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/peninsula-dark.json',
+        tags: [],
+    },
+   {
+        title: 'Solarized Light',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/solarized-light.json',
+        tags: [],
+    },
+    {
+        title: 'Solarized Dark',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/solarized-dark.json',
+        tags: [],
+    },
+   {
+        title: 'Gruvbox Dark',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/gruvbox-dark.json',
+        tags: [],
+    },
+    {
+        title: 'Tango',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/tango.json',
+        tags: [],
+    },
+    {
+        title: 'Gruvbox Light',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/gruvbox-light.json',
+        tags: [],
+    },
+    
 
 
 ];
