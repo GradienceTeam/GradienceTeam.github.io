@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Уперед",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.dev": {
+    "message": "розробка",
+    "description": "The label for category dev in sidebar tutorialSidebar"
+  }
+}
