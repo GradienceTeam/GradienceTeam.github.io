@@ -1,11 +1,11 @@
-# Presets
+# Forhåndsinnstillinger
 
-## Publish
+## Publiser
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+Hvis du vil, kan du legge til forhåndsinnstillingen i samfunnet ditt repo. Ved å gjøre det, kan brukere laste ned forhåndsinnstillingen din ved hjelp av forhåndsinnstilt leder.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. Gaffi samfunnets utviklingsarkiv på GitHub
+2. Legg til forhåndsinnstillinger i den kuraterte mappen
+3. Legg til en linje i `curated.json` med en lenke til din rå forhåndsinnstilling
+4. Opprett en pull-forespørsel mot `v2` grenrør og vær sikker på at du oppfyller alle kravene.
+5. Vi gjennomgår din PR og sammenslåing så raskt som mulig 
