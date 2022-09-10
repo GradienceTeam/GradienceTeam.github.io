@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "التالي",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.dev": {
+    "message": "ديف",
+    "description": "The label for category dev in sidebar tutorialSidebar"
+  }
+}
