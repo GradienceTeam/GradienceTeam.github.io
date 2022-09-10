@@ -1,8 +1,8 @@
-# Release process
+# Processus de publication
 
-## Before a release
+## Avant une parution
 
 
 
-## After the release
+## Après la publication
 
