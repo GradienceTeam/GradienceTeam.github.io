@@ -2,64 +2,64 @@
 sidebar_position: 1
 ---
 
-# Installation
+# Montáž
 
-## Flatpak
+## Flatální
 
 ### Flathub
 
-:::caution
+:::Pozornost
 
-Not available yet
+Ještě není k dispozici
 
 :::
 
 ```shell
-flatpak install com.github.GradienceTeam.Gradience
+flatpak nainstalujte com.github.GradienceTeam.Gradience
 ```
 
-### From Github Actions
+### Z akce Githubu
 
-Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) workflow page, and click on the latest build. Scroll to the Artifacts section, download and install.
+Přejděte na stránku [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/workflows/flatpak.yml) pracovního postupu a klikněte na nejnovější sestavení. Přejít do sekce Artefakty, stahování a instalace.
 
-### Using `flatpak-builder`
+### Použití `flatpak-builder`
 
-1. Open Terminal
-2. Run `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
-3. Add the `gnome-nightly` Flatpak repository `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. Install the `master` version of GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
-5. Run `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
+1. Otevřít terminál
+2. Spustit `git klonování https://github.com/GradienceTeam/Gradience.git && cd Gradience`
+3. Přidejte `gnome-nightly` Flatpak repozitář `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
+4. Nainstalujte `master` verzi GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Spustit `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
-Alternatively, open the project with GNOME Builder, then build and run it.
+Případně otevřete projekt s stavitelem GNOME a poté ho vytvořte a spustíte.
 
-## From source
+## Ze zdroje
 
-### Global installation
+### Globální instalace
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
+git klonovat https://github.com/GradienceTeam/Gradience.git
 cd Gradience
 meson builddir --prefix=/usr/local
-sudo ninja -C builddir install
+sudo ninja -C builddir instalace
 ```
 
-### Local installation (for testing and development purposes)
+### Místní instalace (pro účely zkoušení a vývoje)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
+klonovat https://github.com/GradienceTeam/Gradience.
 cd Gradience
 meson builddir
 meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
-ninja -C builddir install
-ninja -C builddir run
+ninja -C builddir
+ninja -C builddir běží
 ```
 
 :::note
 
-During testing and developement, as a convenience, you can use the `local.sh` script to quickly rebuild local builds.
+Během testování a vývoje můžete jako pohodlí použít skript `local.sh` k rychlé přestavbě místních budov.
 
 :::
 
-## Next
+## Další
 
-Now, you can [setup](/docs/setup) your system and after, you can run Gradience.
+Nyní můžete [nastavit](/docs/setup) váš systém a poté můžete spustit Gradience.
