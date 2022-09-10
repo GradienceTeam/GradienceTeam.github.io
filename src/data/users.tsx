@@ -132,10 +132,10 @@ const Users: User[] = [
         preview: require('./previews/empty.png'),
         website: '',
         source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/pretty-purple.json',
-        tags: [],
+        tags: ['favorite'],
     },
     {
-        title: 'Builder Ligh',
+        title: 'Builder Light',
         description: '',
         preview: require('./previews/empty.png'),
         website: '',
@@ -244,7 +244,7 @@ const Users: User[] = [
         preview: require('./previews/empty.png'),
         website: '',
         source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/gruvbox-dark.json',
-        tags: [],
+        tags: ['favorite'],
     },
     {
         title: 'Tango',
