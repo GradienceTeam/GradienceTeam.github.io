@@ -1,11 +1,11 @@
-# Presets
+# الإعدادات المسبقة
 
-## Publish
+## نشر
 
-If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
+إذا أردت ، يمكنك إضافة الإعداد المسبق الخاص بك إلى مستودع المجتمع. من خلال القيام بذلك، يمكن للمستخدمين تحميل الإعداد المسبق الخاص بك باستخدام مدير الإعداد المسبق.
 
-1. Fork the Community repository on GitHub
-2. Add your preset in the curated folder
-3. Add a line in `curated.json` with a link to your raw preset
-4. Create a pull request against `v2` branch and be sure that you meet all requirements.
-5. We review your PR and merge it as quick as possible 
+1. إنشاء مستودع المجتمع على GitHub
+2. أضف الإعداد المسبق الخاص بك في المجلد المنحاز
+3. إضافة سطر في `منسوخ.json` مع رابط إلى الإعداد المسبق الخاص بك
+4. قم بإنشاء طلب سحب ضد فرع `v2` وتأكد من أنك تستوفي جميع المتطلبات.
+5. نحن نستعرض حسابك الشخصي وندمجه بأسرع ما يمكن 
