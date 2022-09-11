@@ -3,53 +3,53 @@
     "message": "Favorit"
   },
   "showcase.tag.favorite.description": {
-    "message": "Presetările noastre preferate pe care trebuie să le verificați!"
+    "message": "Presetările noastre preferate pe care trebuie să le vedeți!"
   },
   "GNOME": {
     "message": "GNOME"
   },
   "showcase.tag.gnome.description": {
-    "message": "GNOME este un mediu desktop pentru sistemele de operare asemănătoare Unix."
+    "message": "GNOME este un mediu desktop pentru sistemele de operare Unix-like."
   },
   "KDE": {
     "message": "KDE"
   },
   "showcase.tag.kde.description": {
-    "message": "KDE este un mediu desktop pentru sistemele de operare asemănătoare Unix."
+    "message": "KDE este un mediu desktop pentru sistemele de operare Unix-like."
   },
   "homepage.hero.title": {
-    "message": "Personalizați <b>GNOME</b> ecosistem și <b>LibAdwaita</b> cu <b>ușurință</b>",
+    "message": "Personalizați ecosistemul <b>GNOME</b> și <b>LibAdwaita</b> cu <b>ușurință</b>",
     "description": "Home page hero title, can contain simple html tags"
   },
   "Get Started": {
     "message": "Începeți"
   },
   "Explore presets": {
-    "message": "Explorează presetări"
+    "message": "Explorați presetări"
   },
   "homepage.features.1": {
-    "message": "Gradiența oferă o modalitate simplă de a personaliza orice culoare a Adwaita."
+    "message": "Gradience oferă o modalitate simplă de a personaliza orice culoare a Adwaita."
   },
   "homepage.features.2": {
-    "message": "Cu Gradience, poți genera propriul preset din fundal folosind Material You."
+    "message": "Cu Gradience, puteți genera propriul preset din imaginea de fundal folosind Material You."
   },
   "homepage.features.3": {
-    "message": "Extindeți Gradiența cu plugin-uri și personalizați GDM, Firefox Gnome, GNOME Shell... De asemenea, puteți crea propriul plugin pentru a personaliza tot ce doriți."
+    "message": "Extindeți Gradience cu plugin-uri și personalizați GDM, Firefox Gnome, GNOME Shell... De asemenea, puteți crea propriul plugin pentru a personaliza tot ce doriți."
   },
   "Presets made for Gradience": {
     "message": "Presetări făcute pentru Gradience"
   },
   "List of presets made for Gradience by the Community": {
-    "message": "Lista presetărilor făcute de Comunitate pentru radiații"
+    "message": "Lista presetărilor făcute de Comunitate pentru Gradience"
   },
   "showcase.header.button": {
-    "message": "🙏 Vă rugăm să adăugați presetarea"
+    "message": "🙏 Vă rugăm să adăugați presetarea voastră"
   },
   "Acknowledgement": {
     "message": "Recunoaștere"
   },
   "Thanks to all the contributors who have added their presets to the list! Thanks to Docusaurus.io for the showcase": {
-    "message": "Mulțumesc tuturor contribuitorilor care și-au adăugat presetările pe listă! Mulțumesc Docusaurus.io pentru showcase"
+    "message": "Mulțumim tuturor contribuitorilor care și-au adăugat presetările pe listă! Mulțumim Docusaurus.io pentru showcase"
   },
   "showcase.filters.resultCount": {
     "message": "1 preset|{sitesCount} presets",
@@ -59,7 +59,7 @@
     "message": "Filtre"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Căutare nume presetat..."
+    "message": "Căutare nume preset..."
   },
   "showcase.usersList.noResult": {
     "message": "Niciun rezultat"
@@ -98,7 +98,7 @@
     "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip",
+    "message": "sfat",
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
@@ -130,11 +130,11 @@
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Intrari mai noi",
+    "message": "Intrări mai noi",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Intrari mai vechi",
+    "message": "Intrări mai vechi",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
@@ -142,19 +142,19 @@
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Post mai nou",
+    "message": "Postare mai nouă",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Articol vechi",
+    "message": "Postare mai vechie",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
-    "message": "O postare{count}",
+    "message": "O postare|{count} postări",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} etichetat cu \"{tagName}\"",
+    "message": "{nPosts} etichetate cu \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
@@ -198,7 +198,7 @@
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Un document etichetat{count} documente etichetate",
+    "message": "Un document etichetat|{count} documente etichetate",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
@@ -217,7 +217,7 @@
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Pentru documentație actualizată, a se vedea {latestVersionLink} ({versionLabel}).",
+    "message": "Pentru documentație actualizată, vedeți {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
@@ -257,7 +257,7 @@
     "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Inchide",
+    "message": "Închide",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.sidebar.navAriaLabel": {
