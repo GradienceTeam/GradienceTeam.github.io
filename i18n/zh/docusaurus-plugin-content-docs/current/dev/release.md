@@ -1,8 +1,8 @@
-# 发布过程
+# Release process
 
-## 发布前
+## Before a release
 
 
 
-## 发布后
+## After the release
 
