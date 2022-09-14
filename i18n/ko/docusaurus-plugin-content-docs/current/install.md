@@ -2,15 +2,15 @@
 sidebar_position: 1
 ---
 
-# Installation
+# 설치
 
 ## Flatpak
 
 ### Flathub
 
-:::caution
+:::주의
 
-Not available yet
+아직 사용할 수 없음
 
 :::
 
