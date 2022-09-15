@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## 平面板
 
-### Flathub
+### 拉休布文
 
 <a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
     <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
