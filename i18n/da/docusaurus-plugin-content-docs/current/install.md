@@ -8,11 +8,9 @@ sidebar_position: 1
 
 ### Flathub
 
-:::caution
-
-Ikke tilgængelig endnu
-
-:::
+<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Download på Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
 
 ```shell
 flatpak install com.github.GradienceTeam.Gradience
@@ -32,7 +30,61 @@ Gå på arbejdsprocessiden [`flatpak.yml`](https://github.com/GradienceTeam/Grad
 
 Alternativt kan du åbne projektet med GNOME Builder, bygge og køre det.
 
-## Fra kilde
+## Bygning og installation
+
+Gradience kan installeres ved hjælp af flere metoder.
+
+- Flathub (anbefalet)
+- Som RPM-pakke
+- Som DEB pakke (ikke tilgængelig endnu)
+- Fra AUR
+
+### Flatpak
+
+Gradience er tilgængelig på Flathub. Du kan installere det ved hjælp af følgende kommando:
+
+```bash
+flatpak installation flathub com.github.GradienceTeam.Gradience
+```
+
+### COPR
+
+Gradience findes på COPR. Du kan installere det ved hjælp af følgende kommando:
+
+```bash
+dnf copr enable lyessaadi/gradience
+dnf install gradience
+```
+
+### Debian (derivater)
+
+Ikke tilgængelig endnu. Hvis du ønsker, skal du indsende en PR.
+
+### AUR
+
+Gradience er tilgængelig på AUR. Du kan installere det ved hjælp af følgende kommando:
+
+```bash
+yay -S gradiens # eller gradience-git
+```
+
+### Bygning fra kilde
+
+#### Krav
+
+- Python 3 `python`
+- PyGObject `python-gobject`
+- Blueprint [`blueprint-compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
+- GTK4 `gtk4`
+- libadwaita (>= 1.2.alpha) `libadwaita`
+- Meson `meson`
+- Ninja `ninja-build`
+
+Installér påkrævede Python- biblioteker:
+
+```sh
+pip install -r requirements.txt
+```
 
 ### Global installation
 
@@ -43,13 +95,13 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Lokalt anlæg (til test- og udviklingsformål)
+### Lokal opbygning (til test- og udviklingsformål)
 
 ```sh
 git klon https://github.com/GradienceTeam/Gradience. it
 cd Gradience
 meson builddir
-meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
+meson configure builddir -Dprefix="$(pwd)/builddir"
 ninja -C builddir install
 ninja -C builddir run
 ```
