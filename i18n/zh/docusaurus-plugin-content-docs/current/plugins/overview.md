@@ -1,19 +1,19 @@
-# Plugins
+# 插件
 
-Plugins are a simple way for extending Gradience, every one can create plugins for customizing everything with colors from Gradience
+插件是扩展渐变的简单方式，每个人都可以用渐变颜色创建插件。
 
 :::注意事项
 
-Only available sinc 0.3.0 (install from source or from CI if you arn't using this version)
+仅可用sinc 0.3.0 (如果您没有使用此版本从源码或CI 安装)
 
 :::
 
 
 ## 安装
 
-### Native
+### 原生的
 
-If you are using the Flatpak version, clone the Plugins repo in `~/.local/share/gradience/plugins`
+如果您正在使用 Flatpak 版本，请在 `~/.local/share/gradience/plugins 中克隆插件`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
@@ -22,8 +22,8 @@ git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plug
 
 ### 平面板
 
-If you are using the Flatpak version, clone the Plugins repo in `~/.var/app/com.github.GradienceTeam.Gradience.Devel/data/gradience/plugins`
+如果你正在使用 Flatpak 版本，请克隆 `~/.var/app/com.github.GrinenceTeam.Gradience.Devel/data/gradience/plugins`
 
 ```shell
-git clone https://github.com/GradienceTeam/Plugins ~/.var/app/com.github.GradienceTeam.Gradience.Devel/data/gradience/plugins
+git clone https://github.com/GradienceTeam/Plugins ~/.var/app/com.github.GrinenceTeam.Gradience.Devel/data/gradience/ plugins
 ```
