@@ -8,9 +8,11 @@ sidebar_position: 1
 
 ### اللهب
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="تحميل على Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
+:::caution
+
+غير متوفر بعد
+
+:::
 
 ```shell
 flatpak install com.github. GradienceTeam.
@@ -30,61 +32,7 @@ flatpak install com.github. GradienceTeam.
 
 بدلاً من ذلك، افتح المشروع مع GNOME Builder، ثم قم ببناءه وتشغيله.
 
-## البناء والتثبيت
-
-يمكن تثبيت الاشعاع باستخدام طرق متعددة.
-
-- فلاثوب (مستحسن)
-- كحزمة RPM
-- كحزمة DEB (غير متوفرة بعد)
-- من UR
-
-### فلاتباك
-
-الإشعاع متاح على Flathub. يمكنك تثبيته باستخدام الأمر التالي:
-
-```bash
-تثبيت flathub com.github.GradienceTeam.Gradience
-```
-
-### كوبر
-
-الغرانيس متاح على COPR. يمكنك تثبيته باستخدام الأمر التالي:
-
-```bash
-dnf copr تمكين lyessaadi/gradience
-dnf install gradience
-```
-
-### ديبيان (ومشتقات)
-
-غير متوفر بعد. إذا أردت، قم بتقديم PR.
-
-### آر
-
-الإشعاع متاح على AUR. يمكنك تثبيته باستخدام الأمر التالي:
-
-```bash
-yay -S درجة الجلد # أو الدرجة-git
-```
-
-### بناء من المصدر
-
-#### المتطلبات
-
-- Python 3 `python`
-- PyGObject `python-gobject`
-- مخطط [`معجم المخطط`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
-- GTK4 `gtk4`
-- libadwaita (>= 1.2.alpha) `libadwaita`
-- Meson `meson`
-- نينجا `نينجا بناء`
-
-تثبيت مكتبات بايثون المطلوبة:
-
-```sh
-تثبيت pip -r requirements.txt
-```
+## من المصدر
 
 ### التثبيت العالمي
 
@@ -95,15 +43,15 @@ meson builddir --prefix=/usr/Local
 sudo ninja -C builddir
 ```
 
-### البناء المحلي (لأغراض الاختبار والتنمية)
+### التركيب المحلي (لأغراض الاختبار والتطوير)
 
 ```sh
 استنساخ git https://github.com/GradienceTeam/Gradience. إنه
 cd Gradience
-بناء شبكة
-تكوين ميكر-Dprefix="$(pwd)/builddir"
-بناء نينجا - سي مثبت
-نينجا - سي
+بنائًا لشبكة
+تكوين بناء ميكر-Dprefix="$(pwd)/builddir/testdir"
+تثبيت مبني نينجا - سي
+تشغيل مبني نينجا - سي
 ```
 
 ::note
