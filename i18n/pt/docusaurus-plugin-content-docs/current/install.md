@@ -9,11 +9,11 @@ sidebar_position: 1
 ### Flathub
 
 <a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+    <img width="200" alt="Baixar no Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
 </a>
 
 ```shell
-flatpak install com.github. GradienceTeam.
+flatpak install com.github.GradienceTeam.Gradience
 ```
 
 ### De ações do Github
@@ -25,62 +25,62 @@ Vá na página de fluxo de trabalho [`flatpak.yml`](https://github.com/Gradience
 1. Abrir terminal
 2. Execute `git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience`
 3. Adicione o `gnome-noturno` Repositório do Flatpak `flatpak remote-add --if-not-exists gnome-nightly https://nightly.gnome.org/gnome-nightly.flatpakrepo`
-4. Install the `master` version of GNOME SDK: `flatpak install org.gnome. Sdk/x86_64/master org.gnome. Platform/x86_64/master`
-5. Run `flatpak-builder --install --user --force-clean repo/ com.github. GradienceTeam. Gradience.json`
+4. Instale a versão `master` do GNOME SDK: `flatpak install org.gnome.Sdk/x86_64/master org.gnome.Platform/x86_64/master`
+5. Execute `flatpak-builder --install --user --force-clean repo/ com.github.GradienceTeam.Gradience.json`
 
 Alternativamente, abra o projeto com o GNOME Builder, depois construa e execute-o.
 
-## Building and Installing
+## Construindo e instalando
 
-Gradience can be installed using multiple methods.
+Gradiência pode ser instalada usando vários métodos.
 
-- Flathub (Recommended)
-- As RPM package
-- As DEB package (not available yet)
-- From AUR
+- Flathub (recomendado)
+- Como pacote RPM
+- Como pacote DEB (ainda não disponível)
+- Do AUR
 
 ### Frágil
 
-Gradience is available on Flathub. You can install it using the following command:
+Gradiência está disponível no Flathub. Você pode instalá-lo usando o seguinte comando:
 
 ```bash
 flatpak install flathub com.github.GradienceTeam.Gradience
 ```
 
-### COPR
+### COP
 
-Gradience is available on COPR. You can install it using the following command:
+A gradiência está disponível no COPR. Você pode instalá-lo usando o seguinte comando:
 
 ```bash
-dnf copr enable lyessaadi/gradience
+dnf copr ativa o lyessaadi/gradience
 dnf install gradience
 ```
 
-### Debian (And derivates)
+### Debiano (e derivados)
 
-Not available yet. If you want, submit a PR.
+Não disponível ainda. Se você quiser, submeta uma PR.
 
-### AUR
+### JUVA
 
-Gradience is available on AUR. You can install it using the following command:
+A gradiência está disponível no AUR. Você pode instalá-lo usando o seguinte comando:
 
 ```bash
-yay -S gradience # or gradience-git
+gradiência yay -S # ou gradiência-git
 ```
 
-### Building from source
+### Construindo da fonte
 
-#### Requirements
+#### Requisitos
 
 - Python 3 `python`
 - PyGObject `python-gobject`
-- Blueprint [`blueprint-compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
+- Planta [`blueprint-compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
 - GTK4 `gtk4`
 - libadwaita (>= 1.2.alpha) `libadwaita`
 - Meson `meson`
 - Ninja `ninja-build`
 
-Install required Python libraries:
+Instalar bibliotecas Python necessárias:
 
 ```sh
 pip install -r requirements.txt
@@ -95,14 +95,14 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Local build (for testing and development purposes)
+### Versão local (para fins de teste e desenvolvimento)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
+clone https://github.com/GradienceTeam/Gradience. it
 cd Gradience
 meson builddir
 meson configure builddir -Dprefix="$(pwd)/builddir"
-ninja -C builddir install
+ninja -C builddir instalar
 ninja -C builddir run
 ```
 
