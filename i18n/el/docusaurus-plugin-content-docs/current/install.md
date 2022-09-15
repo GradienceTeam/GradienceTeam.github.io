@@ -8,9 +8,11 @@ sidebar_position: 1
 
 ### Flathub
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Λήψη στο Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
+::Προσοχή
+
+Μη διαθέσιμο ακόμα
+
+:::
 
 ```shell
 flatpak install com.github.GradienceTeam.Gradience
@@ -30,61 +32,7 @@ flatpak install com.github.GradienceTeam.Gradience
 
 Εναλλακτικά, ανοίξτε το έργο με GNOME Builder, στη συνέχεια χτίστε και εκτελέστε το.
 
-## Οικοδόμηση και Εγκατάσταση
-
-Η διαβάθμιση μπορεί να εγκατασταθεί με πολλαπλές μεθόδους.
-
-- Flathub (συνιστάται)
-- Ως πακέτο RPM
-- Ως DEB πακέτο (δεν είναι ακόμα διαθέσιμο)
-- Από Το AUR
-
-### Flatpak
-
-Η διαβάθμιση είναι διαθέσιμη στο Flathub. Μπορείτε να το εγκαταστήσετε χρησιμοποιώντας την ακόλουθη εντολή:
-
-```bash
-flatpak εγκατάσταση flathub com.github.GradienceTeam.Gradience
-```
-
-### COPR
-
-Η ακτινοβολία είναι διαθέσιμη στο COPR. Μπορείτε να το εγκαταστήσετε χρησιμοποιώντας την ακόλουθη εντολή:
-
-```bash
-dnf copr επιτρέπει lyessaadi/gradience
-dnf εγκατάσταση διαβάθμισης
-```
-
-### Debian (Και παράγωγα)
-
-Μη διαθέσιμο ακόμα. Αν θέλετε, υποβάλετε ένα PR.
-
-### AUR
-
-Η διαβάθμιση είναι διαθέσιμη στην AUR. Μπορείτε να το εγκαταστήσετε χρησιμοποιώντας την ακόλουθη εντολή:
-
-```bash
-yay -S διαβάθμιση # ή διαβάθμιση-git
-```
-
-### Κτίριο από την πηγή
-
-#### Απαιτήσεις
-
-- Python 3 `python`
-- PyGObject `python-gobject`
-- Σχεδιάγραμμα [`σχεδιαγράμμα-μεταγλωττιστής`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
-- GTK4 `gtk4`
-- libadwaita (>= 1.2.alpha) `libadwaita`
-- Meson `meson`
-- Ninja `ninja-build`
-
-Απαιτείται εγκατάσταση βιβλιοθηκών Python:
-
-```sh
-pip install -r requirements.txt
-```
+## Από την πηγή
 
 ### Καθολική εγκατάσταση
 
@@ -95,15 +43,15 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Τοπική κατασκευή (για σκοπούς δοκιμής και ανάπτυξης)
+### Τοπική εγκατάσταση (για σκοπούς δοκιμής και ανάπτυξης)
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience.
 cd Gradience
 meson builddir
-meson configure builddir -Dprefix="$(pwd)/builddir"
-ninja -C builddir install
-ninja -C builddir run
+meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
+το ninja -C builddir εγκαθιστά
+ninja -C builddir τρέξει
 ```
 
 :::note
