@@ -8,11 +8,9 @@ sidebar_position: 1
 
 ### Flathu
 
-:::caution
-
-Noch nicht verfügbar
-
-:::
+<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Auf Flathub herunterladen" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
 
 ```shell
 flatpak Installation com.github.GradienceTeam.Gradience
@@ -32,7 +30,61 @@ Gehen Sie auf die [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/act
 
 Alternativ können Sie das Projekt mit dem GNOME-Builder öffnen und dann erstellen und ausführen.
 
-## Von Quelle
+## Bauen und Installieren
+
+Gradience kann mit mehreren Methoden installiert werden.
+
+- Flathub (empfohlen)
+- Als RPM-Paket
+- Als DEB-Paket (noch nicht verfügbar)
+- Von AUR
+
+### Flatpak
+
+Gradience ist auf Flathub. Sie können es mit dem folgenden Befehl installieren:
+
+```bash
+flatpak Installation flathub com.github.GradienceTeam.Gradience
+```
+
+### COPR
+
+Gradience ist auf COPR verfügbar. Sie können es mit dem folgenden Befehl installieren:
+
+```bash
+dnf copr aktivieren lyessaadi/gradience
+dnf install gradience
+```
+
+### Debian (Und Derivate)
+
+Noch nicht verfügbar. Wenn Sie möchten, senden Sie eine PR.
+
+### AUR
+
+Gradience ist auf AUR verfügbar. Sie können es mit dem folgenden Befehl installieren:
+
+```bash
+yay -S Gradienz # oder Gradience-Git
+```
+
+### Aus Quelle bauen
+
+#### Anforderungen
+
+- Python 3 `python`
+- PyGObject `python-gobject`
+- Blaupause [`Blaupausen-Compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
+- GTK4 `gtk4`
+- libadwaita (>= 1.2.alpha) `libadwaita`
+- Meson `meson`
+- Ninja `ninja-build`
+
+Benötigte Python-Bibliotheken installieren:
+
+```sh
+pip install -r requirements.txt
+```
 
 ### Globale Installation
 
@@ -43,10 +95,15 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Lokale Installation (für Testzwecke und Entwicklung)
+### Lokales Build (für Testzwecke und Entwicklungszwecke)
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git && cd Gradience ausfhren
+git clone https://github.com/GradienceTeam/Gradience.
+cd Gradience
+meson builddir
+meson configure builddir -Dprefix="$(pwd)/builddir"
+ninja -C builddir installieren
+ninja -C builddir laufen
 ```
 
 :::note
