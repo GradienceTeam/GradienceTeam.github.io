@@ -16,13 +16,13 @@
 - [ ] Tilføj udgivelsesnoternes første sektions indhold til AppData.
 - [ ] Opret en ny gren til udgivelsen, hvor navnet er udgivelsesnummeret og fryse ny funktion, kun flette i fejlrettelser og oversættelsesopdateringer.
 - [ ] Opret en flathub test build (ved at oprette en pull request i flathub repo, bumping release tag i det, og beder Flathub buildbot til at bygge det).
-- [ ] Bed bidragydere om at teste bygningen. Any identified bug should halt the update until fixed.
+- [ ] Bed bidragydere om at teste bygningen. Enhver identificeret fejl bør standse opdateringen indtil rettet.
 
-## Doing the release
+## Gør udgivelsen
 - [ ] Tag den sidste commit i udgivelsesgrenen med versionsnummeret.
 - [ ] Opret en ny GitHub udgivelse ved hjælp af de godkendte udgivelsesnoter.
 
 ## Efter frigivelse
 - [ ] Opgrader flathub-pakken ved at bumpe udgivelsestagget.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Underret pakkere.
+- [ ] Skriv en TWIG meddelelse.
