@@ -1,10 +1,10 @@
-# Übersicht
+# Plugins
 
 Plugins sind ein einfacher Weg um den Farbverlauf zu erweitern, jeder kann Plugins erstellen, um alles mit Farben aus dem Farbverlauf anzupassen
 
 :::caution
 
-Nur verfügbar seit 0.3.0 (installieren Sie vom Quellcode oder vom CI, wenn Sie diese Version nicht verwenden)
+Nur verfügbare sinc 0.3.0 (installieren Sie vom Quellcode oder vom CI, wenn Sie diese Version nicht verwenden)
 
 :::
 
