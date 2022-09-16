@@ -16,13 +16,13 @@
 - [] Adaugă conținutul primei secțiuni a notelor de lansare în AppData.
 - [] Creați o sucursală nouă pentru lansare cu numele fiind numărul de lansare și înghețați noua caracteristică, îmbinați numai în bug fix și traduceri actualizări.
 - [] Creați un test flathub (creând o cerere pull în repo-ul flathub, lovește eticheta de lansare și cere buildbotului lui Flathub, să-l construiască).
-- [] Cereți contribuitorilor să testeze construcția. Any identified bug should halt the update until fixed.
+- [] Cereți contribuitorilor să testeze construcția. Orice eroare identificată ar trebui să oprească actualizarea până la remediere.
 
-## Doing the release
+## Realizarea lansării
 - [] Eticheta este ultima comitere în sucursala de lansare cu numărul versiunii.
 - [] Creați o nouă versiune GitHub utilizând notele de lansare aprobate.
 
 ## După lansare
 - [ ] Modernizaţi pachetul flatub prin lovirea etichetei de eliberare.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [] Notifică ambalatoarele.
+- [] Scrieți un anunț TWIG.
