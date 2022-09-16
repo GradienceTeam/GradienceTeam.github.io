@@ -16,13 +16,13 @@
 - [ ] Lisää julkaisun muistiinpanojen ensimmäisen osan sisältö AppDataan.
 - [ ] Luo julkaisulle uusi haara, jonka nimi on julkaisunumero ja jäädytä uusi ominaisuus, vain yhdistää virhekorjauksia ja käännöspäivityksiä.
 - [ ] Luo flathub testi rakentaa (luomalla pull-pyyntö flathub repo, bumping the release tag in it, ja pyydä Flathubin buildbot rakentamaan sen).
-- [ ] Pyydä osallistujia testaamaan rakennusta. Any identified bug should halt the update until fixed.
+- [ ] Pyydä osallistujia testaamaan rakennusta. Mikä tahansa tunnistettu vika pitäisi pysäyttää kunnes vahvistettu.
 
-## Doing the release
+## Vapautuksen tekeminen
 - [ ] Tag the last test commit in the release branch with the versionumero.
 - [ ] Luo uusi GitHub-julkaisu käyttäen hyväksyttyjä julkaisumerkintöjä.
 
 ## Vapauttamisen jälkeen
 - [ ] Päivitä flathub paketti napauttamalla julkaisutagi.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Ilmoita pakkaajille.
+- [ ] Kirjoita TWIG:n ilmoitus.
