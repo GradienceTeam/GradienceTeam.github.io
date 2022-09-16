@@ -16,13 +16,13 @@
 - [ ] Fügen Sie den Inhalt des ersten Abschnitts der Release-Notizen zu den AppData hinzu.
 - [ ] Erstelle einen neuen Zweig für die Veröffentlichung mit der Release-Nummer und friere neue Funktion ein, nur in Fehlerbehebungen und Übersetzungsaktualisierungen zusammenführen.
 - [ ] Erstellen Sie einen flathub test build (indem Sie einen Pull-Request im flathub repo erstellen Den Release-Tag darin bumpen und Flathubs Buildbot auffordern, ihn zu erstellen).
-- [ ] Bittet Mitwirkende, die Build zu testen. Any identified bug should halt the update until fixed.
+- [ ] Bittet Mitwirkende, die Build zu testen. Jeder erkannte Fehler sollte das Update bis zum Beheben stoppen.
 
-## Doing the release
+## Das Release wird durchgeführt
 - [ ] Markiere den letzten Commit im Release-Zweig mit der Versionsnummer.
 - [ ] Erstellen Sie ein neues GitHub Release mit den genehmigten Release-Notizen.
 
 ## Nach der Freigabe
 - [ ] Aktualisieren Sie das flathub-Paket, indem Sie den Release-Tag anstoßen.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Pakete benachrichtigen.
+- [ ] Schreiben Sie eine TWIG Ankündigung.
