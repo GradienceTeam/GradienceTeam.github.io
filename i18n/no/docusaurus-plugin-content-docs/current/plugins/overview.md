@@ -1,10 +1,10 @@
-# Utvidelser
+# Oversikt
 
 Plugins er en enkel måte å forlenge stråling, alle kan lage plugins for å tilpasse alt med farger fra grafen
 
 :::caution
 
-Kun tilgjengelig sync 0.3.0 (installer fra kilde eller fra CI hvis du ikke bruker denne versjonen)
+Kun tilgjengelig siden 0.3.0 (installer fra kilde eller fra CI hvis du ikke bruker denne versjonen)
 
 :::
 
