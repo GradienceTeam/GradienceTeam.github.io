@@ -2,27 +2,27 @@
 
 ## Antes de uma versão
 
-### A week before release
-- [ ] Announce the upcoming release by creating a new issue one week before the release.
-- [ ] Ask translators to translate new strings.
-- [ ] In the issue, prepare release notes :
-  - [ ] The first section would be a summary of big changes.
-  - [ ] The second section should list new dependencies, including python dependencies, and the reason they were added.
-  - [ ] The third section would be the list of contributions.
+### Uma semana antes do lançamento
+- [ ] Anuncie a próxima versão criando uma nova issue uma semana antes da lançamento.
+- [ ] Peça aos tradutores para traduzir novas frases.
+- [ ] Na questão, prepare notas de lançamento:
+  - [ ] A primeira seção seria um resumo de grandes alterações.
+  - [ ] A segunda seção deve listar novas dependências, incluindo dependências python, e o motivo pelo qual elas foram adicionadas.
+  - [ ] A terceira seção seria a lista de contribuições.
 
-### 3 days before release
-- [ ] Sign off on the release notes (or at least the first section).
-- [ ] Update the meson version number.
-- [ ] Add the release notes' first section's content to the AppData.
-- [ ] Create a new branch for the release with the name being the release number and freeze new feature, only merge in bug fixes and translation updates.
-- [ ] Create a flathub test build (by creating a pull request in the flathub repo, bumping the release tag in it, and asking Flathub's buildbot to build it).
-- [ ] Ask contributors to test the build. Any identified bug should halt the update until fixed.
+### 3 dias antes da liberação
+- [ ] Desative as notas de lançamento (ou pelo menos a primeira seção).
+- [ ] Atualize o número da versão de versão.
+- [ ] Adiciona o conteúdo da primeira seção das notas de lançamento para os Dados dos Apps.
+- [ ] Crie um novo branch para o lançamento com o nome de ser o número de lançamento e congelar novo recurso, fundir apenas em correções de bugs e atualizações de tradução.
+- [ ] Crie uma compilação de teste de flathub (criando uma pull request no repositório do flathub, bater a tag do release nele e pedir para o buildbot do Flathub).
+- [ ] Pedir aos colaboradores para testar a compilação. Any identified bug should halt the update until fixed.
 
 ## Doing the release
-- [ ] Tag the lastest commit in the release branch with the version number.
-- [ ] Create a new GitHub release using the approved release notes.
+- [ ] Marcar o último commit do release branch com o número da versão.
+- [ ] Criar uma nova versão do GitHub usando as notas de lançamento aprovadas.
 
 ## Depois do lançamento
-- [ ] Upgrade the flathub package by bumping the release tag.
+- [ ] Atualize o pacote do flathub subindo a tag de liberação.
 - [ ] Notify packagers.
 - [ ] Write a TWIG announcement.
