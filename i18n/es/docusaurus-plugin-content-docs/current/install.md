@@ -8,11 +8,9 @@ sidebar_position: 1
 
 ### Almacén
 
-:::precaución
-
-No disponible aún
-
-:::
+<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Descargar en Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
 
 ```shell
 flatpak instalar com.github.GradienceTeam.Gradience
@@ -32,7 +30,61 @@ Go on the [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/wor
 
 También puede abrir el proyecto con GNOME Builder, luego construirlo y ejecutarlo.
 
-## Desde la fuente
+## Construyendo e instalando
+
+Gradience se puede instalar utilizando múltiples métodos.
+
+- Flathub (Recomendado)
+- Como paquete RPM
+- Como paquete DEB (no disponible todavía)
+- Desde AUR
+
+### Paco
+
+Gradience está disponible en Flathub. Puedes instalarlo usando el siguiente comando:
+
+```bash
+flatpak instalar flathub com.github.GradienceTeam.Gradience
+```
+
+### COPR
+
+Gradience está disponible en COPR. Puedes instalarlo usando el siguiente comando:
+
+```bash
+dnf copr habilita lyessaadi/gradience
+gradience de instalación dnf
+```
+
+### Debian (Y derivados)
+
+No disponible todavía. Si lo desea, envíe un PR.
+
+### AUR
+
+Gradience está disponible en AUR. Puedes instalarlo usando el siguiente comando:
+
+```bash
+yay -S gradience # o gradience-git
+```
+
+### Construyendo desde fuente
+
+#### Requisitos
+
+- Python 3 `python`
+- PyGObject `python-gobject`
+- Plano [`compilador de planos`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
+- GTK4 `gtk4`
+- libadwaita (>= 1.2.alpha) `libadwaita`
+- Meson `meson`
+- Ninja `ninja-build`
+
+Instalar librerías Python necesarias:
+
+```sh
+pip install -r requirements.txt
+```
 
 ### Instalación global
 
@@ -43,13 +95,13 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Instalación local (para pruebas y desarrollo)
+### Construcción local (para pruebas y desarrollo)
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience. it
 cd Gradience
 meson builddir
-configure builddir -Dprefix="$(pwd)/builddir/testdir"
+configure builddir -Dprefix="$(pwd)/builddir"
 ninja -C builddir install
 ninja -C builddir run
 ```
