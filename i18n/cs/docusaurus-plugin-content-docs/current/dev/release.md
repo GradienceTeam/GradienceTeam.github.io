@@ -16,13 +16,13 @@
 - [ ] Přidejte do AppData obsah první sekce poznámky k verzi.
 - [ ] Vytvořte novou větev pro vydání s názvem číslo vydání a zmrazte novou funkci, sloučit pouze do oprav chyb a aktualizací překladu.
 - [ ] Vytvořte kompilaci flathub test (vytvořením požadavku na natažení v repozitáři flathub, vyhodil do něj uvolňovací značku a zeptal se Flathubova buildbot na jeho stavbu).
-- [ ] Požádejte přispěvatele, aby vyzkoušeli sestavení. Any identified bug should halt the update until fixed.
+- [ ] Požádejte přispěvatele, aby vyzkoušeli sestavení. Jakákoli zjištěná chyba by měla aktualizaci zastavit, dokud nebude opravena.
 
-## Doing the release
+## Probíhá vydání
 - [ ] Označte poslední commit v release větvi s číslem verze.
 - [ ] Vytvořte nové vydání GitHub pomocí schválených poznámek k vydání.
 
 ## Po vydání
 - [ ] Vylepšete balík flathub vytažením nové značky.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Upozornit na balíky.
+- [ ] Napište TWIG oznámení.
