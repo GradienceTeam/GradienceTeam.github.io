@@ -1,10 +1,10 @@
-# Geral
+# Complementos
 
 Plugins são uma maneira simples de estender a Gradiência, cada um pode criar plugins para personalizar tudo com cores desde a Gradiência
 
 :::cautela
 
-Disponível somente desde o 0.3.0 (instalar da fonte ou do CI se você não estiver usando esta versão)
+Somente disponível sinc 0.3.0 (instalar da fonte ou do CI se você não estiver usando esta versão)
 
 :::
 
