@@ -16,13 +16,13 @@
 - [ ] Ajouter le contenu de la première section des notes de publication à l'AppData.
 - [ ] Créer une nouvelle branche pour la version dont le nom est le numéro de version et geler la nouvelle fonctionnalité, fusionner uniquement les corrections de bugs et les mises à jour de traduction.
 - [ ] Crée une construction de test flathub (en créant une pull request dans le dépôt flathub, bumping the release tag in it, and asking Flathub buildbot to build it).
-- [ ] Demandez aux contributeurs de tester la compilation. Any identified bug should halt the update until fixed.
+- [ ] Demandez aux contributeurs de tester la compilation. Tout bogue identifié devrait arrêter la mise à jour jusqu'à ce qu'elle soit corrigée.
 
-## Doing the release
+## Faire la libération
 - [ ] Étiquetez le dernier commit de la branche release avec le numéro de version.
 - [ ] Créer une nouvelle version GitHub en utilisant les notes de version approuvées.
 
 ## Après la publication
 - [ ] Améliorez le paquet flathub en bumpant la balise release.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Notifier les paquets.
+- [ ] Écrire une annonce TWIG.
