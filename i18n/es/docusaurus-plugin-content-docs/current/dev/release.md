@@ -16,13 +16,13 @@
 - [ ] Añadir el contenido de la primera sección de las notas de la versión a la AppData.
 - [ ] Crear una nueva rama para el lanzamiento con el nombre siendo el número de lanzamiento y congelar nueva característica, sólo combinar en correcciones de errores y actualizaciones de traducción.
 - [ ] Crear una versión de prueba de flathub (creando una pull request en el repositorio de flathub) haciendo bumping a la etiqueta de lanzamiento, y pidiéndole a FlaHub buildbot que la construya).
-- [ ] Pedir a los colaboradores que prueben la compilación. Any identified bug should halt the update until fixed.
+- [ ] Pedir a los colaboradores que prueben la compilación. Cualquier error identificado debería detener la actualización hasta que se corrija.
 
-## Doing the release
+## Haciendo la versión
 - [ ] Etiqueta el último commit en la rama de lanzamiento con el número de versión.
 - [ ] Crear una nueva versión de GitHub usando las notas de publicación aprobadas.
 
 ## Después de la versión
 - [ ] Actualice el paquete flathub golpeando la etiqueta de liberación.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Notificar a los empaquetadores.
+- [ ] Escriba un anuncio de DWIG.
