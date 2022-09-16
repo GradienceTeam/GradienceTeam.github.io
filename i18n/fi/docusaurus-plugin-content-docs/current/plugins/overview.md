@@ -1,10 +1,10 @@
-# Liitännäiset
+# Yleiskatsaus
 
 Liitännäiset ovat yksinkertainen tapa laajentaa Gradience, jokainen voi luoda plugins muokata kaikkea värejä Gradience
 
 ::Varoitus
 
-Saatavilla vain sinc 0.3.0 (asenna lähteestä tai CI:stä, jos et käytä tätä versiota)
+Saatavilla vain 0.3.0 jälkeen (asenna lähteestä tai CI:stä, jos et käytä tätä versiota)
 
 :::
 
