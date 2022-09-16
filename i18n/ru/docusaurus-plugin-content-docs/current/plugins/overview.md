@@ -1,17 +1,17 @@
-# Плагины
+# Общий обзор
 
-Плагины - это простой способ расширения градиона, каждый может создать плагины для настройки цвета с помощью градиентов
+Плагины - это простой способ расширения Gradience, каждый может создать плагины для настройки цветов с Gradience
 
 :::осторожно
 
-Доступно только sinc 0.3.0 (установите из исходного кода или из CI, если вы не используете эту версию)
+Доступно только с 0.3.0 (установите из исходного кода или из CI, если вы не используете эту версию)
 
 :::
 
 
 ## Установка
 
-### Родной
+### Нативный
 
 Если вы используете версию Flatpak, клонируйте репозиторий плагинов в `~/.local/share/gradience/plugins`
 
@@ -22,7 +22,7 @@ git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plug
 
 ### Flatpak
 
-Если вы используете версию Flatpak, клонируйте repo плагинов в `~/.var/app/com.github.GradienceTeam.Gradience.Devel/data/gradience/plugins`
+Если вы используете версию Flatpak, клонируйте репозиторий плагинов в `~/.var/app/com.github.GradienceTeam.Gradience.Devel/data/gradience/plugins`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.var/app/com.github.GradienceTeam.Gradience.Devel/data/gradience/plugins

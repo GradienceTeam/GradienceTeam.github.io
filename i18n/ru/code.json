@@ -1,15 +1,15 @@
 {
   "Favorite": {
-    "message": "Избранное"
+    "message": "Избранные"
   },
   "showcase.tag.favorite.description": {
-    "message": "Наши любимые пресеты, которые вы должны убедиться!"
+    "message": "Наши любимые предустановки, которые вы должны попробовать!"
   },
   "GNOME": {
     "message": "GNOME"
   },
   "showcase.tag.gnome.description": {
-    "message": "GNOME - это настольная среда для Unix операционных систем."
+    "message": "GNOME - это рабочее окружение для Unix-подобных операционных систем."
   },
   "KDE": {
     "message": "KDE"
@@ -18,48 +18,48 @@
     "message": "KDE - это среда рабочего стола для Unix-подобных операционных систем."
   },
   "homepage.hero.title": {
-    "message": "Customize <b>GNOME</b> ecosystem and <b>LibAdwaita</b> with <b>ease</b>",
+    "message": "Кастомизация экосистемы <b>GNOME</b> и <b>LibAdwaita</b> с легкостью <b></b>",
     "description": "Home page hero title, can contain simple html tags"
   },
   "Get Started": {
-    "message": "Начать работу"
+    "message": "Начать"
   },
   "Explore presets": {
     "message": "Исследуйте пресеты"
   },
   "homepage.features.1": {
-    "message": "Градиенс предлагает простой способ настроить любые цвета Adwaita."
+    "message": "Gradience предлагает простой способ кастомизации любых цветов Adwaita."
   },
   "homepage.features.2": {
-    "message": "С помощью Material You, вы можете создать свой собственный пресет из фона."
+    "message": "С Gradience вы можете генерировать свои предустанови из вашего фонового изображения при помощи Material You."
   },
   "homepage.features.3": {
     "message": "Расширьте Gradience с помощью плагинов и настройте GDM, Firefox Gnome, GNOME Shell... Вы также можете создать свой собственный плагин для настройки всего, что вы хотите."
   },
   "Presets made for Gradience": {
-    "message": "Пресеты сделаны для градиента"
+    "message": "Предустановки сделанные для Gradience"
   },
   "List of presets made for Gradience by the Community": {
-    "message": "Список настроек, созданных Сообществом для градиента"
+    "message": "Список предустановок, созданных Сообществом для Gradience"
   },
   "showcase.header.button": {
-    "message": "🙏 пожалуйста, добавьте ваш пресет"
+    "message": "🙏 Пожалуйста, добавьте вашу предустановку"
   },
   "Acknowledgement": {
-    "message": "Благодарность"
+    "message": "Благодарности"
   },
   "Thanks to all the contributors who have added their presets to the list! Thanks to Docusaurus.io for the showcase": {
-    "message": "Спасибо всем участникам, которые добавили свои пресеты в список! Спасибо Docusaurus.io за витрину"
+    "message": "Спасибо всем участникам, которые добавили свои предустановки в список! Спасибо Docusaurus.io за представление"
   },
   "showcase.filters.resultCount": {
-    "message": "1 preset|{sitesCount} presets",
+    "message": "1 предустановка|{sitesCount} предустановок",
     "description": "Pluralized label for the number of presets found on the list. Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "showcase.filters.title": {
     "message": "Фильтры"
   },
   "showcase.searchBar.placeholder": {
-    "message": "Поиск имени пресета..."
+    "message": "Поиск имени предустановки..."
   },
   "showcase.usersList.noResult": {
     "message": "Нет результатов"
@@ -68,7 +68,7 @@
     "message": "Наши избранные"
   },
   "showcase.usersList.allUsers": {
-    "message": "Все пресеты"
+    "message": "Все предустановки"
   },
   "showcase.card.sourceLink": {
     "message": "источник"
