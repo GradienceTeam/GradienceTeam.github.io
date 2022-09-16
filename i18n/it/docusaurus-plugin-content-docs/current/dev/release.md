@@ -16,13 +16,13 @@
 - [ ] Aggiungere il contenuto della prima sezione delle note di rilascio all'AppData.
 - [ ] Crea un nuovo ramo per la release con il nome è il numero di rilascio e blocca la nuova funzionalità, merge solo in correzioni di bug e aggiornamenti di traduzione.
 - [ ] Crea una build di test flathub (creando una pull request nel repo flathub, urtando il tag di rilascio in esso, e chiedendo buildbot di Flathub per costruirlo).
-- [ ] Chiedi ai collaboratori di testare la generazione. Any identified bug should halt the update until fixed.
+- [ ] Chiedi ai collaboratori di testare la generazione. Qualsiasi bug identificato dovrebbe fermare l'aggiornamento fino alla riparazione.
 
-## Doing the release
+## Facendo il rilascio
 - [ ] Etichetta l'ultimo commit nel ramo di rilascio con il numero di versione.
 - [ ] Crea una nuova release GitHub utilizzando le note di rilascio approvate.
 
 ## Dopo il rilascio
 - [ ] Aggiorna il pacchetto flathub saltando il tag di rilascio.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+- [ ] Notifica gli imballatori.
+- [ ] Scrivi un annuncio TWIG.
