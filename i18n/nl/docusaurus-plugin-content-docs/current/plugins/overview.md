@@ -1,10 +1,10 @@
-# Plug-ins
+# Overzicht.
 
 Plugins zijn een eenvoudige manier om Gradience uit te breiden, iedereen kan plugins maken voor het aanpassen van alles met kleuren van Gradience
 
 :::voorzichtigheid
 
-Alleen beschikbare sinc 0.3.0 (installeer vanaf of vanaf CI als je deze versie niet hebt gebruikt)
+Alleen beschikbaar sinds 0.3.0 (installeer vanaf bron of van CI als je deze versie niet gebruikt)
 
 :::
 
