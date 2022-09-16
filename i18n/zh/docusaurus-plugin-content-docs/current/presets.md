@@ -1,11 +1,11 @@
-# 预设值
+# Presets
 
-## 发布
+## Publish
 
-如果您想要，您可以将您的预设添加到社区仓库中。 这样用户就可以使用预设管理器下载预设。
+If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
 
-1. 在 GitHub 上派生社区仓库
-2. 将您的预设添加到管理的文件夹
-3. 在 `curated.json` 中添加一条线，并链接到您的原始预设
-4. 创建一个 `v2` 分支的拉取请求，并确保您符合所有要求。
-5. 我们审查您的 PR 并尽快合并 
+1. Fork the Community repository on GitHub
+2. Add your preset in the curated folder
+3. Add a line in `curated.json` with a link to your raw preset
+4. Create a pull request against `v2` branch and be sure that you meet all requirements.
+5. We review your PR and merge it as quick as possible 
