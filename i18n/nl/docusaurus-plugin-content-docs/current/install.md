@@ -8,9 +8,11 @@ sidebar_position: 1
 
 ### Flathub
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Download op Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
+:::voorzichtigheid
+
+Nog niet beschikbaar
+
+:::
 
 ```shell
 flatpak install com.github.GradienceTeam.Gradience
@@ -30,61 +32,7 @@ Ga naar de [`flatpak.yml`](https://github.com/GradienceTeam/Gradience/actions/wo
 
 Als alternatief kan je het project openen met GNOME Bouwer, bouw het vervolgens en voer het uit.
 
-## Bouw en installeer
-
-Gradience kan worden geïnstalleerd met behulp van meerdere methoden.
-
-- Flathub (Aanbevolen)
-- Als RPM pakket
-- Als DEB pakket (nog niet beschikbaar)
-- Van AUR
-
-### Flatpak
-
-Graditie is beschikbaar op Flathub. Je kunt het installeren met behulp van de volgende opdracht:
-
-```bash
-flatpak install flathub com.github.GradienceTeam.Gradience
-```
-
-### KOPR
-
-Straling is beschikbaar op COPR. Je kunt het installeren met behulp van de volgende opdracht:
-
-```bash
-dnf copr inschakelen lyessaadie/gradience
-dnf install gradience
-```
-
-### Debian (En derivaten)
-
-Nog niet beschikbaar. Als je wilt, stuur dan een PR.
-
-### AUR
-
-Gradientie is beschikbaar op AUR. Je kunt het installeren met behulp van de volgende opdracht:
-
-```bash
-yay -S verlopen # of gradience-git
-```
-
-### Opbouwen vanuit de bron
-
-#### Vereisten
-
-- Python 3 `python`
-- PyGObject `python-gobject`
-- Blauwdruk [`blauwdruk compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
-- GTK4 `gtk4`
-- libadwaita (>= 1.2.alpha) `libadwaita`
-- Meson `meson`
-- Ninja `ninja-build`
-
-Installeren vereist Python bibliotheken:
-
-```sh
-pip installeren -r requirements.txt
-```
+## Uit bron
 
 ### Globale installatie
 
@@ -95,13 +43,13 @@ meson builddir --prefix=/usr/loc
 sudo ninja -C builddir install
 ```
 
-### Lokale bouw (voor test- en ontwikkelingsdoeleinden)
+### Lokale installatie (voor test- en ontwikkelingsdoeleinden)
 
 ```sh
 git kloon https://github.com/GradienceTeam/Gradience. it
 cd Gradience
 meson builddir
-meson configureer builddir -Dprefix="$(pwd)/builddir"
+meson configureer builddir -Dprefix="$(pwd)/builddir/testdir"
 ninja -C builddir install
 ninja -C builddir run
 ```
