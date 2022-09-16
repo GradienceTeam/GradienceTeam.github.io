@@ -1,28 +1,28 @@
-# Release process
+# 发布过程
 
-## Before a release
+## 发布前
 
-### A week before release
-- [ ] Announce the upcoming release by creating a new issue one week before the release.
-- [ ] Ask translators to translate new strings.
-- [ ] In the issue, prepare release notes :
-  - [ ] The first section would be a summary of big changes.
-  - [ ] The second section should list new dependencies, including python dependencies, and the reason they were added.
-  - [ ] The third section would be the list of contributions.
+### 发布前一周
+- [ ] 在发布前一周创建一个新的问题，以此宣布即将发布的版本。
+- [ ] 请翻译员翻译新字符串。
+- [ ] 在这个问题上，准备发布备注：
+  - [ ] 第一部分是大变动摘要。
+  - [ ] 第二部分应该列出新的依赖关系，包括python 依赖关系，以及添加它们的原因。
+  - [ ]第三部分将是捐款清单。
 
-### 3 days before release
-- [ ] Sign off on the release notes (or at least the first section).
-- [ ] Update the meson version number.
-- [ ] Add the release notes' first section's content to the AppData.
-- [ ] Create a new branch for the release with the name being the release number and freeze new feature, only merge in bug fixes and translation updates.
-- [ ] Create a flathub test build (by creating a pull request in the flathub repo, bumping the release tag in it, and asking Flathub's buildbot to build it).
-- [ ] Ask contributors to test the build. Any identified bug should halt the update until fixed.
+### 发布前3天
+- [ ] 登出发行便笺上(或至少第一部分)。
+- [ ] 更新网格版本号。
+- [ ] 将发行笔记第一部分的内容添加到 AppData。
+- [ ] 创建一个新的发行分支，其名称为发行编号并冻结新功能， 仅在 bug 修复和翻译更新中合并。
+- [ ] 创建 fluthub 测试版本(通过在 fluthub repo 中创建拉取请求, 将发布标签混入其中，并询问Flathub的构建机器人来构建它)。
+- [ ] 请贡献者测试构造。 任何发现的错误都应该停止更新直到修复。
 
-## Doing the release
-- [ ] Tag the lastest commit in the release branch with the version number.
-- [ ] Create a new GitHub release using the approved release notes.
+## 正在完成发布
+- [ ] 在版本号的发行分支中标记最后一次提交的版本。
+- [ ] 使用经批准的发行说明创建新的GitHub 版本。
 
-## After the release
-- [ ] Upgrade the flathub package by bumping the release tag.
-- [ ] Notify packagers.
-- [ ] Write a TWIG announcement.
+## 发布后
+- [ ] 通过刷新发行标签来升级 fluthub 包裹。
+- [ ] 通知包装器。
+- [ ] 写一个 TWIG 公告。
