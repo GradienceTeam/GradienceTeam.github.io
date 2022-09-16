@@ -1,4 +1,4 @@
-# Website [![Crowdin](https://badges.crowdin.net/e/080ae39bc5b01406757bdfb898ec5f39/localized.svg)](https://atrophaneura.crowdin.com/gradience)
+# Website
 
 This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
