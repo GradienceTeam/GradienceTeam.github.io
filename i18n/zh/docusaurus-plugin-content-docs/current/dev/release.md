@@ -1,6 +1,6 @@
-# Release process
+# 发布过程
 
-## Before a release
+## 发布前
 
 ### A week before release
 - [ ] Announce the upcoming release by creating a new issue one week before the release.
@@ -22,7 +22,7 @@
 - [ ] Tag the lastest commit in the release branch with the version number.
 - [ ] Create a new GitHub release using the approved release notes.
 
-## After the release
+## 发布后
 - [ ] Upgrade the flathub package by bumping the release tag.
 - [ ] Notify packagers.
 - [ ] Write a TWIG announcement.
