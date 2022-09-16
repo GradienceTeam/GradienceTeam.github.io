@@ -1,10 +1,10 @@
-# Přehled
+# Pluginy
 
 Pluginy jsou jednoduchý způsob rozšíření Gradience, každý může vytvořit pluginy pro přizpůsobení všeho barvami z Gradience
 
 :::Pozornost
 
-K dispozici pouze od 0.3.0 (instalujte ze zdroje nebo z CI pokud nepoužíváte tuto verzi)
+Pouze dostupné sinc 0.3.0 (nainstalujte ze zdroje nebo z CI pokud nepoužíváte tuto verzi)
 
 :::
 
