@@ -8,9 +8,11 @@ sidebar_position: 1
 
 ### Метхуб
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Завантажити на вертольоту" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
+:::обережність
+
+Ще не доступний
+
+:::
 
 ```shell
 установка flatpak com.github.GradienceTeam.Gradience
@@ -30,61 +32,7 @@ sidebar_position: 1
 
 Крім того, відкрийте проект з конструктором GNOME і створіть його.
 
-## Будівля та встановлення
-
-Градієнтність можна встановити за допомогою декількох методів.
-
-- Металобудівля (рекомендовано)
-- Як RPM пакет
-- Як DEB пакет (не доступний)
-- З AUR
-
-### Флатпак
-
-Градієнція доступна на Flathub. Ви можете встановити його за допомогою наступної команди:
-
-```bash
-flatpak встановлення flathub com.github.GradienceTeam.Gradience
-```
-
-### КОРАР
-
-Градієнтність доступна на COPR. Ви можете встановити його за допомогою наступної команди:
-
-```bash
-dnf copr увімкнути lyessaadi/градієнтність
-dnf install градієнт
-```
-
-### Debian (і деривати)
-
-Ще не доступно. Якщо бажаєте, подайте PR.
-
-### Дор
-
-Градієнтність доступна в AUR. Ви можете встановити його за допомогою наступної команди:
-
-```bash
-градієнція yay -S # або градієнти-git
-```
-
-### Побудова з вихідного коду
-
-#### Вимоги
-
-- Python 3 `python`
-- PyGObject `python-gobject`
-- Креслення [`компілятор`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
-- GTK4 `gtk4`
-- libadwaita (>= 1.2.alpha) `libadwaita`
-- Meson `meson`
-- Ніндзя `ніндзя`
-
-Встановити необхідні бібліотеки Python:
-
-```sh
-pip встановити -r requirements.txt
-```
+## З джерела
 
 ### Глобальна установка
 
@@ -95,15 +43,15 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Локальна збірка (для тестування та розробки)
+### Місцеве встановлення (для тестування та розробників)
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience. він
 cd Gradience
 meson builddir
-meson налаштувати builddir -Dprefix="$(pwd)/builddir"
-ninja -C builddir install
-ninja -C builddir run
+meson налаштувати builddir -Dprefix="$(pwd)/builddir/testdir/testdir"
+ninja -C builddir встановить
+ninja -C builddir
 ```
 
 ::note
