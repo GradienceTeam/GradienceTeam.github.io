@@ -262,6 +262,14 @@ const Users: User[] = [
         source: 'https://raw.githubusercontent.com/GradienceTeam/Community/v2/curated/gruvbox-light.json',
         tags: [],
     },
+    {
+        title: 'Windows 95',
+        description: '',
+        preview: require('./previews/empty.png'),
+        website: '',
+        source: 'https://raw.githubusercontent.com/GradienceTeam/Community/next/curated/windows-95.json',
+        tags: [],
+    },
     
 
 
