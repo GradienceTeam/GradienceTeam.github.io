@@ -8,11 +8,9 @@ sidebar_position: 1
 
 ### Flathub
 
-:::cautela
-
-Non ancora disponibile
-
-:::
+<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Scarica su Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
 
 ```shell
 flatpak install com.github.GradienceTeam.Gradience
@@ -32,7 +30,61 @@ Vai sulla pagina del flusso di lavoro [`flatpak.yml`](https://github.com/Gradien
 
 In alternativa, aprire il progetto con GNOME Builder, quindi generarlo ed eseguirlo.
 
-## Dalla sorgente
+## Edificio ed installazione
+
+La radiazione può essere installata con più metodi.
+
+- Flathub (raccomandato)
+- Come pacchetto RPM
+- Come pacchetto DEB (non ancora disponibile)
+- Da AUR
+
+### Flatpak
+
+La radiazione è disponibile su Flathub. È possibile installarlo utilizzando il seguente comando:
+
+```bash
+flatpak install flathub com.github.GradienceTeam.Gradience
+```
+
+### COPR
+
+La radiazione è disponibile sul COPR. È possibile installarlo utilizzando il seguente comando:
+
+```bash
+dnf copr enable lyessaadi/gradience
+dnf install gradience
+```
+
+### Debian (E derivati)
+
+Non ancora disponibile. Se vuoi, invia un PR.
+
+### AUR
+
+La radiazione è disponibile su AUR. È possibile installarlo utilizzando il seguente comando:
+
+```bash
+yay -S gradience # o gradience-git
+```
+
+### Edificio dalla sorgente
+
+#### Requisiti
+
+- Python 3 `python`
+- PyGObject `python-gobject`
+- Progetto [`blueprint-compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
+- GTK4 `gtk4`
+- libadwaita (>= 1.2.alpha) `libadwaita`
+- Meson `meson`
+- Ninja `ninja-build`
+
+Installare le librerie Python richieste:
+
+```sh
+pip install -r requirements.txt
+```
 
 ### Installazione globale
 
@@ -43,13 +95,13 @@ meson builddir --prefix=/usr/local
 sudo ninja -C builddir install
 ```
 
-### Installazione locale (per prove e sviluppo)
+### Edificio locale (per scopi di collaudo e sviluppo)
 
 ```sh
 git clone https://github.com/GradienceTeam/Gradience. it
 cd Gradience
 meson builddir
-meson configure builddir -Dprefix="$(pwd)/builddir/testdir"
+meson configure builddir -Dprefix="$(pwd)/builddir"
 ninja -C builddir install
 ninja -C builddir run
 ```
