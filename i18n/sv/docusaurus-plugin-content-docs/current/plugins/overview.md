@@ -1,10 +1,10 @@
-# Översikt
+# Tillägg
 
 Plugins är ett enkelt sätt att utöka Gradience, alla kan skapa plugins för att anpassa allt med färger från Gradience
 
 ::::försiktighet
 
-Endast tillgängligt sedan 0.3.0 (installera från källa eller från CI om du inte använder denna version)
+Endast tillgänglig sinc 0.3.0 (installera från källa eller från CI om du inte använder denna version)
 
 :::
 
