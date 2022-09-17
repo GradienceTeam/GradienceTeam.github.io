@@ -1,10 +1,10 @@
-# Przegląd
+# Wtyczki
 
 Wtyczki są prostym sposobem rozszerzenia Gradiencji, każdy może tworzyć wtyczki do dostosowywania wszystkiego kolorami z Gradience
 
 :::ostrożność
 
-Dostępne tylko od 0.3.0 (zainstaluj ze źródła lub z CI jeśli nie używasz tej wersji)
+Dostępne tylko sinc 0.3.0 (zainstaluj ze źródła lub z CI jeśli nie używasz tej wersji)
 
 :::
 
