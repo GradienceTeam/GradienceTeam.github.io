@@ -39,7 +39,7 @@ Denne filen gir fargekombinasjoner for GTK3 programtemaet, du trenger bare å ko
 Hvis du vil opprette et tema fra fargepalette, f.eks [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Gå til [stilveiledning](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Bruk disse bindingene til å velge perfekt fargevariant i [Paletter](https://github.com/catppuccin/catppuccin#-palettes), for eksempel Frappeε'
+2. Bruk disse bindingene til å velge perfekt fargevariant i [Paletter](https://github.com/catppuccin/catppuccin#-palettes), for eksempel Frappé
 3. Bruker bindinger fra [stilveiledning](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) for å lime inn riktige farger til graven
 
 #### Oppretter forhåndsinnstilling uten fargepalett

@@ -39,7 +39,7 @@ Dit bestand biedt kleurenbindingen voor de GTK3-applicatie thematiek, u hoeft al
 Als je een thema uit kleurenpalet wilt maken, bijvoorbeeld [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Ga naar [stijlgids](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Met deze bindingen selecteer je de geperferred kleurvariant in [Palettes](https://github.com/catppuccin/catppuccin#-palettes), bijvoorbeeld Frappe!
+2. Met deze bindingen selecteer je de geperferred kleurvariant in [Palettes](https://github.com/catppuccin/catppuccin#-palettes), bijvoorbeeld Frappé!
 3. Het gebruik van bindingen van [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) om goede kleuren te plakken in Gradience
 
 #### Voorinstelling maken zonder kleurenpalet

@@ -39,7 +39,7 @@ Diese Datei enthält Farbzuordnungen für GTK3-Anwendungs-Theme. Sie müssen nur
 Wenn Sie ein Theme aus einer Farbpalette erstellen möchten, zum Beispiel [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Gehe zu [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Verwenden Sie diese Bindungen, wählen Sie perferred color variant [Paletten](https://github.com/catppuccin/catppuccin#-palettes), zum Beispiel Frappe<unk>
+2. Verwenden Sie diese Bindungen, wählen Sie perferred color variant [Paletten](https://github.com/catppuccin/catppuccin#-palettes), zum Beispiel Frappé
 3. Verwende Bindungen von [Style-Guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) um korrekte Farben in den Verlauf einzufügen
 
 #### Vorlage ohne Farbpalette erstellen
