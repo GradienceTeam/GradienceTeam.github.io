@@ -1,10 +1,10 @@
-# Plugin
+# Panoramica
 
 I plugin sono un modo semplice per estendere la Gradienza, ognuno può creare plugin per personalizzare tutto con i colori della Gradienza
 
 :::cautela
 
-Sinc 0.3.0 disponibile solo (installa da sorgente o da CI se non stai usando questa versione)
+Disponibile solo da 0.3.0 (installare da sorgente o da CI se non si utilizza questa versione)
 
 :::
 
