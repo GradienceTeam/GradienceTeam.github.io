@@ -1,70 +1,70 @@
-# 预设值
+# Presets
 
-这项指示将指导渐变预设的过程。
+This instruction will guide in process of creation of preset for Gradience.
 
-## 工具
+## Tools
 
-要创建渐变预设，您需要以下工具：
+For creating presets for Gradience you will need following tools:
 
 - [Contrast](https://flathub.org/apps/details/org.gnome.design.Contrast)
-- [色板](https://flathub.org/apps/details/org.gnome.design.Palette)
-- [颜色选择器](https://extensions.gnome.org/extension/3396/color-picker) 或 [Eyedroper](https://github.com/FineFindus/eyedropper)
+- [Color Palette](https://flathub.org/apps/details/org.gnome.design.Palette)
+- [Color Picker](https://extensions.gnome.org/extension/3396/color-picker) or [Eyedropper](https://github.com/FineFindus/eyedropper)
 
-这是舒适主题创建的基本工具。
+This is basic set of tools for comfortable theme creation.
 
-## 创建
+## Create
 
-首先，您是想通过移植现有主题或从色板创建一个预设？
+First, is your want to make preset by porting existing theme or creating one from color palette?
 
-#### 移植现有主题
+#### Porting existing theme
 
-如果主题有 GTK4 变量，例如 [Gruvbox GTK 主题](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)。
+If theme have GTK4 variant, for example [Gruvbox GTK Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme).
 
-1. 复制主题： `git clone https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git`
-2. 在 `Gruvbox-GTK-主题` 中 `主题/Gnome42`
+1. Clone the theme: `git clone https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git`
+2. In `Gruvbox-GTK-Theme` go in `themes/Gnome42`
 3. Open `Gruvbox-Dark-B.css`
 
-此文件为 Libadwaita 应用程序主题提供颜色绑定，您只需要复制粘贴颜色值到 Gradience, 例如，复制颜色值从 `@define-color window_bg_color #1d2021` 到 "Window 颜色" 部分 在 `Gruvbox-Dark-B中对每一种可用于航空的颜色做这个操作。 ss`.
+This file provides color-bindings for Libadwaita application theming, you only need to copy-paste color values to Gradience, for example copy color value from `@define-color window_bg_color #1d2021` to the "Window Colors" section, do this for every color avialable in `Gruvbox-Dark-B.css`.
 
-如果主题没有 GTK4 变量，例如 [Gruvbox GTK 主题](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme)。
+If theme don't have GTK4 variant, for example [Gruvbox GTK Theme](https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme).
 
-1. 复制主题： `git clone https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git`
-2. 在 `Gruvbox-GTK-主题` 中用 `主题/Gruvbox-Dark-B/gtk-3.0`
+1. Clone the theme: `git clone https://github.com/Fausto-Korpsvart/Gruvbox-GTK-Theme.git`
+2. In `Gruvbox-GTK-Theme` go in `themes/Gruvbox-Dark-B/gtk-3.0`
 3. Open `gtk-dark.css`
 
-此文件为 GTK3 应用程序主题提供颜色绑定，您只需要复制粘贴颜色值到 Grandence, 例如，复制颜色值从 `@define-color theme_base_color #1d2021` 到 "Window 颜色" 部分 在 `gtk-dark 中对每个可使用的颜色做这个操作。 ss`.
+This file provides color-bindings for GTK3 application theming, you only need to copy-paste color values to Gradience, for example copy color value from `@define-color theme_base_color #1d2021` to the "Window Colors" section, do this for every color avialable in `gtk-dark.css`.
 
-#### 从色板创建预设
+#### Creating preset from color palette
 
-如果您想要从色板创建一个主题，例如 [Catppuccin](https://github.com/catppuccin/catppuccin)。
+If you want to create a theme from color palette, for example [Catppuccin](https://github.com/catppuccin/catppuccin).
 
-1. 转到 [风格指南](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. 使用这些绑定, 在 [调色板](https://github.com/catppuccin/catppuccin#-palettes)中选择完美的颜色变量, 例如Frappeconnectation
-3. 使用 [风格指南](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) 的绑定将适当的颜色粘贴到渐变
+1. Go to [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
+2. Using those bindings, select perferred color variant in [Palettes](https://github.com/catppuccin/catppuccin#-palettes), for example Frappé
+3. Using bindings from [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) to paste proper colors to Gradience
 
-#### 创建不带色板的预设
+#### Creating preset without color palette
 
-如果没有色板或在主题文件中很难找到颜色，唯一的选项是从它中选择颜色
+If there is no color palette or it's hard to find in theme files the only option is to pick colors from it
 
-1. 应用主题或打开屏幕截图
-2. 启动 [颜色选择器](https://extensions.gnome.org/extension/3396/color-picker) 或 [Eyedroper](https://github.com/FineFindus/eyedropper)
-3. 选择所需的颜色 (使用 `alt + super + 8` 缩放，使用 `alt + super` `+` 或 `-` 缩放)
-4. 将选中的颜色粘贴到渐变
+1. Apply theme or open a screenshot
+2. Launch [Color Picker](https://extensions.gnome.org/extension/3396/color-picker) or [Eyedropper](https://github.com/FineFindus/eyedropper)
+3. Pick needed color (zoom in using `alt + super + 8` and zoom in/out using `alt + super` `+` or `-`)
+4. Paste picked color to Gradience
 
-#### 验证预设质量
+#### Verify preset quality
 
-为了提交预设，您需要检查以下事项：
+In order to submit your preset you need to check following things:
 
-- 使用 [对比性](https://flathub.org/apps/details/org.gnome.design.Contrast) 来检查是否使用 [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag) 来关注颜色(使用 `alt + super + 8` 并使用 `alt + super` `+` 或 `-` 来缩放)
-- 在 10/15° 时旋转您的显示屏幕并检查文本是否仍可读
-- 看看你自己预设的问问吧？
+- Check colors contarst to follow [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag) using [Contrast](https://flathub.org/apps/details/org.gnome.design.Contrast) (zoom in using `alt + super + 8` and zoom in/out using `alt + super` `+` or `-`)
+- Rotate your display up/down at 10/15° to check if text still readable
+- See at you preset an ask yourself, is it pretty?
 
-## 发布
+## Publish
 
-如果您想要，您可以将您的预设添加到社区仓库中。 这样用户就可以使用预设管理器下载预设。
+If you want, you can add your preset to the community repo. By doing that, users can download your preset using the preset manager.
 
-1. 在 GitHub 上派生社区仓库
-2. 将您的预设添加到管理的文件夹
-3. 在 `curated.json` 中添加一条线，并链接到您的原始预设
-4. 创建一个 `v2` 分支的拉取请求，并确保您符合所有要求。
-5. 设计团队将审查您的 PR 并合并如果它遵循指南，如果没有，我们将要求您调整特定的部分
+1. Fork the Community repository on GitHub
+2. Add your preset in the curated folder
+3. Add a line in `curated.json` with a link to your raw preset
+4. Create a pull request against `v2` branch and be sure that you meet all requirements.
+5. Design Team will review your PR and merge it if it follows guides, if not, we will ask you to tweak specific parts
