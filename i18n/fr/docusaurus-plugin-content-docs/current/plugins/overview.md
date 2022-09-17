@@ -1,10 +1,10 @@
-# Plugins
+# Aperçu
 
 Les plugins sont un moyen simple d'étendre Gradience, chacun peut créer des plugins pour personnaliser tout avec les couleurs de Gradience
 
 :::prudence
 
-Uniquement disponible sinc 0.3.0 (installer à partir de la source ou à partir de CI si vous n'utilisez pas cette version)
+Uniquement disponible depuis la 0.3.0 (installer depuis la source ou depuis le CI si vous n'utilisez pas cette version)
 
 :::
 
