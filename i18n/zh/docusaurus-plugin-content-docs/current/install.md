@@ -8,10 +8,6 @@ sidebar_position: 1
 
 ### 拉休布文
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="在 Flathub 上下载" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
-
 ```shell
 flatpak 安装 com.github.GradienceTeam.Gradience
 ```
