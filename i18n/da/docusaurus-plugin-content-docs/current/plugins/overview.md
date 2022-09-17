@@ -1,10 +1,10 @@
-# Oversigt
+# Plugins
 
 Plugins er en enkel måde at udvide Gradience, hver enkelt kan skabe plugins til at tilpasse alt med farver fra Gradience
 
 :::caution
 
-Kun tilgængelig siden 0.3.0 (installer fra kilde eller fra CI, hvis du ikke bruger denne version)
+Kun tilgængelig sinc 0.3.0 (installer fra kilde eller fra CI, hvis du ikke bruger denne version)
 
 :::
 
