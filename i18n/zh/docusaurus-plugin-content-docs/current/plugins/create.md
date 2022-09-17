@@ -1,3 +1,3 @@
-# 创建你自己的插件
+# Create your own plugin
 
 WIP
