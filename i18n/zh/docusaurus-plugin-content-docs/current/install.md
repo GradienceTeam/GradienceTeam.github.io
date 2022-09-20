@@ -6,11 +6,7 @@ sidebar_position: 1
 
 ## 平面板
 
-### Flathub
-
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
+### 拉休布文
 
 ```shell
 flatpak 安装 com.github.GradienceTeam.Gradience
@@ -30,60 +26,60 @@ flatpak 安装 com.github.GradienceTeam.Gradience
 
 或者，使用 GNOME Builder 打开项目，然后构建并运行它。
 
-## Building and Installing
+## 正在构建和安装
 
-Gradience can be installed using multiple methods.
+可使用多种方法安装渐变性。
 
-- Flathub (Recommended)
-- As RPM package
-- As DEB package (not available yet)
-- From AUR
+- Flathub (推荐)
+- 为 RPM 包
+- 作为DEB软件包(尚不可用)
+- 从 AUR
 
 ### 平面板
 
-Gradience is available on Flathub. You can install it using the following command:
+渐变在Flathub上可用。 您可以使用以下命令安装它：
 
 ```bash
-flatpak install flathub com.github.GradienceTeam.Gradience
+flatpak 安装 flathuthub com.github.GrinenceTeam.Gradience
 ```
 
-### COPR
+### 外观
 
-Gradience is available on COPR. You can install it using the following command:
+GPR 上有渐变性。 您可以使用以下命令安装它：
 
 ```bash
-dnf copr enable lyessaadi/gradience
-dnf install gradience
+dnf copr 启用 lyessaadi/渐变
+dnf 安装渐变
 ```
 
-### Debian (And derivates)
+### Debian (和衍生工具)
 
-Not available yet. If you want, submit a PR.
+尚不可用。 如果你想要，提交一个 PR。
 
 ### AUR
 
-Gradience is available on AUR. You can install it using the following command:
+渐变可在 AUR上使用。 您可以使用以下命令安装它：
 
 ```bash
-yay -S gradience # or gradience-git
+yay -S 梯度 # 或梯度 git
 ```
 
-### Building from source
+### 从源代码创建
 
-#### Requirements
+#### B. 所需经费
 
 - Python 3 `python`
 - PyGObject `python-gobject`
-- Blueprint [`blueprint-compiler`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
+- 蓝图 [`蓝图编译器`](https://jwestman.pages.gitlab.gnome.org/blueprint-compiler/setup.html)
 - GTK4 `gtk4`
 - libadwaita (>= 1.2.alpha) `libadwaita`
 - Meson `meson`
-- Ninja `ninja-build`
+- 忍者 `ninja build`
 
-Install required Python libraries:
+安装必需的 Python 库：
 
 ```sh
-pip install -r requirements.txt
+pip 安装-r requirements.txt
 ```
 
 ### 全局安装
@@ -95,15 +91,15 @@ meson builddir --prefix=/usr/loc
 sudo ninja -C builddir instalment
 ```
 
-### Local build (for testing and development purposes)
+### 本地建筑（用于测试和开发目的）
 
 ```sh
-git clone https://github.com/GradienceTeam/Gradience.git
-cd Gradience
+git clone https://github.com/GrinenceTeam/Gradience. 它
+cd 渐变
 meson builddir
-meson configure builddir -Dprefix="$(pwd)/builddir"
+meson configure builddir -Dprefix="$(pwd)/ builddir
 ninja -C builddir install
-ninja -C builddir run
+ninja -C builddir 运行
 ```
 
 :::note
