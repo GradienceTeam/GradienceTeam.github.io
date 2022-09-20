@@ -8,10 +8,6 @@ sidebar_position: 1
 
 ### Метхуб
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Завантажити на вертольоту" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
-
 ```shell
 установка flatpak com.github.GradienceTeam.Gradience
 ```
