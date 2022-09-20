@@ -39,7 +39,7 @@ Este archivo proporciona enlaces de color para el tema de la aplicación GTK3, s
 Si desea crear un tema desde la paleta de colores, por ejemplo [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Ir a la guía de estilo [](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Usando esos enlaces, seleccione variante de color perferida en [Paletas](https://github.com/catppuccin/catppuccin#-palettes), por ejemplo Fraude,
+2. Usando esos enlaces, seleccione variante de color perferida en [Paletas](https://github.com/catppuccin/catppuccin#-palettes), por ejemplo Frappé
 3. Usando enlaces de [guía de estilo](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) para pegar colores adecuados a la Gradiencia
 
 #### Creando preset sin paleta de color

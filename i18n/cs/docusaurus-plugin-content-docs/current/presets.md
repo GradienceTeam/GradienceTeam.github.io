@@ -39,7 +39,7 @@ Tento soubor poskytuje vazbu barev pro téma aplikace GTK3, stačí zkopírovat 
 Pokud chcete vytvořit šablonu z barevné palety, například [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Přejít na [stylový průvodce](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Pomocí těchto vazeb vyberte odvozenou variantu barvy v [Paletách](https://github.com/catppuccin/catppuccin#-palettes), například Frappe<unk>
+2. Pomocí těchto vazeb vyberte odvozenou variantu barvy v [Paletách](https://github.com/catppuccin/catppuccin#-palettes), například Frappe
 3. Použití vazeb od [stylu](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) k vložení řádných barev do Gradience
 
 #### Vytváření předvolby bez palety barev

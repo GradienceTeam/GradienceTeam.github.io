@@ -39,7 +39,7 @@
 Αν θέλετε να δημιουργήσετε ένα θέμα από την παλέτα χρωμάτων, για παράδειγμα [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Πηγαίνετε στο [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Χρησιμοποιώντας αυτές τις συνδέσεις, επιλέξτε τη προτιμώμενη χρωματική παραλλαγή σε [Παλέτες](https://github.com/catppuccin/catppuccin#-palettes), για παράδειγμα Frappe'
+2. Χρησιμοποιώντας αυτές τις συνδέσεις, επιλέξτε τη προτιμώμενη χρωματική παραλλαγή σε [Παλέτες](https://github.com/catppuccin/catppuccin#-palettes), για παράδειγμα Frappé
 3. Χρησιμοποιώντας δεσμούς από τον [οδηγό στυλ](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) για να επικολλήσετε τα σωστά χρώματα στη διαβάθμιση
 
 #### Δημιουργία προεπιλογής χωρίς παλέτα χρωμάτων

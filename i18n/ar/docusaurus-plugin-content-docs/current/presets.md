@@ -39,7 +39,7 @@
 إذا كنت ترغب في إنشاء موضوع من لوحة الألوان، على سبيل المثال [Catpuccin](https://github.com/catppuccin/catppuccin).
 
 1. انتقل إلى دليل النمط [](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. باستخدام هذه الارتباطات ، حدد متغير الألوان المفضل في [بلاتات](https://github.com/catppuccin/catppuccin#-palettes)، على سبيل المثال Frappe<unk>
+2. باستخدام هذه الارتباطات ، حدد متغير الألوان المفضل في [بلاتات](https://github.com/catppuccin/catppuccin#-palettes)، على سبيل المثال Frappe
 3. استخدام الروابط من [دليل النمط](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) لصق الألوان المناسبة إلى Gradience
 
 #### إنشاء الإعداد المسبق بدون لوحة الألوان
