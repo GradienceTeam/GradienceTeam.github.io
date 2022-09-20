@@ -1,7 +1,7 @@
 {
-  "label": "插件",
+  "label": "Plugins",
   "position": 1,
   "link": {
-    "type": "生成索引"
+    "type": "generated-index"
   }
 }
