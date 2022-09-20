@@ -1,10 +1,10 @@
-# Plugins
+# Resumen
 
 Los plugins son una forma simple de extender la degradación, cada uno puede crear plugins para personalizar todo con colores de Gradience
 
 :::precaución
 
-Sólo disponible sinc 0.3.0 (instalar desde el origen o desde CI si no estás usando esta versión)
+Sólo disponible desde 0.3.0 (instalar desde el código fuente o desde CI si no está usando esta versión)
 
 :::
 
