@@ -39,7 +39,7 @@ Ten plik zawiera kolory dla motywu aplikacji GTK3, wystarczy skopiować wartośc
 Jeśli chcesz utworzyć motyw z palety kolorów, na przykład [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Przejdź do [poradnika stylu](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Używając tych bindów, wybierz wariant koloru odroczonego w [palettes](https://github.com/catppuccin/catppuccin#-palettes), na przykład Frappé
+2. Używając tych bindów, wybierz wariant koloru odroczonego w [palettes](https://github.com/catppuccin/catppuccin#-palettes), na przykład Frappe∞
 3. Używanie wiązań z [poradnika stylu](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) do wklejania właściwych kolorów do Gradience
 
 #### Tworzenie ustawień bez palety kolorów
