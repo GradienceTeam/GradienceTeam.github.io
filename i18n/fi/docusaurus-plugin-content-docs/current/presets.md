@@ -39,7 +39,7 @@ Tämä tiedosto tarjoaa värikoodeja GTK3-sovellusteemoihin, sinun tarvitsee vai
 Jos haluat luoda teeman väripaletista, esimerkiksi [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Siirry [tyylinen opas](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Käyttämällä näitä sitovia, valitse ferred väri variant [Palettes](https://github.com/catppuccin/catppuccin#-palettes), esimerkiksi Frappé
+2. Käyttämällä näitä sitovia, valitse ferred väri variant [Palettes](https://github.com/catppuccin/catppuccin#-palettes), esimerkiksi Frappe
 3. Käyttämällä [tyylinen opas](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) sitovia värejä liitä oikeat värit Gradienssiin
 
 #### Luodaan esiasetusta ilman väripalettia
