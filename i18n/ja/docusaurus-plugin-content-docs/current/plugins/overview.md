@@ -1,10 +1,10 @@
-# プラグイン
+# 概要
 
 プラグインはGradienceを拡張するための簡単な方法です。すべてのプラグインはGradienceから色をカスタマイズするためのものを作成できます。
 
 :::注意
 
-利用可能なsinc 0.3.0のみ（このバージョンを使用していない場合はソースからインストール、もしくはCIからインストールしてください）
+0.3.0以降のみ利用できます（このバージョンを使用していない場合は、ソースまたはCIからインストールしてください）
 
 :::
 
@@ -13,7 +13,7 @@
 
 ### ネイティブ
 
-Flatpakバージョンを使用している場合は、 `~/.local/share/gradience/plugins` でプラグインリポジトリをクローンします。
+ネイティブバージョンを使用している場合は、 `~/.local/share/gradience/plugins` でプラグインリポジトリを複製してください
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
