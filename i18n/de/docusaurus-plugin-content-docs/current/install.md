@@ -8,6 +8,10 @@ sidebar_position: 1
 
 ### Flathu
 
+<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Auf Flathub herunterladen" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
+
 ```shell
 flatpak Installation com.github.GradienceTeam.Gradience
 ```
