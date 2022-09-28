@@ -1,10 +1,10 @@
-# Oversikt
+# Utvidelser
 
 Plugins er en enkel måte å forlenge stråling, alle kan lage plugins for å tilpasse alt med farger fra grafen
 
 :::caution
 
-Kun tilgjengelig siden 0.3.0 (installer fra kilde eller fra CI hvis du ikke bruker denne versjonen)
+Kun tilgjengelig sync 0.3.0 (installer fra kilde eller fra CI hvis du ikke bruker denne versjonen)
 
 :::
 
@@ -13,7 +13,7 @@ Kun tilgjengelig siden 0.3.0 (installer fra kilde eller fra CI hvis du ikke bruk
 
 ### Innfødt
 
-Hvis du bruker Native versjon, klone Plugins repo i `~/.local/share/gradience/plugins`
+Hvis du bruker Flatpak-versjonen, klone utvidelsen i `~/.local/share/gradience/plugins`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
