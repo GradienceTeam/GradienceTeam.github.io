@@ -8,10 +8,6 @@ sidebar_position: 1
 
 ### Almacén
 
-<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
-    <img width="200" alt="Descargar en Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
-</a>
-
 ```shell
 flatpak instalar com.github.GradienceTeam.Gradience
 ```
