@@ -1,10 +1,10 @@
-# Yleiskatsaus
+# Liitännäiset
 
 Liitännäiset ovat yksinkertainen tapa laajentaa Gradience, jokainen voi luoda plugins muokata kaikkea värejä Gradience
 
 ::Varoitus
 
-Saatavilla vain 0.3.0 jälkeen (asenna lähteestä tai CI:stä, jos et käytä tätä versiota)
+Saatavilla vain sinc 0.3.0 (asenna lähteestä tai CI:stä, jos et käytä tätä versiota)
 
 :::
 
@@ -13,7 +13,7 @@ Saatavilla vain 0.3.0 jälkeen (asenna lähteestä tai CI:stä, jos et käytä t
 
 ### Natiivi
 
-Jos käytät Native versiota, kloonaa Plugins repo `~/.local/share/gradience/plugins`
+Jos käytät Flatpak-versiota, kloonaa Plugins repo `~/.local/share/gradience/plugins`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
