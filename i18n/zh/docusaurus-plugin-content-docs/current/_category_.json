@@ -2,6 +2,6 @@
   "label": "文档",
   "position": 1,
   "link": {
-    "type": "生成索引"
+    "type": "generated-index"
   }
 }
