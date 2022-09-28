@@ -8,6 +8,10 @@ sidebar_position: 1
 
 ### Flathub
 
+<a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Λήψη στο Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+</a>
+
 ```shell
 flatpak install com.github.GradienceTeam.Gradience
 ```
