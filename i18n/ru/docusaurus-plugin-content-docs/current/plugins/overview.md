@@ -1,4 +1,4 @@
-# Общий обзор
+# Плагины
 
 Плагины - это простой способ расширения Gradience, каждый может создать плагины для настройки цветов с Gradience
 
@@ -13,7 +13,7 @@
 
 ### Нативный
 
-Если вы используете Родной версию, клонируйте repo плагинов в `~/.local/share/gradience/plugins`
+Если вы используете версию Flatpak, клонируйте репозиторий плагинов в `~/.local/share/gradience/plugins`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
