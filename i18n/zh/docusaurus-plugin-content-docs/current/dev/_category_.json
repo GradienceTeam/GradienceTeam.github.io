@@ -1,7 +1,7 @@
 {
-  "label": "贸易和发展会议",
+  "label": "Development",
   "position": 1,
   "link": {
-    "type": "生成索引"
+    "type": "generated-index"
   }
 }
