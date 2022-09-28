@@ -39,7 +39,7 @@ Questo file fornisce associazioni di colori per il tema dell'applicazione GTK3, 
 Se vuoi creare un tema dalla tavolozza colori, per esempio [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Vai alla [guida stile](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Usando queste associazioni, seleziona la variante di colore perferred in [Tavolozze](https://github.com/catppuccin/catppuccin#-palettes), per esempio Frappé
+2. Usando queste associazioni, seleziona la variante di colore perferred in [Tavolozze](https://github.com/catppuccin/catppuccin#-palettes), per esempio Frappe<unk>
 3. Utilizzando gli attacchi da [style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) per incollare i colori corretti a Gradienza
 
 #### Creazione della preimpostazione senza tavolozza di colori
