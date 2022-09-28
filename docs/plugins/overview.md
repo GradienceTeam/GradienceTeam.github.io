@@ -13,7 +13,7 @@ Only available since 0.3.0 (install from source or from CI if you aren't using t
 
 ### Native
 
-If you are using the Flatpak version, clone the Plugins repo in `~/.local/share/gradience/plugins`
+If you are using the Native version, clone the Plugins repo in `~/.local/share/gradience/plugins`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
