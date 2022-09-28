@@ -1,10 +1,10 @@
-# Extensii
+# Prezentare generală
 
 Plugin-urile sunt un mod simplu de a extinde Gradiația, fiecare poate crea plugin-uri pentru a personaliza totul cu culori de la Gradience
 
 :::prudență
 
-Disponibil doar sinc 0.3.0 (instalați de la sursă sau de la CI dacă nu utilizați această versiune)
+Disponibil doar de la 0.3.0 (instalați de la sursă sau de la CI dacă nu utilizați această versiune)
 
 :::
 
@@ -13,7 +13,7 @@ Disponibil doar sinc 0.3.0 (instalați de la sursă sau de la CI dacă nu utiliz
 
 ### Nativ
 
-Dacă folosiți versiunea Flatpak, clonați plugin-urile repo în `~/.local/share/gradience/plugin-uri`
+Dacă folosiți versiunea nativă, clonați repo-ul plugin-urilor în `~/.local/share/gradience/plugin-uri`
 
 ```shell
 git clone https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
