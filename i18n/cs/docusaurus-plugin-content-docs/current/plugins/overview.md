@@ -1,10 +1,10 @@
-# Pluginy
+# Přehled
 
 Pluginy jsou jednoduchý způsob rozšíření Gradience, každý může vytvořit pluginy pro přizpůsobení všeho barvami z Gradience
 
 :::Pozornost
 
-Pouze dostupné sinc 0.3.0 (nainstalujte ze zdroje nebo z CI pokud nepoužíváte tuto verzi)
+K dispozici pouze od 0.3.0 (instalujte ze zdroje nebo z CI pokud nepoužíváte tuto verzi)
 
 :::
 
@@ -13,7 +13,7 @@ Pouze dostupné sinc 0.3.0 (nainstalujte ze zdroje nebo z CI pokud nepoužívát
 
 ### Nativní
 
-Pokud používáte Flatpak verzi, naklonujte repozitář pluginů v `~/.local/share/gradience/pluginy`
+Pokud používáte Nativní verzi, naklonujte repozitář pluginů v `~/.local/share/gradience/pluginy`
 
 ```shell
 git klonovat https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/pluginy
