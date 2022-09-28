@@ -39,7 +39,7 @@ Denne fil giver farvebindinger til GTK3 programtemaer, du behøver kun at kopier
 Hvis du ønsker at oprette et tema fra farvepalet, for eksempel [Catppuccin](https://github.com/catppuccin/catppuccin).
 
 1. Gå til [stil guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
-2. Ved hjælp af disse bindinger, skal du vælge perfereret farve variant i [Paletter](https://github.com/catppuccin/catppuccin#-palettes), for eksempel Frappé
+2. Ved hjælp af disse bindinger, skal du vælge perfereret farve variant i [Paletter](https://github.com/catppuccin/catppuccin#-palettes), for eksempel Frappe¤
 3. Brug bindinger fra [stil guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md) til at indsætte rigtige farver til Gradience
 
 #### Oprettelse forudindstilling uden farvepalet
