@@ -1,10 +1,10 @@
-# Oversigt
+# Plugins
 
 Plugins er en enkel måde at udvide Gradience, hver enkelt kan skabe plugins til at tilpasse alt med farver fra Gradience
 
 :::caution
 
-Kun tilgængelig siden 0.3.0 (installer fra kilde eller fra CI, hvis du ikke bruger denne version)
+Kun tilgængelig sinc 0.3.0 (installer fra kilde eller fra CI, hvis du ikke bruger denne version)
 
 :::
 
@@ -13,7 +13,7 @@ Kun tilgængelig siden 0.3.0 (installer fra kilde eller fra CI, hvis du ikke bru
 
 ### Indbygget
 
-Hvis du bruger den indfødte version, klon plugin repo i `~/.local/share/gradience/plugins`
+Hvis du bruger Flatpak version, klone Plugins repo i `~/.local/share/gradience/plugins`
 
 ```shell
 git klon https://github.com/GradienceTeam/Plugins ~/.local/share/gradience/plugins
