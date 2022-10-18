@@ -1,0 +1,53 @@
+---
+layout: ./base.njk
+page_css: landing.css
+---
+<div class="landing">
+  <header class="landing-header">
+    <h1>{{ header.title | safe }}</h1>
+
+    <figure class="landing-header-fire">
+      {{ comp.logo() | safe }}
+    </figure>
+
+    <div class="landing-install">
+      {{ install.title | md | safe }}
+
+      <div class="landing-install-code">
+        <a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+    <img width="200" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-i-en.svg"/>
+  </a>
+        <a class="landing-install-cta" href="{{ install.url }}" aria-label="Continue to Getting Started">
+          <img src="/icons/arrow-right.svg" inline>
+        </a>
+      </div>
+
+      <a href="https://flathub.org/apps/details/com.github.GradienceTeam.Gradience">
+        <img alt="Flathub downloads" src="https://img.shields.io/badge/dynamic/json?color=informational&label=downloads&logo=flathub&logoColor=white&query=%24.installs_total&url=https%3A%2F%2Fflathub.org%2Fapi%2Fv2%2Fstats%2Fcom.github.GradienceTeam.Gradience"/>
+      </a>
+
+      
+      </div>
+  </header>
+
+
+  <section class="landing-suppport">
+    <h2>{{ support.title }}</h2>
+
+    <ul class="landing-support-sponsors">
+      {% for sponsor in support.sponsors %}
+      <li>
+        <a href="{{ sponsor.url }}" title="{{ sponsor.name }}">
+          <img src="{{ sponsor.img }}" srcset="{{ sponsor.img }}, {{ sponsor.img | replace(".webp", "@2x.webp") }} 2x" height="100" width="100" alt="{{ sponsor.name }}">
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+
+    <div class="landing-support-contribute">
+      <h3>{{ support.contribute.title }}</h3>
+
+      {{ support.contribute.description | md | safe }}
+    </div>
+  </section>
+</div>

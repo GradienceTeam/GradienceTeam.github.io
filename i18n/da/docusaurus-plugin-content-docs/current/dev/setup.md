@@ -1,1 +1,0 @@
-# Opsætning af et udviklingsmiljø

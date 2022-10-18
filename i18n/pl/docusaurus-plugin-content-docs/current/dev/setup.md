@@ -1,1 +1,0 @@
-# Ustaw środowisko programistyczne

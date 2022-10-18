@@ -1,3 +1,0 @@
-# Utwórz własną wtyczkę
-
-WIP
