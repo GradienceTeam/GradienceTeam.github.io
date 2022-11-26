@@ -471,13 +471,33 @@ header a {
 
 /* SECTIONS */
 .splash {
-  clear: both;
+  z-index: 0;
   padding: 16rem 0 20rem;
   text-align: center;
-  background-color: var(--dark5);
+  position: relative;
+  /*background-color: var(--dark5);*/
+  background-image: url("background/pretty-purple.png");
+  background-position: center;
+  background-repeat: no-repeat;
   /*background: linear-gradient(45deg, var(--green4) 20%, var(--blue4) 100%);*/
   color: var(--text);
+  overflow: hidden;
 }
+
+/* FIXME */
+/*.splash::before {
+  margin: 0 auto;
+  content: "";
+  position: absolute;
+  top: -95%;
+  left: 0%;
+  width: 4096px;
+  height: 2060px;
+  background-image: url("background/pretty-purple.png");
+  background-position: center;
+  z-index: -1;
+  background-repeat: no-repeat;
+}*/
 
 .gradience-info {
   padding: 6rem 0 1rem;
