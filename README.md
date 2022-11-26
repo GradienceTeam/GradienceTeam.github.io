@@ -1,7 +1,5 @@
 # Gradience website
 
-WIP
+This is the official website for Gradience project.
 
-## Acknowledgements
-
-This project is based on lume.land and written in [Lume](https://lume.land).
+The website is live at [gradience.atrophaneura.tech](https://gradience.atrophaneura.tech)

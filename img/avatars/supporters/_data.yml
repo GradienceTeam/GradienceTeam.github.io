@@ -1,6 +1,0 @@
-imagick:
-  - resize: [100, 100]
-    format: webp
-  - resize: [200, 200]
-    suffix: "@2x"
-    format: webp
