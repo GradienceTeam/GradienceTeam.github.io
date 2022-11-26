@@ -471,17 +471,14 @@ header a {
 
 /* SECTIONS */
 .splash {
-  z-index: 0;
   padding: 16rem 0 20rem;
   text-align: center;
-  position: relative;
   /*background-color: var(--dark5);*/
   background-image: url("background/pretty-purple.png");
   background-position: center;
   background-repeat: no-repeat;
   /*background: linear-gradient(45deg, var(--green4) 20%, var(--blue4) 100%);*/
   color: var(--text);
-  overflow: hidden;
 }
 
 /* FIXME */
