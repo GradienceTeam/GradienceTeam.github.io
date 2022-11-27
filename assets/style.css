@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
 /* RESET & TYPOGRAPHY */
 :root {
   --rounded-corner: 12px;
@@ -50,9 +52,7 @@
 }
 
 * {
-  z-index: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
+  z-index: 1;
   box-sizing: border-box;
 }
 
@@ -63,6 +63,7 @@ html, body {
   font-family: "Cantarell", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
   font-weight: 400;
   line-height: 1.6;
+  overflow-x: hidden;
   letter-spacing: -0.01em;
   word-spacing: -0.01em;
   scroll-behavior: smooth;
@@ -130,7 +131,6 @@ a {
 }
 
 .gradient-text-splash {
-  /*color: var(--orange3);*/
   margin: 0 auto;
   width: 4em;
   padding: 0 0 2rem;
@@ -149,7 +149,7 @@ a {
   background: linear-gradient(to right, #fff44f 0%, #ff980e 20%, #ff3647 50%, #e31587 80%);
   background-clip: text;
   filter: blur(0.1em);
-  z-index: -1;
+  z-index: 0;
 }
 
 .text-blur-splash {
@@ -182,7 +182,7 @@ a {
   background: linear-gradient(to right, #c061cb, #ed333b);
   background-clip: text;
   filter: blur(0.1em);
-  z-index: -1;
+  z-index: 0;
 }
 
 .gradient-text-palette {
@@ -204,7 +204,7 @@ a {
   background: linear-gradient(to right, #f8e45c, #ff7800);
   background-clip: text;
   filter: blur(0.1em);
-  z-index: -1;
+  z-index: 0;
 }
 
 .section-desc {
@@ -229,22 +229,27 @@ a {
 }
 
 .button {
+  margin: 0 auto;
   display: block;
   border-radius: 999px;
-  margin: 0 auto;
-  text-align: center;
+  cursor: pointer;
   font-weight: 600;
-  text-decoration: none;
-  padding: 0.8em 1em;
   font-size: 1.2em;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8em 1em;
 }
 
-/*.button:hover {
+.button {
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
   transform: scale(1.05);
-}*/
+}
 
 .img-laptop {
-  padding: 0 0 8em;
+  margin: 0 0 8em;
   transform-origin: center top;
   transform: scale(1.5);
   top: 10%;
@@ -274,8 +279,8 @@ a {
   width: 9em;
 }
 
-.decorations {
-  z-index: -1;
+.clouds {
+  z-index: 0;
 }
 
 .cloud-1 {
@@ -436,12 +441,13 @@ a {
 
 
 /* BODY */
-header {
+nav.nav {
+  z-index: 999;
   position: absolute;
   margin: 1em 2em;
 }
 
-header a {
+nav.nav a {
   font-size: 20px;
   color: white;
 }
