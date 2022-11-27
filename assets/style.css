@@ -66,6 +66,7 @@ html, body {
   overflow-x: hidden;
   letter-spacing: -0.01em;
   word-spacing: -0.01em;
+  background-color: var(--dark4);
   scroll-behavior: smooth;
 }
 
@@ -128,6 +129,14 @@ a {
   .title-3 {
     font-size: 0.5rem;
   }
+}
+
+.parallax-background {
+  background-image: url("background/pretty-purple.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .gradient-text-splash {
@@ -273,10 +282,22 @@ a {
   width: 11em;
 }
 
+.palette-explore-button {
+  background-color: rgb(94, 92, 100, 0.4);
+  color: var(--light3);
+  font-weight: 400;
+  width: 11em;
+}
+
 .theming-get-button {
   background-color: var(--blue1);
   color: var(--blue5);
   width: 9em;
+}
+
+.arrow {
+  transform: scale(2.0);
+  margin: 0 0 0 16px;
 }
 
 .clouds {
@@ -479,28 +500,11 @@ nav.nav a {
 .splash {
   padding: 16rem 0 20rem;
   text-align: center;
-  /*background-color: var(--dark5);*/
-  background-image: url("background/pretty-purple.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  /*background: linear-gradient(45deg, var(--green4) 20%, var(--blue4) 100%);*/
+  /* background-color: var(--dark5); */
+  /* background: linear-gradient(45deg, var(--green4) 20%, var(--blue4) 100%); */
   color: var(--text);
+  backdrop-filter: blur(10px); /* This MF makes blur for the background image */
 }
-
-/* FIXME */
-/*.splash::before {
-  margin: 0 auto;
-  content: "";
-  position: absolute;
-  top: -95%;
-  left: 0%;
-  width: 4096px;
-  height: 2060px;
-  background-image: url("background/pretty-purple.png");
-  background-position: center;
-  z-index: -1;
-  background-repeat: no-repeat;
-}*/
 
 .gradience-info {
   padding: 6rem 0 1rem;
