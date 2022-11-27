@@ -2,7 +2,7 @@
 
 /* RESET & TYPOGRAPHY */
 :root {
-  --rounded-corner: 12px;
+  --rounded-corner: 20px;
   --blue1: rgb(153,193,241);
   --blue2: rgb(98,160,234);
   --blue3: rgb(53,132,228);
@@ -234,7 +234,7 @@ a {
 
 .palette-desc {
   color: var(--light5);
-  padding: 0 0 4rem;
+  padding: 0 0 2rem;
 }
 
 .button {
@@ -267,7 +267,7 @@ a {
 
 .splash-get-button {
   background-color: var(--yellow1);
-  color: var(--yellow5);
+  color: var(--dark4);
   /*background-color: var(--green1);
   color: var(--green5);*/
   width: 9em;
@@ -362,67 +362,52 @@ a {
 
 .palette-carousel {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   width: 100%;
-  margin: 2rem 0;
+  margin: 0 0 4rem 0;
   padding: 0;
   gap: 1rem;
 }
 
-@media (min-width: 900px) {
+/*@media (min-width: 900px) {
   .palette-carousel {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+}*/
+
+.carousel-item {
+  color: var(--light3);
+  background-color: var(--dark2);
+  border-radius: var(--rounded-corner);
+  overflow: hidden;
+  padding: 1em;
+  width: 20em;
 }
 
-.palette-carousel li {
-  border-radius: var(--rounded-corner);
-  background-color: var(--dark2);
-  overflow: hidden;
-  display: flex;
-  text-decoration: none;
-  color: var(--light3);
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: stretch;
-  width: 100%;
+.carousel-text {
+  width: 70%;
+  float: left;
+}
+
+.carousel-item-title {
+  font-size: 20px;
+  font-weight: 600;
   text-align: left;
-  padding: 0;
-  position: relative;
-  clip: auto;
+}
+
+.carousel-item-desc {
+  font-weight: 400;
+  text-align: left;
 }
 
 .carousel-item img {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: 0;
-  background-color: rgb(46,41,59);
-  border: none;
+  float: right;
+  position: relative;
+  top: 30%;
+  width: 80px;
+  height: 80px;
 }
-
-.carousel-item h3 {
-  font-size: 1.1rem;
-  font-weight: 800;
-  margin: 1rem 1rem 0;
-  text-align: left;
-}
-
-.carousel-item p {
-  font-weight: 400;
-  margin: 0.5rem 1rem 1rem;
-}
-
-/*.carousel-item-title {
-  text-align: left;
-  font-size: 18px;
-  font-weight: 800;
-}*/
-
-/*.carousel-item-desc {
-  font-size: 14px;
-  font-weight: 600;
-}*/
 
 .group {
   display: flex;
