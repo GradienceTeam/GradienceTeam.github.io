@@ -83,16 +83,11 @@ a {
 
 
 /* LAYOUT */
-.container,
-.container-carousel {
+.container {
   position: relative;
   width: 85%;
   margin: 0 auto;
   max-width: 900px;
-}
-
-.container-carousel {
-  max-width: 1300px;
 }
 
 
@@ -209,7 +204,7 @@ a {
   width: 4em;
   height: 1em;
   position: absolute;
-  left: 44.5%; /* FIXME: Blur moves when website is resized */
+  left: 42%; /* FIXME: Blur moves when website is resized */
   background: linear-gradient(to right, #f8e45c, #ff7800);
   background-clip: text;
   filter: blur(0.1em);
@@ -234,7 +229,6 @@ a {
 
 .palette-desc {
   color: var(--light5);
-  padding: 0 0 2rem;
 }
 
 .button {
@@ -268,6 +262,7 @@ a {
 .splash-get-button {
   background-color: var(--yellow1);
   color: var(--dark4);
+  /*filter: drop-shadow(0 0.1rem 0.5em var(--yellow1));*/
   /*background-color: var(--green1);
   color: var(--green5);*/
   width: 9em;
@@ -360,23 +355,24 @@ a {
   }
 }
 
-.palette-carousel {
-  display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 100%;
-  margin: 0 0 4rem 0;
-  padding: 0;
-  gap: 1rem;
+.marquee-container {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  flex-direction: row;
+  height: 10em;
+  gap: 2em;
+  margin: 2em 0;
+  overflow: hidden;
 }
 
-/*@media (min-width: 900px) {
-  .palette-carousel {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}*/
+.marquee {
+  display: flex;
+  gap: 2em;
+  flex-wrap: nowrap;
+}
 
-.carousel-item {
+.marquee-item {
   color: var(--light3);
   background-color: var(--dark2);
   border-radius: var(--rounded-corner);
@@ -385,26 +381,33 @@ a {
   width: 20em;
 }
 
-.carousel-text {
-  width: 70%;
+.marquee-item-text {
+  position: relative;
+  top: 20%;
   float: left;
+  width: 62%;
+  margin: 0;
+  overflow: hidden;
 }
 
-.carousel-item-title {
+.marquee-item-title {
   font-size: 20px;
   font-weight: 600;
   text-align: left;
+  margin: 0;
 }
 
-.carousel-item-desc {
+.marquee-item-desc {
+  font-size: 16px;
   font-weight: 400;
   text-align: left;
+  margin: 0;
 }
 
-.carousel-item img {
+.marquee-item img {
   float: right;
   position: relative;
-  top: 30%;
+  top: 25%;
   width: 80px;
   height: 80px;
 }
