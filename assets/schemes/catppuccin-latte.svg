@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="32"
+   height="32"
+   viewBox="0 0 8.4666665 8.466667"
+   version="1.1"
+   id="svg1194"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14, custom)"
+   sodipodi:docname="catppuccin-latte.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1196"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="6.7277216"
+     inkscape:cx="10.850627"
+     inkscape:cy="23.484919"
+     inkscape:window-width="1680"
+     inkscape:window-height="985"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1191" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path10042"
+       style="fill:#eff1f5;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       d="M 8.4666665,4.2333332 H 2.0833333e-7 v 2.2334602 c 0,1.10799 0.89187900166667,1.99987 1.99987809166667,1.99987 h 4.4669102 c 1.107999,0 1.999878,-0.89188 1.999878,-1.99987 z" />
+    <path
+       id="path10044"
+       style="fill:#dce0e8;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       d="M 1.9998783,3.2333333e-6 C 0.89187921,3.2333333e-6 2.0833333e-7,0.89188323 2.0833333e-7,1.9998732 v 2.23346 H 8.4666665 v -2.23346 C 8.4666665,0.89188323 7.5747875,3.2333333e-6 6.4667885,3.2333333e-6 Z" />
+    <circle
+       style="fill:#bcc0cc;fill-opacity:1;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke markers fill"
+       id="circle10046"
+       cx="4.233335"
+       cy="4.2334123"
+       r="2.1166666" />
+  </g>
+</svg>
