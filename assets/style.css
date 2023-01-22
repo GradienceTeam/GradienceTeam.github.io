@@ -1,0 +1,51 @@
+* {
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  color: white;
+  font-family: "Cantarell", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("pretty-purple.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#center-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+#splash-panel {
+  width: 27em;
+  padding: 20px;
+  text-align: center;
+}
+
+#links-menu {
+  display: flex;
+  justify-content: space-around;
+}
