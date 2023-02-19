@@ -74,3 +74,21 @@ main {
 #footnote a {
   color: rgba(255,255,255,0.45);
 }
+
+@media (max-width: 450px) {
+  main {
+    backdrop-filter: blur(12px);
+  }
+
+  #splash-panel {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    border: 0;
+    backdrop-filter: blur(0);
+  }
+
+  #footnote {
+    text-align: center;
+  }
+}
