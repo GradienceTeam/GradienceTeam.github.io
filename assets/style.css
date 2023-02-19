@@ -46,6 +46,10 @@ a:hover {
 }
 
 #links-menu {
-  display: flex;
-  justify-content: space-around;
+  width: 22em;
+  display: inline-block;
+}
+
+.link-separator{
+  padding: 0 28px;
 }
