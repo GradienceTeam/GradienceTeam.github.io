@@ -42,13 +42,15 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);
 }
 
 #splash-panel {
   width: 27em;
   padding: 20px;
   text-align: center;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.13);
+  border-radius: 12px;
 }
 
 #links-menu {
