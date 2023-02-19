@@ -53,3 +53,16 @@ a:hover {
 .link-separator{
   padding: 0 28px;
 }
+
+#footnote {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 12px;
+  text-align: end;
+  color: rgba(255,255,255,0.45);
+}
+
+#footnote a {
+  color: rgba(255,255,255,0.45);
+}
