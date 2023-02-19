@@ -7,6 +7,8 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
   color: white;
   font-family: "Cantarell", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
@@ -28,6 +30,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 #center-container {
