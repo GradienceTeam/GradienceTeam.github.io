@@ -1,3 +1,75 @@
+:root {
+  --blue1: rgb(153, 193, 241);
+  --blue2: rgb(98, 160, 234);
+  --blue3: rgb(53, 132, 228);
+  --blue4: rgb(28, 113, 216);
+  --blue5: rgb(26, 95, 180);
+  --green1: rgb(143, 240, 164);
+  --green2: rgb(87, 227, 137);
+  --green3: rgb(51, 209, 122);
+  --green4: rgb(46, 194, 126);
+  --green5: rgb(38, 162, 105);
+  --yellow1: rgb(249, 240, 107);
+  --yellow2: rgb(248, 228, 92);
+  --yellow3: rgb(246, 211, 45);
+  --yellow4: rgb(245, 194, 17);
+  --yellow5: rgb(229, 165, 10);
+  --orange1: rgb(255, 190, 111);
+  --orange2: rgb(255, 163, 72);
+  --orange3: rgb(255, 120, 0);
+  --orange4: rgb(230, 97, 0);
+  --orange5: rgb(198, 70, 0);
+  --red1: rgb(246, 97, 81);
+  --red2: rgb(237, 51, 59);
+  --red3: rgb(224, 27, 36);
+  --red4: rgb(192, 28, 40);
+  --red5: rgb(165, 29, 45);
+  --purple1: rgb(220, 138, 221);
+  --purple2: rgb(192, 97, 203);
+  --purple3: rgb(145, 65, 172);
+  --purple4: rgb(129, 61, 156);
+  --purple5: rgb(97, 53, 131);
+  --brown1: rgb(205, 171, 143);
+  --brown2: rgb(181, 131, 90);
+  --brown3: rgb(152, 106, 68);
+  --brown4: rgb(134, 94, 60);
+  --brown5: rgb(99, 69, 44);
+  --light1: rgb(255, 255, 255);
+  --light2: rgb(246, 245, 244);
+  --light3: rgb(222, 221, 218);
+  --light4: rgb(192, 191, 188);
+  --light5: rgb(154, 153, 150);
+  --dark1: rgb(119, 118, 123);
+  --dark2: rgb(94, 92, 100);
+  --dark3: rgb(61, 56, 70);
+  --dark4: rgb(36, 31, 49);
+  --dark5: rgb(0, 0, 0);
+
+  --background: rgba(36, 36, 36, 0.2);
+  --border: rgba(255, 255, 255, 0.08);
+  --text: rgb(246, 245, 244);
+  --link: rgba(246, 245, 244, 0.8);
+  --footnote: rgba(246, 245, 244, 0.2);
+}
+
+@font-face {
+  font-family: "Cantarell";
+  src: url("fonts/Cantarell-Regular.woff2") format("woff2"),
+    url("fonts/Cantarell-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cantarell";
+  src: url("fonts/Cantarell-Bold.woff2") format("woff2"),
+    url("fonts/Cantarell-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 * {
   z-index: 1;
   box-sizing: border-box;
@@ -7,14 +79,17 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   overflow-x: hidden;
-  color: white;
-  font-family: "Cantarell", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+  background-color: var(--dark4);
+  color: var(--text);
+  font-family: "Cantarell";
   scroll-behavior: smooth;
 }
 
 body {
-  background-image: url("pretty-purple.svg");
+  background-image: url("blobs-d.svg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,12 +97,28 @@ body {
 }
 
 a {
-  color: white;
+  display: inline-block;
+  color: var(--link);
+  text-align: center;
   text-decoration: none;
 }
 
 a:hover {
-  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* Fixes inline elements moving when hovered */
+a::before {
+  height: 0;
+  display: block;
+  content: attr(title);
+  font-weight: bold;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 #center-container {
@@ -36,16 +127,73 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  backdrop-filter: blur(10px);
 }
 
 #splash-panel {
-  width: 27em;
-  padding: 20px;
+  width: 28rem;
+  padding: 2rem;
   text-align: center;
+  background-color: var(--background);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+}
+
+#download-button {
+  margin: 1rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  color: var(--text);
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 0.15rem solid;
+  border-radius: 0.4rem;
+  transition: ease 0.2s;
+}
+
+#download-button:hover, #download-button:focus {
+  color: var(--light5);
+  transition: ease 0.2s;
 }
 
 #links-menu {
-  display: flex;
-  justify-content: space-around;
+  width: auto;
+  display: inline-block;
+}
+
+.link-separator {
+  padding: 0 1rem;
+}
+
+#footnote {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  font-size: 0.75rem;
+  text-align: end;
+  color: var(--footnote);
+}
+
+#footnote a {
+  color: var(--footnote);
+}
+
+@media (max-width: 500px) {
+  main {
+    background-color: var(--background);
+    backdrop-filter: blur(12px);
+  }
+
+  #splash-panel {
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    backdrop-filter: blur(0);
+  }
+
+  #footnote {
+    text-align: center;
+  }
 }
