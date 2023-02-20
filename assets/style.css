@@ -52,24 +52,22 @@
   --footnote: rgba(246, 245, 244, 0.2);
 }
 
-@font-face
-{
-	font-family: "Cantarell";
-	src: url("fonts/Cantarell-Regular.woff2") format("woff2"),
-		url("fonts/Cantarell-Regular.woff") format("woff");
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
+@font-face {
+  font-family: "Cantarell";
+  src: url("fonts/Cantarell-Regular.woff2") format("woff2"),
+    url("fonts/Cantarell-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
-@font-face
-{
-	font-family: "Cantarell";
-	src: url("fonts/Cantarell-Bold.woff2") format("woff2"),
-		url("fonts/Cantarell-Bold.woff") format("woff");
-	font-weight: bold;
-	font-style: normal;
-	font-display: swap;
+@font-face {
+  font-family: "Cantarell";
+  src: url("fonts/Cantarell-Bold.woff2") format("woff2"),
+    url("fonts/Cantarell-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -99,9 +97,9 @@ body {
 }
 
 a {
-  display:inline-block;
-  text-align:center;
+  display: inline-block;
   color: var(--link);
+  text-align: center;
   text-decoration: none;
 }
 
@@ -109,11 +107,12 @@ a:hover {
   font-weight: bold;
 }
 
+/* Fixes inline elements moving when hovered */
 a::before {
+  height: 0;
   display: block;
   content: attr(title);
   font-weight: bold;
-  height: 0;
   overflow: hidden;
   visibility: hidden;
 }
@@ -135,27 +134,24 @@ main {
   padding: 2rem;
   text-align: center;
   background-color: var(--background);
-  backdrop-filter: blur(12px);
   border: 1px solid var(--border);
   border-radius: 12px;
+  backdrop-filter: blur(12px);
 }
 
-#button
-{
-	display: inline-block;
+#download-button {
   margin: 1rem;
-	padding: 0.5rem 1rem;
-	border: 0.15rem solid;
-	border-radius: 0.4rem;
+  padding: 0.5rem 1rem;
+  display: inline-block;
   color: var(--text);
-	font-size: 1.2rem;
-	font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 0.15rem solid;
+  border-radius: 0.4rem;
   transition: ease 0.2s;
 }
 
-#button:hover,
-#button:focus
-{
+#download-button:hover, #download-button:focus {
   color: var(--light5);
   transition: ease 0.2s;
 }
@@ -165,14 +161,14 @@ main {
   display: inline-block;
 }
 
-.link-separator{
+.link-separator {
   padding: 0 1rem;
 }
 
 #footnote {
+  width: 100%;
   position: fixed;
   bottom: 0;
-  width: 100%;
   font-size: 0.75rem;
   text-align: end;
   color: var(--footnote);
@@ -184,16 +180,16 @@ main {
 
 @media (max-width: 500px) {
   main {
-    backdrop-filter: blur(12px);
     background-color: var(--background);
+    backdrop-filter: blur(12px);
   }
 
   #splash-panel {
     width: 100%;
     padding: 1rem;
     text-align: center;
-    border: 0;
     background-color: transparent;
+    border: 0;
     backdrop-filter: blur(0);
   }
 
