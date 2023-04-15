@@ -1,0 +1,370 @@
+/* RESET & TYPOGRAPHY */
+:root {
+  --blue1: rgb(153, 193, 241);
+  --blue2: rgb(98, 160, 234);
+  --blue3: rgb(53, 132, 228);
+  --blue4: rgb(28, 113, 216);
+  --blue5: rgb(26, 95, 180);
+  --green1: rgb(143, 240, 164);
+  --green2: rgb(87, 227, 137);
+  --green3: rgb(51, 209, 122);
+  --green4: rgb(46, 194, 126);
+  --green5: rgb(38, 162, 105);
+  --yellow1: rgb(249, 240, 107);
+  --yellow2: rgb(248, 228, 92);
+  --yellow3: rgb(246, 211, 45);
+  --yellow4: rgb(245, 194, 17);
+  --yellow5: rgb(229, 165, 10);
+  --orange1: rgb(255, 190, 111);
+  --orange2: rgb(255, 163, 72);
+  --orange3: rgb(255, 120, 0);
+  --orange4: rgb(230, 97, 0);
+  --orange5: rgb(198, 70, 0);
+  --red1: rgb(246, 97, 81);
+  --red2: rgb(237, 51, 59);
+  --red3: rgb(224, 27, 36);
+  --red4: rgb(192, 28, 40);
+  --red5: rgb(165, 29, 45);
+  --purple1: rgb(220, 138, 221);
+  --purple2: rgb(192, 97, 203);
+  --purple3: rgb(145, 65, 172);
+  --purple4: rgb(129, 61, 156);
+  --purple5: rgb(97, 53, 131);
+  --brown1: rgb(205, 171, 143);
+  --brown2: rgb(181, 131, 90);
+  --brown3: rgb(152, 106, 68);
+  --brown4: rgb(134, 94, 60);
+  --brown5: rgb(99, 69, 44);
+  --light1: rgb(255, 255, 255);
+  --light2: rgb(246, 245, 244);
+  --light3: rgb(222, 221, 218);
+  --light4: rgb(192, 191, 188);
+  --light5: rgb(154, 153, 150);
+  --dark1: rgb(119, 118, 123);
+  --dark2: rgb(94, 92, 100);
+  --dark3: rgb(61, 56, 70);
+  --dark4: rgb(36, 31, 49);
+  --dark5: rgb(0, 0, 0);
+
+  --text: rgb(246, 245, 244);
+}
+
+@font-face {
+  font-family: "Cantarell";
+  src: url("fonts/Cantarell-Regular.woff2") format("woff2"),
+    url("fonts/Cantarell-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Cantarell";
+  src: url("fonts/Cantarell-Bold.woff2") format("woff2"),
+    url("fonts/Cantarell-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Cantarell", -apple-system, BlinkMacSystemFont, "Helvetica", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+  word-spacing: -0.01em;
+  font-family: "Cantarell";
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 700px) {
+  html, body {
+    font-size: 18px;
+  }
+}
+
+body {
+  color: var(--dark4);
+  background: var(--light1);
+  min-height: 100vh;
+}
+
+a {
+  color: var(--blue1);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* LAYOUT */
+.container {
+  width: 85%;
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+
+/* COMPONENTS */
+.title {
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.4;
+}
+
+.title-1 {
+  text-align: center;
+}
+
+.title-2 {
+  font-size: 2rem;
+  margin: 2rem auto 0;
+}
+
+.title-3 {
+  font-size: 1.5rem;
+  margin: 2rem auto 0;
+}
+
+@media (max-width: 600px) {
+  .title-1 {
+    font-size: 2rem;
+  }
+
+  .title-2 {
+    font-size: 1.5rem;
+  }
+
+  .title-3 {
+    font-size: 1rem;
+  }
+}
+
+.subtitle {
+  display: block;
+  max-width: 20em;
+  margin: 2rem auto 0;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.small-print {
+  font-size: 1em;
+  text-align: center;
+  max-width: 30em;
+  margin: 1.5rem auto 3rem;
+}
+
+.button {
+  display: block;
+  border-radius: 999px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800;
+  text-decoration: none;
+  transition: all 0.35s cubic-bezier(0.17, 0.89, 0.32, 1.28);
+  filter: /* Sharp drop shadow */
+          drop-shadow(0 0.08rem 0.1em rgba(0,0,0, 0.2))
+          /* Diffuse ambient shadow */
+          drop-shadow(0 0.1rem 0.9em rgba(0,0,0, 0.2));
+}
+
+.button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
+
+.green-button {
+  background: linear-gradient(0deg, var(--green5) 0%, var(--green3) 100%);
+  color: var(--text);
+}
+
+.visit-button {
+  width: 16em;
+  padding: 0.9em 2em;
+  font-size: 1.2em;
+}
+
+@media (min-size: 480px) {
+  .visit-button {
+    width: 16em;
+    font-size: 1.2em;
+  }
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: 600px) {
+  .group {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.group .block {
+  width: 100%;
+  flex: 1 1 40%;
+}
+
+@media (min-width: 600px) {
+  .group .block {
+    width: 30em;
+  }
+}
+
+.group .block.centered {
+  text-align: center;
+}
+
+.block h3 {
+  font-size: 1.4em;
+}
+
+.block p {
+  margin: 1rem auto;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  display: inline-block;
+  transform: scale(7);
+  margin: 4rem 3rem 2rem 3rem;
+}
+
+@media (max-width: 600px) {
+  .icon {
+    transform: scale(4.0);
+    margin: 2rem 2rem 1rem;
+  }
+}
+
+
+/* BODY */
+.splash {
+  padding: 8rem 0 2rem;
+  text-align: center;
+  background: linear-gradient(45deg, var(--blue5) 20%, var(--purple3) 100%);
+  color: var(--text);
+}
+
+@media (min-height: 700px) and (min-width: 500px) {
+  .splash {
+    padding: 8rem 0 5rem;
+  }
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media (min-width: 460px) {
+  .splash {
+    min-width: 50vh;
+  }
+
+  .logo {
+    width: 60vw;
+  }
+}
+
+@media (min-width: 700px) {
+  .logo {
+    width: 400px;
+  }
+}
+
+@media (min-width: 460px) {
+  section {
+    min-width: 50vh;
+  }
+
+  footer {
+    min-width: 50vh;
+  }
+}
+  
+.title-why-gradience-is-a-hack {
+  overflow: hidden;
+  background-color: var(--yellow3);
+  padding: 2rem 0 1rem;
+}
+
+.content-why-gradience-is-a-hack {
+  line-height: 1.2;
+  text-align: left;
+  font-size: 18px;
+  padding: 1em 0 5em 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.content-why-gradience-is-a-hack a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--purple4);
+}
+
+
+.content-why-gradience-is-a-hack::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  left: -10%;
+  right: -10%;
+  top: -150%;
+  height: 400%;
+  transform: rotate(-10deg) scale(2.0);
+  background-image: url("pattern.svg") , linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
+  background-position: center;
+}
+
+.gradience-not-against {
+  overflow: hidden;
+  background-color: var(--green4);
+  padding: 3em 0 2em;
+}
+
+.gradience-not-against p {
+  line-height: 1.4;
+  padding: 1.5em 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+  font-size: 80%;
+  background-color: var(--dark5);
+  color: white;
+  padding: 3rem 3rem 7rem;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--blue2);
+}
