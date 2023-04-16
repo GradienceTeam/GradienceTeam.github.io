@@ -51,8 +51,8 @@
 
 @font-face {
   font-family: "Cantarell";
-  src: url("fonts/Cantarell-Regular.woff2") format("woff2"),
-    url("fonts/Cantarell-Regular.woff") format("woff");
+  src: url("../fonts/Cantarell-Regular.woff2") format("woff2"),
+    url("../fonts/Cantarell-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -60,8 +60,8 @@
 
 @font-face {
   font-family: "Cantarell";
-  src: url("fonts/Cantarell-Bold.woff2") format("woff2"),
-    url("fonts/Cantarell-Bold.woff") format("woff");
+  src: url("../fonts/Cantarell-Bold.woff2") format("woff2"),
+    url("../fonts/Cantarell-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -304,7 +304,7 @@ a {
     min-width: 50vh;
   }
 }
-  
+
 .title-why-gradience-is-a-hack {
   overflow: hidden;
   background-color: var(--yellow3);
@@ -336,7 +336,7 @@ a {
   top: -150%;
   height: 400%;
   transform: rotate(-10deg) scale(2.0);
-  background-image: url("pattern.svg") , linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
+  background-image: url("../pattern.svg") , linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
   background-position: center;
 }
 

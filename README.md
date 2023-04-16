@@ -10,14 +10,26 @@ The website is live at [gradienceteam.github.io](https://gradienceteam.github.io
 ### Codebase structure:
 ```
 ├── assets
-│   ├── blobs-d.svg
-│   ├── fonts
-│   │   ├── Cantarell-Bold.woff2
-│   │   └── Cantarell-Regular.woff2
-│   ├── logo.svg
-│   ├── logo-symbolic.svg
-│   └── style.css
-├── CNAME
+│   ├── css
+│   │   ├── hack.css
+│   │   └── index.css
+│   ├── favicons
+│   │   ├── logo-blue-symbolic.svg
+│   │   └── logo-purple-symbolic.svg
+│   ├── fonts
+│   │   ├── Cantarell-Bold.woff2
+│   │   └── Cantarell-Regular.woff2
+│   ├── icons
+│   │   ├── hicolor
+│   │   │   ├── logo-devel.svg
+│   │   │   └── logo-regular.svg
+│   │   └── symbolic
+│   │       ├── stopthemingmyapp-symbolic.svg
+│   │       └── warning-symbolic.svg
+│   ├── images
+│   │   └── blobs-d.svg
+│   └── pattern.svg
+├── hack.html
 ├── index.html
 └── README.md
 ```

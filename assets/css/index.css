@@ -54,8 +54,8 @@
 
 @font-face {
   font-family: "Cantarell";
-  src: url("fonts/Cantarell-Regular.woff2") format("woff2"),
-    url("fonts/Cantarell-Regular.woff") format("woff");
+  src: url("../fonts/Cantarell-Regular.woff2") format("woff2"),
+    url("../fonts/Cantarell-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -63,8 +63,8 @@
 
 @font-face {
   font-family: "Cantarell";
-  src: url("fonts/Cantarell-Bold.woff2") format("woff2"),
-    url("fonts/Cantarell-Bold.woff") format("woff");
+  src: url("../fonts/Cantarell-Bold.woff2") format("woff2"),
+    url("../fonts/Cantarell-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -89,7 +89,7 @@ html, body {
 }
 
 body {
-  background-image: url("blobs-d.svg");
+  background-image: url("../images/blobs-d.svg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
