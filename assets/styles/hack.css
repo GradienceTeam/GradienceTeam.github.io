@@ -336,7 +336,7 @@ a {
   top: -150%;
   height: 400%;
   transform: rotate(-10deg) scale(2.0);
-  background-image: url("../pattern.svg") , linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
+  background-image: url("../images/pattern.svg") , linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
   background-position: center;
 }
 
