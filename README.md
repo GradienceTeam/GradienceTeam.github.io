@@ -10,7 +10,7 @@ The website is live at [gradienceteam.github.io](https://gradienceteam.github.io
 ### Codebase structure:
 ```
 ├── assets
-│   ├── css
+│   ├── styles
 │   │   ├── hack.css
 │   │   └── index.css
 │   ├── favicons
