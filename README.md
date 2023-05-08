@@ -27,6 +27,8 @@ The website is live at [gradienceteam.github.io](https://gradienceteam.github.io
 │   ├── images
 │   │   ├── blobs-d.svg
 │   │   └── pattern.svg
+│   ├── scripts
+│   │   └── plausible.js
 │   └── styles
 │       ├── hack.css
 │       └── index.css
