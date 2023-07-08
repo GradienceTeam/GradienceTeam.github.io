@@ -73,7 +73,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -87,7 +88,9 @@ html, body {
 }
 
 @media (min-width: 700px) {
-  html, body {
+
+  html,
+  body {
     font-size: 18px;
   }
 }
@@ -171,10 +174,11 @@ a {
   font-weight: 800;
   text-decoration: none;
   transition: all 0.35s cubic-bezier(0.17, 0.89, 0.32, 1.28);
-  filter: /* Sharp drop shadow */
-          drop-shadow(0 0.08rem 0.1em rgba(0,0,0, 0.2))
-          /* Diffuse ambient shadow */
-          drop-shadow(0 0.1rem 0.9em rgba(0,0,0, 0.2));
+  filter:
+    /* Sharp drop shadow */
+    drop-shadow(0 0.08rem 0.1em rgba(0, 0, 0, 0.2))
+    /* Diffuse ambient shadow */
+    drop-shadow(0 0.1rem 0.9em rgba(0, 0, 0, 0.2));
 }
 
 .button:hover {
@@ -336,7 +340,7 @@ a {
   top: -150%;
   height: 400%;
   transform: rotate(-10deg) scale(2.0);
-  background-image: url("../images/pattern.svg") , linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
+  background-image: url("../images/pattern.svg"), linear-gradient(135deg, var(--blue1), var(--blue3) 100%);
   background-position: center;
 }
 
