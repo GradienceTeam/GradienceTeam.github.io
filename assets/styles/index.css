@@ -140,7 +140,7 @@ main {
   backdrop-filter: blur(12px);
 }
 
-#download-button {
+.button {
   margin: 1rem;
   padding: 0.5rem 1rem;
   display: inline-block;
@@ -152,10 +152,23 @@ main {
   transition: ease 0.2s;
 }
 
-#download-button:hover,
-#download-button:focus {
+.button:hover,
+.button:focus {
   color: var(--light5);
   transition: ease 0.2s;
+}
+
+.button-nightly {
+  background-image: url(../images/stripes.svg);
+  background-position: left;
+  background-repeat: repeat-x;
+  color: var(--text);
+}
+
+.button-nightly:hover,
+.button-nightly:focus {
+  background-position: right;
+  mix-blend-mode: difference;
 }
 
 #links-menu {
